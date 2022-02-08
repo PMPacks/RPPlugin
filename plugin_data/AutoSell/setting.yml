@@ -1,0 +1,12 @@
+# AUTO SELL CONFIG
+
+# MESSAGE 
+usage: "§l§b【§6ＡutoＳell§b】§a Sử Dụng: /autosell <on|off>"
+enabled: "§l§b【§6ＡutoＳell§b】§a Đã bật"
+disabled: "§l§b【§6ＡutoＳell§b】§c Đã tắt"
+has-enabled: "§l§b【§6ＡutoＳell§b】§4 Đã được bật !"
+has-disabled: "§l§b【§6ＡutoＳell§b】§4 Đã được tắt !"
+sell: "§l§b【§6ＡutoＳell§b】§a Đã tự động bán vật phẩm !"
+
+# COMMAND
+sellcmd: "sell inv"

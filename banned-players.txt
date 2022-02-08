@@ -1,0 +1,5 @@
+# Updated 08/07/21 19:12 by PocketMine-MP 3.22.1
+# victim name | ban date | banned by | banned until | reason
+
+khanhnam754|2021-08-07 14:53:14 +0700|deadlove2000|Forever|
+aokoasami199|2021-08-07 19:12:12 +0700|deadlove2000|Forever|

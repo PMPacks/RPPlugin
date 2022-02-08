@@ -1,0 +1,77 @@
+#  ___  ___          _                  _____           _
+#  |  \/  |         | |                /  __ \         | |
+#  | .  . |_   _ ___| |_ ___ _ __ _   _| /  \/_ __ __ _| |_ ___
+#  | |\/| | | | / __| __/ _ \ '__| | | | |   | '__/ _` | __/ _ \
+#  | |  | | |_| \__ \ ||  __/ |  | |_| | \__/\ | | (_| | ||  __/
+#  \_|  |_/\__, |___/\__\___|_|   \__, |\____/_|  \__,_|\__\___|
+#           __/ |                  __/ |
+#          |___/                  |___/  By @JackMD for PMMP
+#
+#
+# MysteryCrate, a Crate plugin for PocketMine-MP
+# Copyright (c) 2018 JackMD  < https://github.com/JackMD >
+#
+# Discord: JackMD#3717
+# Twitter: JackMTaylor_
+#  
+# This software is distributed under "GNU General Public License v3.0".
+# This license allows you to use it and/or modify it but you are not at
+# all allowed to sell this plugin at any cost. If found doing so the
+# necessary action required would be taken.
+#  
+# MysteryCrate is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+# GNU General Public License v3.0 for more details.
+#  
+# You should have received a copy of the GNU General Public License v3.0
+# along with this program. If not, see
+# <https://opensource.org/licenses/GPL-3.0>.
+#  -----------------------------------------------------------------------
+
+# DO NOT EDIT THIS VALUE.
+# ONLY FOR INTERNAL USE.
+config-version: 2
+
+# The ID:META of the key you want to use for opening crates.
+# Its better not to edit this value unless you can edit the source code.
+key: "131:0"
+
+# The the description for the Key. Use \n for next line.
+lore: "§dDùng Tại §7【§a/warp moruong§7】§d\n§dSố Lần Dùng §7【§a1§7】\n§6Có Thể Nhận Nhiều Phần Quà Hấp Dẫn"
+
+# Enter the name of the FOLDER of the world in which crate is located.
+# Example if your world name is spawn but folder name is spw then enter spw in crateWorld
+crateWorld: "crates"
+
+# Set the value you want the command to be recognized with. Make sure its in between 10-50
+# If you want to reward the player with a command, set the meta of the reward in the crates.yml
+# to the value you set in commandMeta.
+commandMeta: 50
+
+# Set the maximum number of commands that can be executed at a time.
+maxCommands: 3
+
+# Set for how long you want the task to run. Increasing this value will increase the
+# time taken for the player to earn the reward and vice versa.
+# Recommended to set it to 2.
+# Enter the value in seconds.
+tickDelay: 2
+
+# Adjust the speed of how fast the items move inside the chest.
+# Recommended to set it to 5.
+scrollSpeed: 4
+
+# If your server suffers from bad lag then set showParticle to false.
+# Setting this to false will remove the particles above the crate.
+showParticle: true
+
+# Mention the particle type you want to display above the crate.
+# Currently there are only three types.
+# Types: CloudRain , Helix , DoubleHelix , Ting , Crown
+particleType: "CloudRain"
+
+# Adjust the tick rate of particles.
+# Default is 5.
+# Increase the value if your server lags.
+particleTickRate: 7

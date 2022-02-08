@@ -1,0 +1,213 @@
+---
+#Don't Change this
+version: "0.6"
+
+#send EnchantUI to the player when he interacts with the Enchanting-table
+enchanting-table: false
+
+#EnchantUI version 0.5
+Title: "dev enchantment"
+Button: "§l§c{NAME} §f{PRICE}§6Ｐ"
+slider-title: "§c§lCấp §f( §cMax 1 §f-> §c5 Tùy Theo Loại §f)"
+messages:
+  thanks: "§l§fCảm ơn vì đã dùng §cMuaECVip."
+  label: "§l§cBạn sẽ mua với giá §f{PRICE}§6Ｐ §cmỗi level enchant."
+  not-enough-money: "§f§lBạn không đủ §6Ｐ §fđể mua enchant này!"
+  paid-success: "§l§fBạn đã mua §c{NAME} §fcấp §c{LEVEL} §fvới giá {PRICE}§6Ｐ§f."
+  hold-item: "§l§fLàm ơn hãy cầm item có thể enchant trên tay!"
+  no-perm: "§l§cBạn không có quyền để dùng lệnh này!"
+  incompatible-enchantment: []
+  
+#WARNING: Use only Enchantment ID at incompatible-enchantments example [1,10,13]
+shop:
+- name: "Aerial (start of sword enchantment)"
+  enchantment: aerial
+  price: 1
+  max-level: 10
+  incompatible-enchantments: []
+- name: "Backstab"
+  enchantment: backstab
+  price: 1
+  max-level: 10
+  incompatible-enchantments: []
+- name: "Blessed"
+  enchantment: blessed
+  price: 1
+  max-level: 10
+  incompatible-enchantments: []
+- name: "Blind"
+  enchantment: blind
+  price: 1
+  max-level: 10
+  incompatible-enchantments: []
+- name: "Charge"
+  enchantment: charge
+  price: 1
+  max-level: 10
+  incompatible-enchantments: []
+- name: "Deathbringer"
+  enchantment: deathbringer
+  price: 1
+  max-level: 10
+  incompatible-enchantments: []
+- name: "Disarmor"
+  enchantment: disarmor
+  price: 1
+  max-level: 10
+  incompatible-enchantments: []
+- name: "Hallucination"
+  enchantment: hallucination
+  price: 1
+  max-level: 10
+  incompatible-enchantments: []
+- name: "Lifesteal"
+  enchantment: lifesteal
+  price: 1
+  max-level: 10
+  incompatible-enchantments: []
+- name: "Lightning"
+  enchantment: lightning
+  price: 1
+  max-level: 10
+  incompatible-enchantments: []
+- name: "Vampire"
+  enchantment: vampire
+  price: 1
+  max-level: 10
+  incompatible-enchantments: []
+- name: "Aerial (end of sword enchantment)"
+  enchantment: aerial
+  price: 1
+  max-level: 10
+  incompatible-enchantments: []
+- name: "Cursed (start of armor enchantment)"
+  enchantment: cursed
+  price: 1
+  max-level: 10
+  incompatible-enchantments: []
+- name: "Drunk"
+  enchantment: drunk
+  price: 1
+  max-level: 10
+  incompatible-enchantments: []
+- name: "Endershift"
+  enchantment: endershift
+  price: 1
+  max-level: 10
+  incompatible-enchantments: []
+- name: "Enlighted"
+  enchantment: enlighted
+  price: 1
+  max-level: 10
+  incompatible-enchantments: []
+- name: "Frozen"
+  enchantment: frozen
+  price: 1
+  max-level: 10
+  incompatible-enchantments: []
+- name: "Overload"
+  enchantment: overload
+  price: 1
+  max-level: 10
+  incompatible-enchantments: []
+- name: "Shielded"
+  enchantment: shielded
+  price: 1
+  max-level: 10
+  incompatible-enchantments: []
+- name: "Tank (end of armor enchantment)"
+  enchantment: tank
+  price: 1
+  max-level: 10
+  incompatible-enchantments: []
+- name: "Antitoxin (start of helmet enchantment)"
+  enchantment: antitoxin
+  price: 1
+  max-level: 10
+  incompatible-enchantments: []
+- name: "Glowing"
+  enchantment: glowing
+  price: 1
+  max-level: 10
+  incompatible-enchantments: []
+- name: "Meditation (end of helmet enchantment)"
+  enchantment: meditation
+  price: 1
+  max-level: 10
+  incompatible-enchantments: []
+- name: "Headhunter (start of bow enchantment)"
+  enchantment: headhunter
+  price: 1
+  max-level: 10
+  incompatible-enchantments: []
+- name: "Healing"
+  enchantment: healing
+  price: 1
+  max-level: 10
+  incompatible-enchantments: []
+- name: "Volley"
+  enchantment: volley
+  price: 1
+  max-level: 10
+  incompatible-enchantments: []
+- name: "Paralyze"
+  enchantment: paralyze
+  price: 1
+  max-level: 10
+  incompatible-enchantments: []
+- name: "Piercing (end of bow enchantment)"
+  enchantment: piercing
+  price: 1
+  max-level: 10
+  incompatible-enchantments: []
+- name: "Autorepair (you know it)"
+  enchantment: autorepair
+  price: 1
+  max-level: 10
+  incompatible-enchantments: []
+- name: "Enraged (start of chestplate enchantment)"
+  enchantment: enraged
+  price: 1
+  max-level: 10
+  incompatible-enchantments: []
+- name: "Prowl"
+  enchantment: prowl
+  price: 1
+  max-level: 10
+  incompatible-enchantments: []
+- name: "Parachute (end of chestplate enchantment)"
+  enchantment: parachute
+  price: 1
+  max-level: 10
+  incompatible-enchantments: []
+- name: "Energizing (start of tool enchantment)"
+  enchantment: energizing
+  price: 1
+  max-level: 10
+  incompatible-enchantments: []
+- name: "Smelting (end of tool enchantment)"
+  enchantment: smelting
+  price: 1
+  max-level: 10
+  incompatible-enchantments: []
+- name: "Gears (boots)"
+  enchantment: gears
+  price: 1
+  max-level: 10
+  incompatible-enchantments: []
+- name: "Springs (boots)"
+  enchantment: springs
+  price: 1
+  max-level: 10
+  incompatible-enchantments: []
+- name: "Haste (pickaxe)"
+  enchantment: aerial
+  price: 1
+  max-level: 10
+  incompatible-enchantments: []
+- name: "Jackpot (pickaxe)"
+  enchantment: jackpot
+  price: 1
+  max-level: 10
+  incompatible-enchantments: []
+...

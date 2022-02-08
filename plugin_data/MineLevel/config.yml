@@ -1,0 +1,831 @@
+---
+marker:
+  1: 1000
+  2: 3500
+  3: 7500
+  4: 11000
+  5: 14500
+  6: 19000
+  7: 23500
+  8: 28900
+  9: 32900
+  10: 38500
+  11: 42000
+  12: 46500
+  13: 49500
+  14: 53500
+  15: 63500
+  16: 69500
+  17: 74300
+  18: 79500
+  19: 84500
+  20: 89500
+  21: 94500
+  22: 99500
+  23: 102000
+  24: 108500
+  25: 112500
+  26: 118500
+  27: 122500
+  28: 128500
+  29: 132500
+  30: 138500
+  31: 142500
+  32: 148500
+  33: 152500
+  34: 158500
+  35: 162500
+  36: 168500
+  37: 172099
+  38: 178000
+  39: 182500
+  40: 188500
+  41: 192500
+  42: 197500
+  43: 200000
+  44: 204500
+  45: 209000
+  46: 212500
+  47: 218500
+  48: 221000
+  49: 226500
+  50: 230000
+  51: 234500
+  52: 249500
+  53: 255400
+  54: 256000
+  55: 260050
+  60: 264550
+  61: 269500
+  62: 272500
+  63: 278500
+  64: 286500
+  66: 290000
+  67: 295500
+  68: 300000
+  69: 304500
+  70: 309500
+  71: 312500
+  73: 318500
+  74: 322500
+  75: 326500
+  76: 330000
+  77: 334500
+  78: 339500
+  79: 342500
+  80: 349500
+  81: 352500
+  82: 358500
+  83: 362500
+  84: 368500
+  85: 372500
+  86: 380000
+database:
+  Hazarde38242:
+    block: 110
+    level: 0
+  HuyCaby:
+    block: 28485
+    level: 7
+  Bubuoiboi:
+    block: 70761
+    level: 16
+  Ten cat moi:
+    block: 16406
+    level: 5
+  KhanhMine12:
+    block: 7125
+    level: 2
+  ThaiNoPro6215:
+    block: 10881
+    level: 3
+  WillfulMitten16:
+    block: 2734
+    level: 1
+  Namct123w:
+    block: 11867
+    level: 4
+  Nam Minner:
+    block: 54316
+    level: 14
+  Danhpro1235331:
+    block: 42974
+    level: 11
+  BruhHaKhang:
+    block: 20170
+    level: 6
+  Bonhat123:
+    block: 11094
+    level: 4
+  HieuBadBoy2173:
+    block: 45294
+    level: 11
+  streamerpro:
+    block: 103816
+    level: 23
+  ShaNon3336:
+    block: 28403
+    level: 7
+  WarmedCloud7109:
+    block: 809
+    level: 0
+  MOMLEO2K:
+    block: 1253
+    level: 1
+  SteNghiax:
+    block: 489
+    level: 0
+  HonoredCell7740:
+    block: 2012
+    level: 1
+  zZzNVKzZz:
+    block: 29836
+    level: 8
+  MAX10058648:
+    block: 72114
+    level: 16
+  EpolleAlice:
+    block: 14270
+    level: 4
+  Hello vietnames:
+    block: 4288
+    level: 2
+  DoneCaroline:
+    block: 2358
+    level: 1
+  Binhdepgai:
+    block: 21586
+    level: 6
+  hungsuger2k7:
+    block: 8093
+    level: 3
+  MrKhoaVipVn:
+    block: 9618
+    level: 3
+  VNBao0609:
+    block: 32374
+    level: 8
+  SnappedHydra832:
+    block: 5650
+    level: 2
+  dark Channel378:
+    block: 34292
+    level: 9
+  BossNgao4538:
+    block: 51436
+    level: 13
+  Mun2123:
+    block: 76674
+    level: 17
+  Quang9339:
+    block: 11109
+    level: 4
+  Lavillenopro:
+    block: 267
+    level: 0
+  NonzeroCanvas13:
+    block: 114486
+    level: 25
+  khoastr:
+    block: 146
+    level: 0
+  Dung1195:
+    block: 471
+    level: 0
+  Dragon147286:
+    block: 2408
+    level: 1
+  LocFuho170604:
+    block: 34766
+    level: 9
+  SappyPlanet1400:
+    block: 157090
+    level: 33
+  tungduong123:
+    block: 12172
+    level: 4
+  Nongtien123:
+    block: 66347
+    level: 15
+  Haritovn01:
+    block: 688
+    level: 0
+  nhokkoten:
+    block: 81641
+    level: 18
+  LuuVN:
+    block: 141654
+    level: 30
+  KevinGP8432:
+    block: 942
+    level: 0
+  TwangyTable8810:
+    block: 44883
+    level: 11
+  khoikage1:
+    block: 75783
+    level: 17
+  Win8116:
+    block: 3500
+    level: 2
+  MabSpray:
+    block: 25369
+    level: 7
+  Meussann:
+    block: 7534
+    level: 3
+  XuBox22:
+    block: 15188
+    level: 5
+  Longfake2410:
+    block: 1178
+    level: 1
+  Sonvntb:
+    block: 19999
+    level: 6
+  Callmevinhka:
+    block: 6529
+    level: 2
+  OneCrowd4925773:
+    block: 0
+    level: 0
+  Phuc1m8:
+    block: 53
+    level: 0
+  KuroPvPer:
+    block: 67478
+    level: 15
+  Phathello:
+    block: 12398
+    level: 4
+  SunnierBear7652:
+    block: 0
+    level: 0
+  Dream88075:
+    block: 116
+    level: 0
+  Monnkhon1294:
+    block: 235794
+    level: 51
+  LongSenpai2753:
+    block: 52
+    level: 0
+  bluecherryVN:
+    block: 0
+    level: 0
+  NoNamevn4071:
+    block: 15529
+    level: 5
+  DinoMCYT087:
+    block: 0
+    level: 0
+  BigtimeMoss1642:
+    block: 8964
+    level: 3
+  VietCayGM:
+    block: 3227
+    level: 1
+  SpicyBeret32688:
+    block: 218
+    level: 0
+  GoluckySpy29349:
+    block: 319
+    level: 0
+  HuyBadBoy3769:
+    block: 8573
+    level: 3
+  StarBaker569374:
+    block: 9575
+    level: 3
+  VanhYT:
+    block: 6247
+    level: 2
+  N Z 12376:
+    block: 0
+    level: 0
+  Xbox Gaming6004:
+    block: 518
+    level: 0
+  AzatKasuki27:
+    block: 1602
+    level: 1
+  Funlololololo:
+    block: 6483
+    level: 2
+  Noober67345:
+    block: 64728
+    level: 15
+  Kazumina4861:
+    block: 310
+    level: 0
+  Vinhtaigo111:
+    block: 25586
+    level: 7
+  KingknightVN:
+    block: 133
+    level: 0
+  DogeRicado:
+    block: 33
+    level: 0
+  SongTuong100:
+    block: 37347
+    level: 9
+  Khanh392007:
+    block: 0
+    level: 0
+  HuyVN7440:
+    block: 60395
+    level: 14
+  TrungTinVN8049:
+    block: 0
+    level: 0
+  Sanawasw:
+    block: 257579
+    level: 54
+  linhpro113zzz:
+    block: 0
+    level: 0
+  Oniichan244:
+    block: 1318
+    level: 1
+  Godly1151:
+    block: 0
+    level: 0
+  MyxTay:
+    block: 73
+    level: 0
+  HuyProVN1234106:
+    block: 12842
+    level: 4
+  NgocMaiHp:
+    block: 7139
+    level: 2
+  JuryUwU:
+    block: 0
+    level: 0
+  Sangking777:
+    block: 91
+    level: 0
+  Zyy Wibu 183:
+    block: 0
+    level: 0
+  StarKing8013:
+    block: 224
+    level: 0
+  TangyKestrel48:
+    block: 871
+    level: 0
+  Quaft204:
+    block: 102192
+    level: 23
+  Vuhoang12345:
+    block: 35914
+    level: 9
+  MetroGosling956:
+    block: 41930
+    level: 10
+  ThePatient5868:
+    block: 328
+    level: 0
+  TRANLEAKUZ:
+    block: 63
+    level: 0
+  Hao20cm:
+    block: 64783
+    level: 15
+  Hoangvippro2919:
+    block: 51692
+    level: 13
+  realcuki2604:
+    block: 0
+    level: 0
+  VN NamPro2008:
+    block: 97
+    level: 0
+  ditconmemay0411:
+    block: 27459
+    level: 7
+  Fan cung jaki n:
+    block: 0
+    level: 0
+  Vanhhh06:
+    block: 6617
+    level: 2
+  linhapknguyen:
+    block: 8203
+    level: 3
+  LemonMint605234:
+    block: 12723
+    level: 4
+  BuiMinhQuan4419:
+    block: 40
+    level: 0
+  MrLuisew:
+    block: 41281
+    level: 10
+  ChunChimPe:
+    block: 40798
+    level: 10
+  BlankDragon8124:
+    block: 7453
+    level: 2
+  Minh Dream:
+    block: 2524
+    level: 1
+  TaolaDeMrKhoa:
+    block: 289
+    level: 0
+  Let duels:
+    block: 1327
+    level: 1
+  HaiAG67:
+    block: 1680
+    level: 1
+  Draken5082:
+    block: 2366
+    level: 1
+  Tin20106900:
+    block: 0
+    level: 0
+  Hoang Tan9486:
+    block: 0
+    level: 0
+  VinhA6NTT:
+    block: 41978
+    level: 10
+  OliveMermaid358:
+    block: 0
+    level: 0
+  FossilMovie8981:
+    block: 69
+    level: 0
+  Helios AQ:
+    block: 340
+    level: 0
+  Pin27071997:
+    block: 1009
+    level: 1
+  Ben103767:
+    block: 796
+    level: 0
+  BlackYTB66:
+    block: 113075
+    level: 25
+  HAIzzZZl80:
+    block: 0
+    level: 0
+  Minhdepchai111:
+    block: 0
+    level: 0
+  NiftyLoki108926:
+    block: 203
+    level: 0
+  Thanh31085514:
+    block: 0
+    level: 0
+  Dinh12342807:
+    block: 163
+    level: 0
+  SatinRecord7419:
+    block: 6090
+    level: 2
+  lamnguyen2212:
+    block: 22570
+    level: 6
+  Anhkhoaaaa9443:
+    block: 0
+    level: 0
+  BuzzingAsh80644:
+    block: 2701
+    level: 1
+  InflamedBooch50:
+    block: 10248
+    level: 3
+  Untymitpow:
+    block: 86105
+    level: 19
+  GameNeverDie230:
+    block: 368
+    level: 0
+  TrinhSoCute:
+    block: 2776
+    level: 1
+  Theherono123:
+    block: 2096
+    level: 1
+  TungAnhTanh:
+    block: 29
+    level: 0
+  Monkeys2859:
+    block: 12
+    level: 0
+  Kiet3549:
+    block: 0
+    level: 0
+  HuyHoangPvp:
+    block: 2055
+    level: 1
+  DrakeTatsu:
+    block: 0
+    level: 0
+  Giahuy1236429:
+    block: 3689
+    level: 2
+  cuong24:
+    block: 873
+    level: 0
+  CauVang2k4:
+    block: 2184
+    level: 1
+  BayFungus981113:
+    block: 6020
+    level: 2
+  nhoclay:
+    block: 10503
+    level: 3
+  Wizar6263:
+    block: 0
+    level: 0
+  SkyblockII:
+    block: 37254
+    level: 9
+  Ngoquangvinh123:
+    block: 0
+    level: 0
+  ZayCrab7161:
+    block: 18198
+    level: 5
+  HarrusVNG:
+    block: 21
+    level: 0
+  CuongTranQaQz29:
+    block: 0
+    level: 0
+  LeonardoNguyen0:
+    block: 5050
+    level: 2
+  DoBinh07:
+    block: 0
+    level: 0
+  VinhMC15096:
+    block: 0
+    level: 0
+  PunOggy1270:
+    block: 8247
+    level: 3
+  NhanPhan206:
+    block: 1315
+    level: 1
+  EerySphere38042:
+    block: 4804
+    level: 2
+  Namsieidz:
+    block: 0
+    level: 0
+  Ghinh98:
+    block: 101
+    level: 0
+  MagneticPen6462:
+    block: 1731
+    level: 1
+  VuHoangPhatTai:
+    block: 964
+    level: 0
+  Kis180909:
+    block: 283
+    level: 0
+  WilfredVN:
+    block: 9
+    level: 0
+  FlaxenNOBLES:
+    block: 301
+    level: 0
+  SanjiJ4:
+    block: 0
+    level: 0
+  Creepervn34567:
+    block: 99
+    level: 0
+  AdequateSet4281:
+    block: 129
+    level: 0
+  Dinolive5801:
+    block: 0
+    level: 0
+  Tara sachi:
+    block: 437
+    level: 0
+  Nguyenhuy2k6:
+    block: 57654
+    level: 14
+  Hoang vu2803:
+    block: 0
+    level: 0
+  MickeyTG1:
+    block: 875
+    level: 0
+  Taizaxua5652:
+    block: 2
+    level: 0
+  TKCeLeBi:
+    block: 696
+    level: 0
+  SonHauVa:
+    block: 6937
+    level: 2
+  Nicky0u0:
+    block: 12
+    level: 0
+  OakenAcrobat397:
+    block: 0
+    level: 0
+  RaspiestOx21615:
+    block: 0
+    level: 0
+  TQ mobile1985:
+    block: 498
+    level: 0
+  Bananabule364:
+    block: 2005
+    level: 1
+  Hjfgha:
+    block: 56
+    level: 0
+  XiaoGi01:
+    block: 0
+    level: 0
+  phuongaz:
+    block: 0
+    level: 0
+  Phatk71:
+    block: 14318
+    level: 4
+  CartopBacon2859:
+    block: 25
+    level: 0
+  PhenNeee:
+    block: 11
+    level: 0
+  Lmao124615:
+    block: 3977
+    level: 2
+  Five3150:
+    block: 12353
+    level: 4
+  Gau2k5:
+    block: 0
+    level: 0
+  Ngheo6032:
+    block: 3417
+    level: 1
+  ToanVN35211:
+    block: 2349
+    level: 1
+  NPMQuan:
+    block: 187
+    level: 0
+  baochanelgamerr:
+    block: 76802
+    level: 17
+  Donlni:
+    block: 13057
+    level: 4
+  TrieuClown:
+    block: 489
+    level: 0
+  Zodiac4863:
+    block: 15053
+    level: 5
+  MidwayAtol67400:
+    block: 55
+    level: 0
+  BrinyApollo9840:
+    block: 475
+    level: 0
+  Vanhfbboi:
+    block: 0
+    level: 0
+  BiMaxLay2005:
+    block: 35117
+    level: 9
+  tifothemaster:
+    block: 0
+    level: 0
+  VanhLXYTB:
+    block: 1410
+    level: 1
+  TunableNam:
+    block: 34314
+    level: 9
+  Daubui1234579:
+    block: 1944
+    level: 1
+  KuboNagisa:
+    block: 394
+    level: 0
+  XxcongchuaxX:
+    block: 0
+    level: 0
+  ItzKaysil:
+    block: 9948
+    level: 3
+  Zeuskills0508:
+    block: 0
+    level: 0
+  Sapu9418:
+    block: 129
+    level: 0
+  LilAlan33413:
+    block: 1039
+    level: 1
+  LeonMaHou:
+    block: 24
+    level: 0
+  TranDinhSang:
+    block: 11
+    level: 0
+  BoicucsucXD:
+    block: 3367
+    level: 1
+  FoughtKnot79819:
+    block: 72
+    level: 0
+  POBBROSE5098:
+    block: 2319
+    level: 1
+  Soi den7600:
+    block: 28
+    level: 0
+  Bikiute:
+    block: 0
+    level: 0
+  Space8516:
+    block: 0
+    level: 0
+  MarbleGlint2843:
+    block: 1124
+    level: 1
+  DSilent1802:
+    block: 4428
+    level: 2
+  Quynh932:
+    block: 0
+    level: 0
+  ReadableSteak62:
+    block: 0
+    level: 0
+  ThangGaming:
+    block: 614
+    level: 0
+  ConstantChip316:
+    block: 0
+    level: 0
+  Bennipk:
+    block: 145
+    level: 0
+  TropicalThyme88:
+    block: 1557
+    level: 1
+  SageGlitter473:
+    block: 31
+    level: 0
+  Yader Pyke:
+    block: 0
+    level: 0
+  ThoNoobGM:
+    block: 219
+    level: 0
+  deadlove2000:
+    block: 2671
+    level: 1
+  trae1409:
+    block: 0
+    level: 0
+  Death Gaming830:
+    block: 392
+    level: 0
+  Khanhnam754:
+    block: 0
+    level: 0
+  TomChuAi:
+    block: 4
+    level: 0
+  Kiet3812:
+    block: 0
+    level: 0
+  AokoAsami199:
+    block: 0
+    level: 0
+  hoangvn200:
+    block: 0
+    level: 0
+  Shincutetop1:
+    block: 0
+    level: 0
+  GPSGamingGamer:
+    block: 0
+    level: 0
+  proplayer6604:
+    block: 0
+    level: 0
+...

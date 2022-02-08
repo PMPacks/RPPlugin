@@ -1,0 +1,11 @@
+---
+level: Solo-1
+slots: 2
+spawns:
+  spawn-1: 304.598,70.6261,256.8259
+  spawn-2: 304.4493,70.8466,212.6123
+enabled: true
+joinsign:
+- "270,5,255"
+- SoloLobby
+...

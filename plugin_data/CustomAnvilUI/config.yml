@@ -1,0 +1,50 @@
+---
+#==========================================
+#
+# Created by ItzFabb
+# Created at 23/July/2020-Thursday
+#
+#==========================================
+#Basic setup
+#
+# Use "\n" to add more lines!
+# Use "§" to add more colors!
+#
+#==========================================
+#
+Menu:
+  Title: "§l【 MENU SỬA CHỮA / RENAME 】"
+  Content: "§o§7Bạn có thể §esửa chữa§7 vật phẩm hoặc §eđổi tên§7 tại đây!\n"
+  Repair-Btn: "§l§e• §cSửa chữa vật phẩm §e•§r\n§8Nhấp Để Sửa Chữa"
+  Rename-Btn: "§l§e• §cĐổi Tên §e•§r\n§8Nhấp Để Đổi Tên"
+  Exit-Btn: "§l【 §c✘ Thoát Ra §r§l】"
+#
+#==========================================
+#
+Repair:
+  ShowMyMoney: "§e§oTiền của bạn: §f "
+  Cost: "12000"
+  Title: "§l【 MENU SỬA CHỮA 】§r"
+  Content: "§o§7Bạn muốn sửa chữa đồ vật trên tay không? Giá sữa chữa: 12000"
+  Button: "§e§l• §aSửa Chữa §e•§r\n§r§8Nhấp Để Sửa Chữa"
+  Back: "§l§e• §c✘ Quay Lại §e•"
+#
+Repair-Message:
+  NoMoney: "§cBạn không có đủ tiền để sửa chữa..."
+  HoldItem: "§eVui lòng cầm món đồ trên tay!"
+  succesfully: "§c➻ §aĐồ vật đã được sửa thành công!"
+#
+#==========================================
+#
+Rename:
+  ShowMyMoney: "§o§eTiền của bạn: §f"
+  Cost: "12000"
+  Title: "§l【 MENU ĐỔI TÊN ITEM 】"
+  Content: "§o§7Bạn muốn đổi tên đồ vật trên tay không? Giá đổi tên: 12000"
+#
+Rename-Message:
+  NoMoney: "§cBạn không có đủ tiền để đổi tên..."
+  HoldItem: "§eVui lòng cầm món đồ trong tay bạn!"
+  succesfully: "§c➻ §aĐồ vật đã được đổi tên thành công"
+#==========================================
+...

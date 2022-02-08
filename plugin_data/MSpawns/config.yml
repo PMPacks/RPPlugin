@@ -1,0 +1,21 @@
+---
+show-messages-onjoin: true
+force-hub: false
+enable-hub-message: true
+force-spawn: false
+enable-spawn-message: true
+enable-aliases: true
+teleport-on-death: 1
+hub-server:
+  enabled: false
+  name: External Server
+  host: 127.0.0.1
+  port: 19132
+hub:
+  world: world
+  X: 227.4341
+  "Y": 127
+  Z: 301.5591
+  Yaw: 181.49209594726562
+  Pitch: 89.89910888671875
+...

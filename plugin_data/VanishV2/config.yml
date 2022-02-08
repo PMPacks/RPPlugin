@@ -1,0 +1,88 @@
+# Use the § symbol for color coding
+# Color code list https://minecraft.tools/en/color-code.php
+# Use %name for the name of the player who vanished
+# use %other-name for the name of the player who vanished another player
+#   private messages config:
+#     use %sender for the message sender and %message for the content of the message
+#   Default Config:
+#     FakeLeave-message: "§e%name Left the game"
+#     FakeJoin-message: "§e%name joined the game"
+#     vanish-message: "§aYou are now vanished."
+#     unvanish-message: "§cYou are no longer vanished!"
+#     vanish: "§7§o[%name: Vanished]"
+#     unvanish: "§7§o[%name: Unvanished]"
+#     vanish-other: "§aVanished %name"
+#     unvanish-other: "§cUnvanished %name"
+#     vanished-other: "§aYou are now vanished."
+#     unvanished-other: "§cYou are no longer vanished!"
+#     hud-message: "§aYou are currently vanished"
+#     messages:
+#       sender-error: "That player cannot be found"
+#       receiver-message: "§c%sender tried to send a message to you: §7%message"
+
+
+# Do not change this!
+config-version: 6
+
+# The message that will be sent to online players when you turn on vanish
+enable-leave: false
+FakeLeave-message: "§e%name left the game"
+
+# The message that will be sent to online players when you turn off vanish
+enable-join: false
+FakeJoin-message: "§e%name joined the game"
+
+# choose the message that will be sent when a player execute /vanish
+vanish-message: "§aYou are now vanished."
+unvanish-message: "§cYou are no longer vanished!"
+
+# Choose the message that will be sent to player with the permission vanish.see when a player execute /vanish
+vanish: "§7§o[%name: Vanished]"
+unvanish: "§7§o[%name: Unvanished]"
+
+# Choose the message that will be sent to the player who vanished another player
+vanish-other: "§aVanished %name"
+unvanish-other: "§cUnvanished %name"
+
+# Choose the message that will be sent to the player when another player vanish him
+vanished-other: "§aYou are now vanished."
+unvanished-other: "§cYou are no longer vanished!"
+
+# Choose the hud message that will be shown when you are vanished
+hud-message: "§aYou are currently vanished"
+
+# Choose if the player should be unvanished when he leave the server
+unvanish-after-leaving: false
+
+# Choose if the player should be unvanished when the server restart
+unvanish-after-restart: false
+
+# Choose if vanished players can fly when they are in survival
+enable-fly: true
+
+# Choose if vanished players can take damage when they are in survival mode
+disable-damage: true
+
+# Choose if chest should be silent when you open them (Chests will be read-only)
+silent-chest: true
+
+# Choose if vanished players should lose hunger
+hunger: false
+
+# Choose if vanished players should have a night vision effect
+night-vision: true
+
+# Choose if the join/leave message should appear when a player with the permission vanish.silent joins the server
+silent-join-leave:
+  join: true
+  leave: true
+  # Choose if this should only apply to players who are already vanished
+  vanished-only: true
+
+# Choose if players can send private messages to vanished players otherwise they will need the vanish.see permission to send message to vanished players
+# The vanished player will still receive the message but the sender will get an error message that you can configure below
+can-send-msg: false
+messages:
+  sender-error: "That player cannot be found"
+  receiver-message: "§c%sender tried to send a message to you: §7%message"
+...

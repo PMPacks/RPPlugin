@@ -1,0 +1,27 @@
+# DONT TOUCH THIS 
+config_version: 2
+
+# enabling or disabling crops to be grown by dancing
+crops_grow: false
+
+# enabling or disabling trees to be grown by dancing
+tree_grow: true
+
+# crops and tree radius from player (1-10)
+# 1 = 3x3
+range: 1
+
+# chance to grow tree (1-10)
+tree_chance: 2
+
+# crops list to be grown
+# carrot = 141
+# beetroot = 244
+# melon_stem = 105
+# pumpkin_stem = 106
+# potato = 142
+# wheat = 59
+crops_list: 
+- 141
+- 244
+- 59

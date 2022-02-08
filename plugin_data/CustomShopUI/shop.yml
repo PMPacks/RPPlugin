@@ -1,0 +1,188 @@
+## DO NOT TOUCH (This is for Updates only!)
+shop-version: 4
+# DO NOT TOUCH ^^^^^
+
+#Command Example!!!
+#======================================================================================================
+# Commands:
+#
+#
+#    - "cmd:Sharpness III:100:Console:enchant {player} protection 3:textures/items/stone_sword"
+#            NAME^^^ Price^^^ TYPE^^^            COMMAND^^^^^             PICTURE^^^^^^^
+#
+# Items:
+#
+#   - "268:0:1:250:0:Default:textures/items/wood_sword"
+#
+#   - "ID:META:NUMBER:PRICE(PER ITEM THEY BUY):SELL(PER ITEM THEY SELL):NAME(Defalut OR Custom with §):Picture"
+#
+######## IMPORTANT #########
+#
+#  Next Update Finishes Enchants (Can be Done with Commands!)
+#
+#  NEW!!! We have a Minecraft Texture Library on our Website!
+#         Go to: http://saltypixel.gs/textures after that add the item like this:
+#                   http://saltypixel.ga/textures/blocks/tnt_side.png (You can Send us .png files and we will add them!)
+#                          That would Look like this in use!
+#
+#   - "268:0:1:250:0:Default:http://saltypixel.ha/textures/blocks/tnt_side.png"
+#
+#
+# Developer: AlexPads Team: SaltyPixelDevz! (hub.saltypixel.ga 19132) Join!
+# NEW!!!!!!!!!! SubCategories!
+#======================================================================================================
+
+# MUST be all Lowercase! RECOMMENDED TO KEEP THIS YOUR DEFAULT SHOP!
+shop: # if you want the shop to have a custom name you must add the options in the Config.yml file if now it will default to ShopUI
+  0: #must start at 0 and go up by one with every new category you make.
+    Name: "§0「 §0Vũ Khí & Dụng Cụ §0」:textures/items/stone_sword" #Can use Custom Colors in the Names using the "§" Symbol
+    Sub:
+      0:
+        Name: "§0「 §aKiếm §l§0」:textures/items/stone_sword"
+        Items:
+          - "268:0:1:250:0:Default:textures/items/wood_sword"
+          - "272:0:1:500:0:Default:textures/items/stone_sword"
+          - "267:0:1:2000:0:Default:textures/items/iron_sword"
+          - "276:0:1:3500:0:Default:textures/items/diamond_sword"
+      1:
+        Name: "§0「 §aCung §0」:textures/items/bow_pulling_2"
+        Items:
+          - "261:0:1:500:0:Default:textures/items/bow_pulling_2"
+          - "262:0:1:2:0:Default:textures/items/arrow"
+      2:
+        Name: "§0「§a Cúp §l§0」:textures/items/diamond_pickaxe"
+        Items:
+          - "278:0:1:2500:0:Default:textures/items/diamond_pickaxe"
+          - "285:0:1:2000:0:Default:textures/items/gold_pickaxe"
+          - "257:0:1:1000:0:Default:textures/items/iron_pickaxe"
+          - "274:0:1:550:0:Default:textures/items/stone_pickaxe"
+          - "270:0:1:100:0:Default:textures/items/wood_pickaxe"
+      3:
+        Name: "§0「 §aRìu §0」:textures/items/diamond_axe"
+        Items:
+          - "271:0:1:200:0:Default:textures/items/wood_axe"
+          - "275:0:1:200:0:Default:textures/items/stone_axe"
+          - "258:0:1:200:0:Default:textures/items/iron_axe"
+          - "279:0:1:200:0:Default:textures/items/diamond_axe"
+  1:
+    Name: "§0「 §0Giáp §0」:textures/items/diamond_chestplate"
+    Sub:
+      0:
+        Name: "§0「 §aDa §0」:textures/items/leather_chestplate"
+        Items:
+          - "298:0:1:10000:0:Default:textures/items/leather_helmet"
+          - "299:0:1:10000:0:Default:textures/items/leather_chestplate"
+          - "300:0:1:10000:0:Default:textures/items/leather_leggings"
+          - "301:0:1:10000:0:Default:textures/items/leather_boots"
+      1:
+        Name: "§0「 §aXích §0」:textures/items/chainmail_chestplate"
+        Items:
+          - "302:0:1:15000:0:Default:textures/items/chainmail_helmet"
+          - "303:0:1:15000:0:Default:textures/items/chainmail_chestplate"
+          - "304:0:1:15000:0:Default:textures/items/chainmail_leggings"
+          - "305:0:1:15000:0:Default:textures/items/chainmail_boots"
+      2:
+        Name: "§0「 §aSắt §l§0」:textures/items/iron_chestplate"
+        Items:
+          - "306:0:1:17000:0:Default:textures/items/iron_helmet"
+          - "307:0:1:17000:0:Default:textures/items/iron_chestplate"
+          - "308:0:1:17000:0:Default:textures/items/iron_leggings"
+          - "309:0:1:17000:0:Default:textures/items/iron_boots"
+      3:
+        Name: "§0「 §aVàng §0」:textures/items/gold_chestplate"
+        Items:
+          - "314:0:1:12000:0:Default:textures/items/gold_helmet"
+          - "315:0:1:12000:0:Default:textures/items/gold_chestplate"
+          - "316:0:1:12000:0:Default:textures/items/gold_leggings"
+          - "317:0:1:12000:0:Default:textures/items/gold_boots"
+      4:
+        Name: "§0「 §aKim Cương §0」:textures/items/diamond_chestpate"
+        Items:
+          - "310:0:1:25000:0:Default:textures/items/diamond_helmet"
+          - "311:0:1:25000:0:Default:textures/items/diamond_chestplate"
+          - "312:0:1:25000:0:Default:textures/items/diamond_leggings"
+          - "313:0:1:25000:0:Default:textures/items/diamond_boots"
+  2:
+    Name: "§0「 §0Khối §0」:textures/blocks/dirt"
+    Sub:
+      0:
+        Name: "§0「 §aXây Dựng §0」:textures/blocks/cobblestone"
+        Items:
+          - "4:0:64:50:2:Default:textures/blocks/cobblestone"
+          - "3:0:64:40:1:Default:textures/blocks/dirt"
+          - "12:0:64:40:1:Default:textures/blocks/sand"
+          - "337:0:64:40:1:Default:textures/blocks/clay"
+          - "1:0:64:50:5:Default:textures/blocks/stone"
+          - "17:0:64:12:2:Default:textures/blocks/log_oak"
+          - "20:0:64:25:2:Default:textures/blocks/glass"
+          - "24:0:64:15:2:Default:textures/blocks/sandstone_normal"
+          - "98:0:64:15:2:Default:textures/blocks/stonebrick"
+          - "155:0:64:15:2:Default:textures/blocks/quartz_block_side"
+          - "88:0:64:20:0.5:Default:textures/blocks/snow"
+          - "44:0:64:25:3:Default:textures/blocks/stone_slab_side"
+          - "47:0:64:15:2:Default:textures/blocks/bookshelf"
+          - "45:0:64:15:2:Default:textures/blocks/brick"
+          - "87:0:64:15:1:Default:textures/blocks/nether_brick"
+          - "49:0:64:25:3:Default:textures/blocks/obsidian"
+      1:
+        Name: "§0「 §aTrang Trí §0」:http://saltypixel.ga/textures/items/white_wool.png"
+        Items:
+          - "35:0:64:25:1.75:White Wool:https://saltypixel.ga/textures/items/white_wool.png"
+          - "35:1:64:25:1.75:Orange Wool:https://saltypixel.ga/textures/items/white_wool.png"
+          - "35:2:64:25:1.75:Magenta Wool:https://saltypixel.ga/textures/items/white_wool.png"
+          - "35:3:64:25:1.75:Light Blue Wool:https://saltypixel.ga/textures/items/white_wool.png"
+          - "35:4:64:25:1.75:Yellow Wool:https://saltypixel.ga/textures/items/white_wool.png"
+          - "35:5:64:25:1.75:Lime Wool:https://saltypixel.ga/textures/items/white_wool.png"
+          - "35:6:64:25:1.75:Pink Wool:https://saltypixel.ga/textures/items/white_wool.png"
+          - "35:7:64:25:1.75:Gray Wool:https://saltypixel.ga/textures/items/white_wool.png"
+          - "35:8:64:25:1.75:Light Gray Wool:https://saltypixel.ga/textures/items/white_wool.png"
+          - "35:9:64:25:1.75:Cyan Wool:https://saltypixel.ga/textures/items/white_wool.png"
+          - "35:10:64:25:1.75:Purple Wool:https://saltypixel.ga/textures/items/white_wool.png"
+          - "35:11:64:25:1.75:Blue Wool:https://saltypixel.ga/textures/items/white_wool.png"
+          - "35:12:64:l:1.5:Brown Wool:https://saltypixel.ga/textures/items/white_wool.png"
+          - "35:13:64:25:1.75:Green Wool:https://saltypixel.ga/textures/items/white_wool.png"
+          - "35:14:64:25:1.75:Red Wool:https://saltypixel.ga/textures/items/white_wool.png"
+          - "35:15:64:25:1.75:Black Wool:https://saltypixel.ga/textures/items/white_wool.png"
+  3:
+    Name: "§0「 §0Thức Ăn & Đặc Biệt §0」:textures/items/apple"
+    Items:
+      - "466:0:1:50000:0:Default:http://saltypixel.ga/textures/items/enchanted_golden_apple.png"
+      - "322:0:1:15000:0:Default:textures/items/apple_golden"
+      - "396:0:1:10000:0:Default:textures/items/carrot_golden"
+      - "364:0:16:5:0:Default:textures/items/beef_cooked"
+      - "320:0:16:6:0:Default:textures/items/porkchop_cooked"
+      - "424:0:16:5:1:Default:textures/items/mutton_cooked"
+  4:
+    Name: "§0「 §0Trồng Trọt §0」:textures/items/stone_hoe"
+    Items:
+      - "291:0:1:100:1:Default:textures/items/stone_hoe"
+      - "6:0:1:48:1:Default:textures/items/oak_sapling"
+      - "6:1:1:48:1:Default:textures/items/spruce_sapling"
+      - "6:2:1:48:1:Default:textures/items/birch_sapling"
+      - "6:3:1:48:1:Default:textures/items/jungle_sapling"
+      - "6:4:1:48:1:Default:textures/items/acacia_sapling"
+      - "6:5:1:48:1:Default:textures/items/dark_oak_sapling"
+      - "296:0:32:32:2.50:Default:textures/items/seeds_wheat"
+      - "338:0:32:32:2:Default:textures/items/sugar"
+      - "362:0:32:32:1.50:Default:textures/items/seeds_melon"
+      - "361:0:32:32:2:Default:textures/items/seeds_pumpkin"
+      - "391:0:32:32:1:Default:textures/items/carrot"
+      - "392:0:32:32:1:Default:textures/items/potato"
+  5:
+    Name: "§0「 §0Linh Tinh §0」:textures/items/bucket_lava"
+    Items:
+      - "50:0:16:10:2.5:Default:textures/blocks/torch_on"
+      - "46:0:16:500:1.5:Default:textures/blocks/tnt_side"
+      - "325:10:1:900:5:Default:textures/items/bucket_lava"
+      - "325:8:1:700:5:Default:textures/items/bucket_water"
+      - "218:0:1:5000:1:Default:textures/items/shulker_shell"
+  6:
+    Name: "§0「 §0Quặng §0」:textures/items/diamond"
+    Items:
+      - "264:0:12:80:2.5:Default:textures/items/diamond"
+      - "265:0:10:50:2.5:Default:textures/items/iron_ingot"
+      - "266:0:10:50:2.5:Default:textures/items/gold_ingot"
+      - "388:0:10:100:2.5:Default:textures/items/emerald"
+      - "263:0:10:25:1.75:Default:textures/items/coal"
+      - "351:4:10:1000:1.5:Default:textures/items/lapis_lazuli"
+      - "331:0:10:25:3:Default:textures/items/redstone"

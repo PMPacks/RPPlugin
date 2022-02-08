@@ -1,0 +1,79 @@
+database:
+  type: sqlite
+  sqlite:
+    file: "factions.sqlite"
+  mysql:
+    host: localhost
+    username: root
+    password: ""
+    schema: "piggyfactions"
+  worker-limit: 1
+economy:
+  enabled: true
+  provider: economyapi
+  faction-bank:
+    enabled: true
+factions:
+  enforce-alphanumeric-names: false
+  blacklisted-names:
+    - staff
+    - owner
+    - admin
+    - mojang
+    - hacker
+    - shit
+    - fucking
+    - sex
+    - hentai
+    - jav
+  max-name-length: 16
+  max-players: 50
+  pvp:
+    factionless: true
+    between-factionless: true
+  power:
+    default: 0
+    min: 0
+    max: 10
+    per:
+      death: -2
+      kill: 1
+      hour: 2
+  homes:
+    within-territory: true
+    teleport-on-death: true
+  claims:
+    blacklisted-worlds: []
+    denied-commands:
+      enemy:
+        - home
+        - spawn
+        - hub
+      none: []
+      truce: []
+      ally: []
+    overclaim: true
+    cost: 1
+    max: -1
+    shield-factor: 0.1
+languages:
+  default: "english"
+symbols:
+  colors:
+    relations:
+      member: "{GREEN}"
+      ally: "{DARK_PURPLE}"
+      truce: "{LIGHT_PURPLE}"
+      neutral: "{WHITE}"
+      enemy: "{RED}"
+      safezone: "{GOLD}"
+      warzone: "{DARK_RED}"
+  ranks:
+    leader: "^"
+    officer: "*"
+    member: "+"
+    recruit: "-"
+    none: ""
+  factionless: ""
+  powerless: "0"
+forms: true

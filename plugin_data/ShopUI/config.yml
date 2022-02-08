@@ -1,0 +1,15 @@
+config-version: 1
+Straight_Back: false
+Back_to_Start: true
+Survival: false
+Category_ExitButton: false
+Thanks: true
+command_comfirm: true
+Types:
+  Toggle: true
+  Input: false
+  Slider: true
+  Slider_Minimum: 1
+  Slider_Maximum: 64
+  StepSlider: false
+  Slider_Numbers: ["1", "15", "30", "64", "128"]

@@ -1,0 +1,34 @@
+---
+#Plugins KeyShop Private#
+#Plugins Created Ibenrm01#
+
+#Gunakan "§" Untuk Perwarnaan Line#
+#Gunakan "\n" Untuk Skip Line#
+
+#Harga KeyShop#
+common.price: 20
+uncommon.price: 20
+vote.price: 20
+lucky.price: 15
+legendary.price: 30
+mythic.price: 25
+#Jumlah Key Yang Ingin Di Jual#
+common.amount: 1
+uncommon.amount: 1
+vote.amount: 1
+lucky.amount: 1
+legendary.amount: 1
+mythic.amount: 1
+#Pesan Habis Membeli#
+msg.success.common: "§a§lThành Công: §r§8Bạn đã mua 1 key §l§6Ｗeapon §8với giá 20§6Ｐ"
+msg.success.uncommon: "§a§lThành Công: §r§8Bạn đã mua 1 key §6Ａrmor §8với giá 20§6Ｐ"
+msg.success.vote: "§a§lThành Công: §r§8Bạn đã mua 1 key §eＶote §8với giá 20§6Ｐ"
+msg.success.lucky: "§a§lThành Công: §r§8Bạn đã mua 1 key §6Ｌ§eu§ac§bk§dy §8với giá 15§6Ｐ"
+msg.success.legendary: "§a§lThành Công: §r§8Bạn đã mua 1 key §6Ｌegendary §8với giá §630Ｐ"
+msg.success.mythic: "§a§lThành Công: §r§8Bạn đã mua 1 key §4Ｍythic §8với giá 25§6Ｐ"
+#Kamu Tidak Memiliki Cukup Uang#
+not.enough.point: "§c§lLỗi: §r§8Bạn không có đủ §6Ｐ §8để mua key này"
+#Keluar Form Keyshop#
+msg.exit-muakey: "§a§lCảm ơn bạn đã ghé thăm cửa hàng mua key"
+#
+...

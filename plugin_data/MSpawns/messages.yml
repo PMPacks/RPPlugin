@@ -1,0 +1,14 @@
+---
+#Hub message
+hub-message: "§l§e【Mspawn】 §fChào mừng bạn đã trở lại hub, §6{PLAYER}§f."
+#No hub message
+no-hub: "§l§e【Mspawn】 §cChưa cài đặt hub."
+#Spawn message
+spawn-message: "§l§e【Mspawn】 §fĐang dịch chuyển về §6spawn§f."
+#No spawn message
+no-spawn: "§l§e【Mspawn】 §cKhông có khu spawn nào ở thế giới này."
+#Invalid world
+invalid-world: "§l§e【Mspawn】 §cKhông tìm thấy thế giới."
+#Spawn aliases disabled
+aliases-disabled: "§l§e【Mspawn】 §cBí danh sinh sản bị tắt trên máy chủ này."
+...

@@ -1,0 +1,92 @@
+---
+version: 1.4.10-6
+default-factions-plugin: PiggyFactions
+enable-multiworld-chat: false
+groups:
+  Member:
+    chat: §8【§aMember§8】 §6〚§l§3{fac_name}§r§6〛 §8【§7Ｎ§8】 &a{display_name} &7➢ &f{msg}
+    nametag: §8【§aMember§8】 §7{display_name}
+    worlds: []
+  MemberS:
+    chat: §8【§bMember§eＳ§8】 §6〚§l§3{fac_name}§r§6〛 §8【§7Ｎ§8】 &a{display_name} &7➢
+      &f{msg}
+    nametag: §8【§bMember§eＳ§8】 §7{display_name}
+    worlds: []
+  Vote:
+    chat: §8【§eVote §6✰§8】 §6〚§l§3{fac_name}§r§6〛 §8【§7Ｎ§8】 &a{display_name} &7➢ &a{msg}
+    nametag: §8【§eVote §6✰§8】  §a{display_name}
+    worlds: []
+  VipI:
+    chat: §8【§eVIP§7 丶 §dI §e༻§8】 §6〚§l§3{fac_name}§r§6〛 §8【§eＶ§8】 &e{display_name}
+      &7➢ &b{msg}
+    nametag: §8【§eVIP§7 丶 §dI §e༻§8】 &b{display_name}
+    worlds: []
+  VipII:
+    chat: §8【§eVIP§7 丶 §dII §e༻§8】 §6〚§l§3{fac_name}§r§6〛 §8【§eＶ§8】 &e{display_name}
+      &7➢ &b{msg}
+    nametag: §8【§eVIP§7 丶 §dII §e༻§8】 &b{display_name}
+    worlds: []
+  KingS:
+    chat: §e【§6King§eＳ §c༉࿑§e】 §6〚§l§3{fac_name}§r§6〛 §8【§eＫ§8】 &d{display_name} &7➢
+      &e{msg}
+    nametag: §e【§6King§eＳ §c༉࿑§e】 &e{display_name}
+    worlds: []
+  Legendary:
+    chat: §6【§cＬegen§4dary §6[࿐] §6】 §6〚§l§3{fac_name}§r§6〛 §8【§6Ｌ§8】 &c{display_name}
+      &7➢ &6{msg}
+    nametag: §6【§cＬegen§4dary §6[࿐] §6】 &6{display_name}
+    worlds: []
+  Admin:
+    chat: §8【§6༺Ａ§eＤ§aＭ§bＩ§dＮ༻§8】 §6〚§l§3{fac_name}§r§6〛 §8【§cＡ§8】 &6{display_name}
+      &7➢ §l&c{msg}
+    nametag: §8【§6༺Ａ§eＤ§aＭ§bＩ§dＮ༻§8】 &c{display_name}
+    worlds: []
+  Tagvip1:
+    chat: §8【§6ＬỪA §cĐẠI §eCA§8】 §6〚§l§3{fac_name}§r§6〛 §8【§eＶ§8】 &e{display_name}
+      &7➢ &b{msg}
+    nametag: §8【§6ＬỪA §cĐẠI §eCA§8】 &b{display_name}
+    worlds: []
+  Police:
+    chat: §8【§9Ｐolice §f⚑§8】 §6〚§l§3{fac_name}§r§6〛 §8【§bＰ§8】 &b{display_name} &7➢
+      &b{msg}
+    nametag: §8【§1Police §f⚑§8】 &1{display_name}
+    worlds: []
+  Helper:
+    chat: §e【§dＨelper§f ☘§e】 §6〚§l§3{fac_name}§r§6〛 §8【§dＨ§8】 §6{display_name} §7➢
+      §a{msg}
+    nametag: '&e【§dHelper §f☘§e】&a {display_name}'
+  Owner:
+    chat: '&c【§4§lＯＷＮＥＲ §f⚒§r§c】 §d《§l§3{fac_name}§r§d》 §e{display_name}§r §b[❖] §l§o§c{msg}§r
+      §b[❖]'
+    nametag: '&c【§4§lＯＷＮＥＲ §f⚒§r§c】&b {display_name}'
+  Youtuber:
+    nametag: '&8【§4Ｙoᴜ§ftuber§8】 &a{display_name}'
+    chat: §8【§4Ｙoᴜ§fтᴜʙᴇʀ§8】 §6〚§r{fac_name}§6§l〛§8 【§cＹ§8】 §r{display_name} §7➢§f
+      {msg}
+  Developer:
+    nametag: '&8【§bＤeve§floper ☂§8】 &a{display_name}'
+    chat: §8【§bＤeve§floper ☂§8】 §6〚§r{fac_name}§6§l〛§8 【§bＤ§8】 §r{display_name} §7➢§f
+      {msg}
+  FBI:
+    nametag: '&8&l[§l§aFBI]&f&r {display_name}'
+    chat: '§l§6【 §4ＦＢＩ §6】§r §l{fac_name} {display_name} : §e{msg}'
+  Cố_Vấn:
+    nametag: §l§e【 §cＣố ＶấＮ §e】 §6{display_name} {msg}
+    chat: §e【 §l§e༺§cＣ§aố §dＶ§bấ§4Ｎ§e༻ §r§e】 §d《{fac_name}§d》 {display_name} §c✎ §l§b{msg}
+  Assist:
+    chat: §e【§2Ａss§aist§f ❀§e】 §6〚§l§3{fac_name}§r§6〛§8 【§2Ａ§8】 §e{display_name} §7➢
+      §a{msg}
+    nametag: §e【§2Ａss§aist§f ❀§e】&a {display_name}
+  Warriors:
+    chat: §6【§c༺§eＷA§6RRI§gORＳ §4[⚔] §6】 §6〚§l§3{fac_name}§r§6〛 §8【§6Ｗ§8】 &4{display_name}
+      &7➢ &c{msg}
+    nametag: §6【§c༺§eＷA§6RRI§gORＳ §4[⚔] §6】 &c{display_name}
+    worlds: []
+  CốVấn:
+    nametag: §e【 §c§l Ｃố ＶấＮ §e】§r§l§6{display_name} {msg}
+    chat: §e【 §l§6༺§cＣ§aố §dＶ§bấ§4Ｎ§6༻ §r§e】 §d《{fac_name}§d》 {display_name} §c✎ §l§b{msg}
+  DemonKing:
+    chat: §6【§c༺§lDemon§eKing §4[✠] §6】 §6〚§l§3{fac_name}§r§6〛 §8【§6꓄§8】 §4{display_name}
+      §7➢ §l§c{msg}
+    nametag: '&8&l[DemonKing]&f&r {display_name}'
+...

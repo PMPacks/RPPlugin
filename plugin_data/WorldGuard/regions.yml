@@ -1,0 +1,149 @@
+---
+pvpsafe:
+  pos1:
+  - -47
+  - 0
+  - -22
+  pos2:
+  - -40
+  - 255
+  - -15
+  level: FactionsPvP
+  flags:
+    pluginbypass: "false"
+    deny-msg: "true"
+    block-place: "false"
+    block-break: "false"
+    pvp: "false"
+    console-cmd-on-enter: none
+    console-cmd-on-leave: none
+    flow: "true"
+    exp-drops: "false"
+    invincible: "false"
+    fall-dmg: "false"
+    effects: []
+    blocked-cmds: []
+    allowed-cmds: []
+    use: "false"
+    item-drop: "false"
+    item-by-death: "false"
+    explosion: "false"
+    notify-enter: ""
+    notify-leave: ""
+    potions: "false"
+    allowed-enter: "true"
+    allowed-leave: "true"
+    game-mode: survival
+    sleep: "false"
+    send-chat: "true"
+    receive-chat: "true"
+    enderpearl: "false"
+    fly-mode: 0
+    eat: "true"
+    hunger: "true"
+    allow-damage-animals: "false"
+    allow-damage-monsters: "false"
+    allow-leaves-decay: "false"
+    allow-plant-growth: "false"
+    allow-spreading: "false"
+    allow-block-burn: "false"
+    priority: "0"
+hubsafe:
+  pos1:
+  - -14
+  - 71
+  - 150
+  pos2:
+  - -129
+  - 3
+  - -65
+  level: Lobby3
+  flags:
+    pluginbypass: "false"
+    deny-msg: "true"
+    block-place: "false"
+    block-break: "false"
+    pvp: "false"
+    console-cmd-on-enter: none
+    console-cmd-on-leave: none
+    flow: "true"
+    exp-drops: "false"
+    invincible: "false"
+    fall-dmg: "false"
+    effects: []
+    blocked-cmds: []
+    allowed-cmds: []
+    use: "true"
+    item-drop: "true"
+    item-by-death: "false"
+    explosion: "false"
+    notify-enter: ""
+    notify-leave: ""
+    potions: "false"
+    allowed-enter: "true"
+    allowed-leave: "true"
+    game-mode: survival
+    sleep: "false"
+    send-chat: "true"
+    receive-chat: "true"
+    enderpearl: "false"
+    fly-mode: 0
+    eat: "true"
+    hunger: "true"
+    allow-damage-animals: "false"
+    allow-damage-monsters: "false"
+    allow-leaves-decay: "false"
+    allow-plant-growth: "false"
+    allow-spreading: "false"
+    allow-block-burn: "false"
+    priority: "0"
+Nether1:
+  pos1:
+  - 215
+  - 24
+  - 295
+  pos2:
+  - 316
+  - 95
+  - 194
+  level: dungeon
+  flags:
+    pluginbypass: "false"
+    deny-msg: "true"
+    block-place: "false"
+    block-break: "false"
+    pvp: "true"
+    console-cmd-on-enter: none
+    console-cmd-on-leave: none
+    flow: "true"
+    exp-drops: "false"
+    invincible: "false"
+    fall-dmg: "true"
+    effects: []
+    blocked-cmds: []
+    allowed-cmds: []
+    use: "false"
+    item-drop: "true"
+    item-by-death: "true"
+    explosion: "false"
+    notify-enter: ""
+    notify-leave: ""
+    potions: "false"
+    allowed-enter: "true"
+    allowed-leave: "true"
+    game-mode: survival
+    sleep: "false"
+    send-chat: "true"
+    receive-chat: "true"
+    enderpearl: "false"
+    fly-mode: 0
+    eat: "true"
+    hunger: "false"
+    allow-damage-animals: "true"
+    allow-damage-monsters: "true"
+    allow-leaves-decay: "false"
+    allow-plant-growth: "false"
+    allow-spreading: "false"
+    allow-block-burn: "false"
+    priority: "0"
+...

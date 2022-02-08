@@ -1,0 +1,8 @@
+---
+#When a player doesn't have permission to /sell
+error-permission: "Bạn không có quyền sài /sell!"
+#When a player doesn't have permission to /sell hand
+error-nopermission-sellHand: "Bạn không có quyền sài /sell hand."
+#When a player doesn't have permission to /sell all
+error-nopermission-sellAll: "Bạn không có quyền sài /sell all."
+...

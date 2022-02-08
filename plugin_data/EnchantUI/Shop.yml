@@ -1,0 +1,81 @@
+---
+#Dont Change this
+version: "0.5"
+#EnchantUI Version 0.4
+Title: "§l§8【 MENU SHOP MUA ENCHANT §e⛀ §8】"
+Button: "§3{NAME} §8{PRICE}§e⛀"
+slider-title: "§5§o§lSố Cấp Muốn Mua§f"
+messages:
+  thanks: ""
+  label: "§6§lBạn Sẽ Phải Trả §f【 {PRICE}§e⛀ §f】 §6Mỗi Cấp."
+  not-enough-money: "§c§lBạn Không Có Đủ Tiền Để Mua Enchant Này!"
+  paid-success: "§6§lBạn Đã Mua §f【 {NAME} §f】 §6Level §f【{LEVEL}§f】 §6Với Giá §f【{PRICE}】§e⛀"
+  hold-item: "§c§lHãy Cầm Đúng Loại Vật Phẩm Mà Bạn Muốn Enchant."
+  no-perm: "§c§lBạn Không Có Quyền Sử Dụng Lệnh."
+shop:
+- name: §l§8BẢO VỆ §8【§6Áo Giáp§8】
+  enchantment: protection
+  price: 270000
+  max-level: 6
+  incompatible-enchantments: []
+- name: §l§8ĐÁNH TRẢ §8【§6Áo Giáp§8】
+  enchantment: thorns
+  price: 270000
+  max-level: 6
+  incompatible-enchantments: []
+- name: §l§8RƠI CHẬM §8【§6Áo Giáp§8】
+  enchantment: 2
+  price: 270000
+  max-level: 6
+  incompatible-enchantments: []
+- name: §l§8SẮC BÉN §8【§4Vũ Khí§8】
+  enchantment: sharpness
+  price: 270000
+  max-level: 6
+  incompatible-enchantments: []
+- name: §l§8GÂY CHÁY §8【§4Vũ Khí§8】
+  enchantment: 13
+  price: 270000
+  max-level: 6
+  incompatible-enchantments: []
+- name: §l§8SỨC MẠNH §8【§cCung Tên§8】
+  enchantment: 19
+  price: 270000
+  max-level: 6
+  incompatible-enchantments: []
+- name: §l§8CUNG LỬA §8【§cCung Tên§8】
+  enchantment: 21
+  price: 270000
+  max-level: 6
+  incompatible-enchantments: []
+- name: §l§8MŨI TÊN VÔ HẠN §8【§cCung Tên§8】
+  enchantment: 22
+  price: 450000
+  max-level: 1
+  incompatible-enchantments: []
+- name: §l§8HIỆU SUẤT §8【§9Cúp, Xẻng§8】
+  enchantment: 15
+  price: 270000
+  max-level: 6
+  incompatible-enchantments: []
+- name: §l§8GIA TÀI §8【§9Cúp, Xẻng§8】
+  enchantment: 18
+  price: 270000
+  max-level: 6
+  incompatible-enchantments: []
+- name: §l§8ĐỘ MỀM MẠI §8【§9Cúp, Xẻng§8】
+  enchantment: silk_touch
+  price: 270000
+  max-level: 1
+  incompatible-enchantments: []
+- name: §l§8CHẬM HỎNG §8【§5Tất Cả§8】
+  enchantment: 17
+  price: 270000
+  max-level: 6
+  incompatible-enchantments: []
+- name: §l§8SỮA CHỮA §8【§5Tất Cả§8】
+  enchantment: 26
+  price: 350000
+  max-level: 6
+  incompatible-enchantments: []
+...

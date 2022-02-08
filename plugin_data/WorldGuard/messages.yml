@@ -1,0 +1,25 @@
+---
+version: 1.1.93
+denied-enter: "\xA7fB\u1EA1n kh\xF4ng th\u1EC3 v\xE0o khu v\u1EF1c n\xE0y"
+denied-leave: "\xA7fB\u1EA1n kh\xF4ng th\u1EC3 r\u1EDDi khu v\u1EF1c n\xE0y"
+no-permission-for-command: "\xA7fB\u1EA1n kh\xF4ng c\xF3 quy\u1EC1n \u0111\u1EC3 d\xF9ng
+  l\u1EC7nh n\xE0y"
+denied-eat: "\xA7fB\u1EA1n kh\xF4ng th\u1EC3 \u0103n trong khu v\u1EF1c n\xE0y"
+denied-ender-pearls: "\xA7fB\u1EA1n kh\xF4ng th\u1EC3 s\u1EED d\u1EE5ng m\u1EAFt ender
+  trong khu v\u1EF1c n\xE0y"
+denied-chat: "\xA7fB\u1EA1n kh\xF4ng th\u1EC3 chat trong khu v\u1EF1c n\xE0y"
+denied-item-drop: "\xA7fB\u1EA1n kh\xF4ng th\u1EC3 b\u1ECF v\u1EADt ph\u1EA9m t\u1EA1i
+  khu v\u1EF1c n\xE0y"
+denied-item-death-drop: "\xA7fTrong khu v\u1EF1c n\xE0y sau khi ch\u1EBFt s\u1EBD
+  kh\xF4ng b\u1ECB m\u1EA5t \u0111\u1ED3"
+denied-pvp: "\xA7fB\u1EA1n kh\xF4ng th\u1EC3 t\u1EA5n c\xF4ng ng\u01B0\u1EDDi ch\u01A1i
+  trong khu v\u1EF1c n\xE0y"
+denied-block-break: "\xA7fB\u1EA1n kh\xF4ng th\u1EC3 \u0111\u1EADp kh\u1ED1i trong
+  khu n\xE0y"
+denied-block-place: "\xA7fB\u1EA1n kh\xF4ng th\u1EC3 \u0111\u1EB7t kh\u1ED1i trong
+  khu n\xE0y"
+denied-hurt-animal: "\xA7fB\u1EA1n kh\xF4ng th\u1EC3 t\u1EA5n c\xF4ng \u0111\u1ED9ng
+  v\u1EADt trong khu n\xE0y"
+denied-hurt-monster: "\xA7fB\u1EA1n kh\xF4ng th\u1EC3 t\u1EA5n c\xF4ng qu\xE1i th\xFA
+  trong khu n\xE0y"
+...

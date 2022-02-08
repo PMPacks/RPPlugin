@@ -1,0 +1,18 @@
+---
+normal:
+  transfer:
+    tick-rate: 10
+    per-tick: 5
+  item-sucking:
+    tick-rate: 5
+    per-tick: 16
+  limit: 25
+vip:
+  transfer:
+    tick-rate: 5
+    per-tick: 5
+  item-sucking:
+    tick-rate: 1
+    per-tick: 16
+  limit: 30
+...

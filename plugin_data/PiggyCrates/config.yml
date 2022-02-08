@@ -1,0 +1,15 @@
+keys:
+  id: 131
+  meta: 0
+  name: "§r§6Chìa Rương §e[{CRATE}]"
+  lore: "\n§fDùng để mở rương §6[{CRATE}] §ftại §6[/warp moruong]"
+crates:
+  # Options: instant, roulette
+  mode: roulette
+  roulette:
+    # Minimum duration: (duration/speed) >= 5.5
+    # If (duration/speed) ends up being less than 5.5, then your default time will be set to (6*speed)
+    duration: 50
+    # Minimum speed: speed >= 1
+    # If speed ends up being less than 1, then your default speed will be set to 1.
+    speed: 2

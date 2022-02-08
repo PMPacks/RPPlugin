@@ -1,0 +1,9 @@
+---
+config-version: 2
+on-startup:
+  load-worlds: true
+  exclude: New World
+on-command:
+  exclude: ""
+debug: false
+...

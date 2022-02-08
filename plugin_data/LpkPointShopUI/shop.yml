@@ -1,0 +1,48 @@
+﻿## DO NOT TOUCH (This is for Updates only!)
+shop-version: 4
+# DO NOT TOUCH ^^^^^
+
+#Command Example!!!
+#======================================================================================================
+# Commands:
+#
+#
+#    - "cmd:Sharpness III:100:Console:enchant {player} protection 3:textures/items/stone_sword"
+#            NAME^^^ Price^^^ TYPE^^^            COMMAND^^^^^             PICTURE^^^^^^^
+#
+# Items:
+#
+#   - "268:0:1:250:0:Default:textures/items/wood_sword"
+#
+#   - "ID:META:NUMBER:PRICE(PER ITEM THEY BUY):SELL(PER ITEM THEY SELL):NAME(Defalut OR Custom with §):Picture"
+#
+######## IMPORTANT #########
+#
+#  Next Update Finishes Enchants (Can be Done with Commands!)
+#
+#  NEW!!! We have a Minecraft Texture Library on our Website!
+#         Go to: http://saltypixel.gs/textures after that add the item like this:
+#                   http://saltypixel.ga/textures/blocks/tnt_side.png (You can Send us .png files and we will add them!)
+#                          That would Look like this in use!
+#
+#   - "268:0:1:250:0:Default:http://saltypixel.ha/textures/blocks/tnt_side.png"
+#
+#
+# Developer: AlexPads Team: SaltyPixelDevz! (hub.saltypixel.ga 19132) Join!
+# NEW!!!!!!!!!! SubCategories!
+#======================================================================================================
+
+# MUST be all Lowercase! RECOMMENDED TO KEEP THIS YOUR DEFAULT SHOP!
+shop: # if you want the shop to have a custom name you must add the options in the Config.yml file if now it will default to ShopUI
+  0:
+    Name: "§l§8【 §cBLOCK VIP §8】:https://static.wikia.nocookie.net/hypixel-skyblock/images/7/7f/Enchanted_Diamond_Block.png/revision/latest/scale-to-width/360?cb=20200215161856"
+    Items:
+      - "138:0:1:8:1:Default:https://static.wikia.nocookie.net/minecraft_gamepedia/images/2/25/Beacon_JE6_BE2.png/revision/latest?cb=20200429134653"
+      - "205:0:1:20:1:Default:https://static.wikia.nocookie.net/minecraft_gamepedia/images/1/10/Shulker_Box.png/revision/latest?cb=20200317165111"
+      - "130:0:1:30:1:Default:https://static.wikia.nocookie.net/minecraft_gamepedia/images/4/41/Ender_Chest_%28S%29_JE2_BE2.png/revision/latest?cb=20200315175314"
+  1:
+    Name: "§l§8【 §cMUA GÓI MONEY §8】:textures/ui/gift_square"
+    Items:
+      - "cmd:Gói 500.000 Money :5:Console:givemoney {player} 500000:textures/ui/gift_square"
+      - "cmd:Gói 2.000.000 Money :20:Console:givemoney {player} 2000000:textures/ui/gift_square"
+      - "cmd:Gói 5.000.000 Money :40:Console:givemoney {player} 5000000:textures/ui/gift_square"

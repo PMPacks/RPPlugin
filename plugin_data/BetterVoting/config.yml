@@ -1,0 +1,50 @@
+api-key: "crpaRYdKJLgpDwwRaESQDQymAq1ZVHhd9it" # API Key from https://minecraftpocket-servers.com/servers/manage/.
+commands:
+    # Commands to be executed when a player claims their vote.
+    # They should not include the first "/" and they should be encased in quotes.
+    # It is recommended to encase the username variable in escaped quotes (\") to make sure it
+    #  is sent as one argument to the command to ensure they get all of their rewards.
+    # List of useable variables:
+    #  {username}: The player's in game username
+    #  {displayname}: The player's display/nick name
+    #  {x}: The player's X coordinate
+    #  {y}: The player's Y coordinate
+    #  {z}: The player's Z coordinate
+    - "say §7【§e{username}§7】 §eVừa mới vote cho server! và nhận được 2 key daily"
+    - "title \"{username}\" title &aCảm ơn bạn đã vote"
+    - "title \"{username}\" subtitle &7Bạn đã nhận quà vote hôm nay!"
+    - "pckey Daily 2 \"{username}\""
+# If droprewards is true, rewards will be dropped on the floor if a player's inventory is full
+# If droprewards if false, rewards will dissapear if a player's inventory is full
+droprewards: true
+items:
+    # Items to be given to a player when they claim their vote.
+    # They should follow the format: "item_name:meta:amount:name:enchant_name:enchant_level".
+    #  "name" can either be a custom name, or "default" to have no custom name.
+    #  "item_name", "meta", "amount" & "name" must all come before any enchantments.
+    #  "enchant_name:enchant_level" can be repeated as many times as you want.
+    # Enchantments from PiggyCustomEnchants are also supported, use them the same as regular enchants.
+    # They should also always be encased in quotes to make sure they get parsed properly.
+    - "steak:0:32:§r§7§lTHỊT BBQ"
+messages:
+    info:
+        title: "&aThông tin vote của server:"
+        content: "&aUptime: {uptime}\n&aĐiểm: {score}\n&aRank: {rank}\n&aVotes: {votes}\n&aYêu thíchFavorited: {favorited}\n&aBình luận: {comments}"
+    noperms: "&cBạn không có quyền dùng lệnh này."
+    reload:
+        success: "&aBạn đã khơi động lại config vote của server."
+    top:
+        novoters: "&cChưa có top vote nào."
+        title: "&aTop vote của người chơi tháng này:"
+        format: "§f【&a{place}§f】. {username} với số lần vote {votes}"
+    vote:
+        alreadyclaimed: "&cBạn đã nhận quà vote hôm nay."
+        alreadyprocessing: "&cLượt vote của bạn đang được thực hiện."
+        claimed: "&aCảm ơn bạn đã vote cho server! Bạn đã nhận được quà."
+        error: "&cCó lỗi khi nhận quà vote, vui lòng thử lại sau."
+        notvoted: "&cBạn chưa vote cho server. hãy vote tại bit.ly/votemnf2021"
+        processing: "&aLượt vote của bạn đang được tiến hành, hãy chờ."
+        usage:
+            notplayer: "&cSử dụng'/vote <info|reload|top>'."
+            other: "&cSử dụng'/vote [info|top]."
+            reloadperm: "&cSử dụng'/vote [info|reload|top]."

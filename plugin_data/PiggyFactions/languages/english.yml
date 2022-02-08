@@ -1,0 +1,219 @@
+chat:
+  ally: "{BOLD}{GOLD}ALLY {RESET}{LIGHT_PURPLE}{RANK_SYMBOL}{FACTION} {RESET}{PLAYER}: {MESSAGE}"
+  faction: "{BOLD}{GOLD}Quân Đoàn {RESET}{RANK_SYMBOL}{PLAYER}: {MESSAGE}"
+claims:
+  command-denied: "{RED}Ko thể dùng lệnh {COMMAND} tại {RELATION} kẻ địch."
+  flight-disable-warning: "{RED}Not within faction territory. Disabling flight in {AMOUNT}..."
+commands:
+  invalid-player: "{RED}Người chơi {PLAYER} ko tìm thấy."
+  invalid-faction: "{RED}Quân đoàn {FACTION} ko tìm thấy."
+  member-not-found: "{RED}Thành viên {PLAYER} ko tìm thấy."
+  not-in-faction: "{RED}Bạn không trong quân đoàn nào."
+  already-in-faction: "{RED}Bạn đã ở trong 1 quân đoàn."
+  not-leader: "{RED}Bạn không phải chỉ huy!"
+  no-permission: "{RED}Bạn không được lệnh làm điều này."
+  player-is-banned: "{RED}{PLAYER} đang bị cấm trong quân đoàn."
+  you-are-banned: "{RED}Bạn đang bị cấm trong quân đoàn."
+  faction-full: "{RED}Quân đoàn này đã đầy, vui lòng tìm quân đoàn khác."
+  admin:
+    toggled: "{GREEN}You are now in admin mode."
+    toggled-off: "{RED}You are no longer in admin mode."
+  ally:
+    self: "{RED}You can not ally with yourself."
+    already-allied: "{RED}You are already allied!"
+    request: "{GREEN}{FACTION} has sent an ally request. Do /f ally {FACTION} to accept."
+    allied: "{GREEN}Your faction is now allied with {ALLY}."
+    success: "{GREEN}An ally request has been sent to {FACTION}."
+  ban:
+    cant-ban-higher: "{RED}Bạn ko thể cấm thành viên hoặc người chức cao."
+    already-banned: "{RED}{PLAYER} Đã được ban rồi."
+    announcement: "{YELLOW}{PLAYER} bị cấm trong quân đoàn."
+    banned: "{RED}Bạn đã bị cấm trong quân đoàn."
+  chat:
+    already-in-chat: "{RED}Bạn đang ở trong cuộc trò chuyện!"
+    toggled: "{GREEN}Bạn đang ở chế độ trò chuyện {CHAT}."
+    toggled-off: "{RED}Bạn ko còn ở chế độ trò chuyện {CHAT}."
+  claim:
+    blacklisted-world: "{RED}Claiming is not allowed in this world."
+    max-claimed: "{RED}You can not claim any more land."
+    already-claimed: "{RED}This chunk is already claimed."
+    no-power: "{RED}Your faction has an insufficient amount of power."
+    radius-less-than-one: "{RED}Radius must be greater than one."
+    over-claimed: "{GREEN}This chunk has been overclaimed."
+    success: "{GREEN}This chunk has been claimed."
+    claimed-multiple: "{GREEN}{AMOUNT} chunks claimed by {COMMAND}."
+    auto:
+      toggled: "{GREEN}You are now auto-claiming."
+      toggled-off: "{RED}You are no longer auto-claiming."
+  create:
+    name-taken: "{RED}Một quân đoàn đã sử dụng tên {NAME}{RESET}{RED} để tạo, vui lòng dùng tên khác."
+    alphanumeric-only: "{RED}Tên quân đoàn chỉ được bao gồm các ký tự chữ và số."
+    name-blacklisted: "{RED}Tên quân đoàn {NAME}{RESET}{RED} bị cấm."
+    name-too-long: "{RED}Tên {NAME}{RESET}{RED} đã đạt giới hạn ký tự, hay viết ngắn lại."
+    success: "{GREEN}Quân đoàn {NAME}{RESET}{GREEN} đã đc tạo."
+  demote:
+    cant-demote-higher: "{RED}Bạn ko thể cấm thành viên hoặc người chức cao."
+    already-lowest: "{RED}{PLAYER} Đã ở chức thấp nhất."
+    success: "{GREEN}{PLAYER} đã được hạ chức thành {ROLE}."
+    demoted: "{RED}Bạn đã bị hạ chức thành {ROLE}."
+  deposit:
+    success: "{GREEN}${MONEY} đã được gửi vào ngân hàng clan."
+  description:
+    success: "{GREEN}Faction description has been set to {DESCRIPTION}"
+  disband:
+    success: "{YELLOW}Quân đoàn của bạn đã bị giải tán!"
+  enemy:
+    self: "{RED}You can not mark yourself as an enemy."
+    already-enemy: "{RED}{FACTION} is already an enemy!"
+    success: "{GREEN}{FACTION} has been marked as an enemy."
+  flag:
+    invalid-flag: "{RED}Flag {FLAG} not found."
+    not-editable: "{RED}Flag {FLAG} is not editable."
+    toggled: "{GREEN}Flag {FLAG} has been enabled."
+    toggled-off: "{GREEN}Flag {FLAG} has been disabled."
+  fly:
+    not-allowed: "{RED}You are not permitted to fly here."
+    toggled: "{GREEN}Flight has been enabled."
+    toggled-off: "{RED}Flight has been disabled."
+  help:
+    header: "{GOLD}[ ============ [ Hướng dẫn quân đoàn ({PAGE}/{MAXPAGE}) ] ============ ]"
+    command: "\n{GREEN}/f {COMMAND} - {RESET}{DESCRIPTION}"
+  home:
+    not-set: "{RED}Khu nhà của quân đoàn chưa được chỉnh."
+  info:
+    message: "{GOLD}____________.[{DARK_GREEN}Faction {FACTION}{GOLD}].____________\n{GOLD}Description: {YELLOW}{DESCRIPTION}\n{GOLD}Land / Power / Max Power: {YELLOW}{CLAIMS}/{POWER}/{TOTALPOWER}\n{GOLD}Age: {YELLOW}{AGE}\n{GOLD}Online: {YELLOW}{ONLINECOUNT}/{TOTALPLAYERS}\n{GOLD}Leader: {YELLOW}{LEADER}\n{GOLD}Relations: {RELATIONS}\n{GOLD}Members: {YELLOW}{PLAYERS}"
+    description-not-set: "no description set"
+  invite:
+    already-in-faction: "{RED}{PLAYER} Đã ở trong quân đoàn."
+    already-sent: "{RED}Lời mời vào quân đoàn đã đc gửi tới {PLAYER}, vui lòng chờ."
+    success: "{GREEN}Lời mời vào quân đoàn đã đc gửi thành công tới {PLAYER}."
+    invited: "{GREEN}Bạn được mời vào quân đoàn {FACTION}. dùng /c {FACTION} để vào."
+  join:
+    no-invite: "{RED}Bạn chx được mời vào quân đoàn {FACTION}."
+    joined: "{GREEN}{PLAYER} đã vào quân đoàn!"
+  kick:
+    cant-kick-higher: "{RED}Bạn không thể kick thành viên hoặc người chức cao."
+    announcement: "{YELLOW}{PLAYER} đã bị kick khỏi quân đoàn."
+    kicked: "{RED}Bạn đã bị kick khỏi quân đoàn."
+  language:
+    invalid-language: "{RED}Language not found."
+    success: "{GREEN}Language has been changed to english."
+  leader:
+    offline: "{RED}Người này phải online để thực hiện chuyển chức thủ lĩnh."
+    recipient: "{GREEN}Bạn bây giờ đã là thủ lĩnh của quân đoàn."
+    success: "{GREEN}Quyền quân đoàn đã được chuyển cho {PLAYER}."
+  leave:
+    is-leader: "{RED}Bạn là thủ lĩnh của quân đoàn. ko thể rời, nếu muốn rời hãy chuyển chức hoặc {GREEN}/c disband {RED}hoặc nhấn {GREEN}disband {RED}trong menu"
+    success: "{YELLOW}Bạn đã rời quân đoàn."
+  map:
+    header: "{GOLD}____________.[ {GREEN}({X},{Z}) {FACTION} {GOLD}].____________"
+  money:
+    balance: "{GREEN}Tiền trong ngân hàng của clan: ${MONEY}"
+  motd:
+    success: "{GREEN}Faction MOTD has been set to {MOTD}"
+  name:
+    success: "{GREEN}Quân đoàn đã đc đổi tên thành {FACTION}."
+  neutral:
+    already-neutral: "{RED}Your faction is not in a relation with {FACTION}."
+    success: "{GREEN}Your faction is now neutral with {FACTION}."
+  permission:
+    role-not-found: "{RED}Ko có chức quyền này."
+    permission-not-found: "{RED}Ko có quyền."
+    toggled: "{GREEN}Quyền lợi {PERMISSION} đã được bật cho {ROLE}."
+    toggled-off: "{RED}Quyền lợi {PERMISSION} đã bị tắt cho {ROLE}."
+  player:
+    message: "\n{GOLD}____________.[{DARK_GREEN}Player {RANKSYMBOL}{PLAYER}{GOLD}].____________\n{GOLD}Faction: {YELLOW}{FACTION}\n{GOLD}Power: {YELLOW}{POWER}/{TOTALPOWER} {TIMETOMAXPOWER}"
+    time-to-max-power: "({TIME} hours left til max)"
+  promote:
+    cant-promote-higher: "{RED}Bạn không thể thăng chức vượt quá thứ hạng của mình."
+    already-maxed: "{RED}{PLAYER} đã ở chức cao nhất."
+    success: "{GREEN}{PLAYER} đã được thăng chức thành {ROLE}."
+    promoted: "{GREEN}Bạn đc thăng chức thành {ROLE}."
+  sethome:
+    not-within-territory: "{RED}Nhà của quân đoàn phải nằm trong lãnh thổ của phe phái."
+    success: "{GREEN}Faction home has been set."
+  setpower:
+    success: "{GREEN}{PLAYER}'s power has been set to {POWER}."
+    power-set: "{GREEN}Your power has been set to {POWER}."
+  addpower:
+    success: "{GREEN}{POWER} power has been added to {PLAYER}."
+    power-add: "{GREEN}Your power has been increased by {ADDEDPOWER}. You now have {POWER} power."
+  powerboost:
+    success-player: "{GREEN}Player {PLAYER}'s maximum power has been increased by {POWER}."
+    success-faction: "{GREEN}Faction {FACTION}'s power has been increased by {POWER}."
+    boost-player: "{GREEN}Your maximum power has been increased by {POWER}."
+    boost-faction: "{GREEN}Your faction's power has been increased by {POWER}."
+  top:
+    header: "{GOLD}============[{DARK_GREEN}Top Quân Đoàn {CATEGORY} ({PAGE}/{TOTALPAGES}){GOLD}]============"
+    line:
+      online: "{GOLD}#{RANK} {RELATIONCOLOR}{FACTION}{GOLD} -{YELLOW} {ONLINE}"
+      members: "{GOLD}#{RANK} {RELATIONCOLOR}{FACTION}{GOLD} -{YELLOW} {MEMBERS}"
+      power: "{GOLD}#{RANK} {RELATIONCOLOR}{FACTION}{GOLD} -{YELLOW} {POWER}/{TOTALPOWER}"
+      money: "{GOLD}#{RANK} {RELATIONCOLOR}{FACTION}{GOLD} -{YELLOW} ${MONEY}"
+  truce:
+    self: "{RED}You can not truce with yourself."
+    already-truced: "{RED}You are already truced!"
+    request: "{GREEN}{FACTION} has sent a truce request. Do /f truce {FACTION} to accept."
+    truced: "{GREEN}Your faction is now truced with {TRUCED}."
+    success: "{GREEN}A truce request has been sent to {FACTION}."
+  unally:
+    not-allied: "{RED}You are not allied with {FACTION}."
+    unallied: "{RED}Your faction is no longer allied with {FACTION}."
+  unban:
+    not-banned: "{RED}{PLAYER} không có bị cấm."
+    announcement: "{YELLOW}{PLAYER} đã được bỏ cấm khỏi quân đoàn."
+  unclaim:
+    blacklisted-world: "{RED}Unclaiming is not allowed in this world."
+    not-claimed: "{RED}This chunk is not claimed."
+    other-faction: "{RED}This chunk is claimed by another faction."
+    success: "{GREEN}This chunk has been unclaimed."
+    claimed-multiple: "{GREEN}{AMOUNT} chunks unclaimed by {COMMAND}."
+    all:
+      success: "{GREEN}All {FACTION} claims have been unclaimed."
+    auto:
+      toggled: "{GREEN}You are now auto-unclaiming."
+      toggled-off: "{RED}You are no longer auto-unclaiming."
+  unsethome:
+    success: "{GREEN}Faction home has been unset."
+  withdraw:
+    success: "{GREEN}${MONEY} đã đc rút khỏi ngân hàng clan."
+death:
+  power: ""
+economy:
+  not-enough-money: "{RED}Ko đủ tiền. Còn thiếu ${DIFFERENCE} trong ngân hàng clan."
+  negative-money: "{RED}Số ko thể rút tiền khi số âm."
+forms:
+  title: "§l[ CLAN MENU MNF ]"
+motd: "{GOLD}____________.[{DARK_GREEN}{FACTION} MOTD{GOLD}].____________\n{WHITE}{MOTD}"
+pvp:
+  attacker-factionless: "{RED}You can not hurt other players until you have joined a faction."
+  target-factionless: "{RED}You can not hurt players who are not currently in a faction."
+  cant-attack-in-territory: "{RED}You can not hurt {PLAYER} in their own territory unless you declare them as enemy."
+relation:
+  ally: "ally"
+  truce: "truce"
+  neutral: "neutral"
+  enemy: "enemy"
+role:
+  leader: "leader"
+  officer: "officer"
+  member: "member"
+  recruit: "recruit"
+  none: "none"
+territory-titles:
+  wilderness-title: "{DARK_GREEN}Wilderness"
+  wilderness-subtitle: "{YELLOW}It's dangerous to go alone."
+  faction-title: "{RELATION}{FACTION}"
+  faction-subtitle: "{ITALIC}{DESCRIPTION}"
+logs:
+  page-too-low: "{RED}Trang phải lớn hơn số 0."
+  invalid-log: "{RED}Invalid log type or page number! \nUsage: /f logs <kick|ban|invite|join|leave|unban|leader_change> <page>"
+  title: "{GOLD}Faction Logs: {AQUA}Page {CURRENTPAGE}/{TOTALPAGES}"
+  actions:
+    kick: "{GOLD}{TIME} => {GREEN}{KICKED} {AQUA}was kicked by {GREEN}{KICKER}."
+    ban: "{GOLD}{TIME} => {GREEN}{BANNED} {AQUA}was banned by {GREEN}{BANNEDBY}."
+    join: "{GOLD}{TIME} => {GREEN}{JOINED} {AQUA}has joined."
+    leave: "{GOLD}{TIME} => {GREEN}{LEFT} {AQUA}has left."
+    unban: "{GOLD}{TIME} => {GREEN}{UNBANNED} {AQUA}was unbanned by {GREEN}{UNBANNEDBY}."
+    invite: "{GOLD}{TIME} => {GREEN}{INVITED} {AQUA}was invited by {GREEN}{INVITEDBY}."
+    leader_change: "{GOLD}{TIME} => {AQUA}Leadership has been transferred from {GREEN}{OLD} {AQUA}to {GREEN}{NEW}."

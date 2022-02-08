@@ -1,0 +1,13 @@
+#%sender: Who send the server money
+#%amount: How much everyone got
+
+#Broadcasting to everyone this message
+you-got-money: §l§a%sender Tặng %amount$ Tất Cả Người Chơi
+#Send this message to the person who gifted money
+you-send-money: §l§6Bạn Có Khả Năng Tặng %amount$ Cho Mọi Người
+#Send this message if the executor have no permission
+no-perm: §cBạn Không Có Quyền
+#If the executor have not enough money
+no-money: §l§6Bạn Không Đủ Tiền Để Tặng Cho Tất Cả
+#If the input is not numeric
+numeric: §cBạn Không Thể Sử Dụng Bảng Chữ Cái Hoặc Ký Tự Đặc Biệt

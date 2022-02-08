@@ -1,0 +1,108 @@
+---
+reset: false
+version: 1
+notfound:
+  plugin: §cPlugin sẽ không hoạt động, vui lòng tải plugin %1
+  libraries: §cThư mục %1 Không được tìm thấy, vui lòng cài plugin theo dạng §f.phar
+plugininfo:
+  name: '§fTên plugin: §e%1'
+  version: §fPhiên bản plugin:§e %1
+  author: '§fDanh sách những người đóng góp cho plugin: §e%1'
+  description: '§fMô tả của plugin: §eĐây là 1 plugin miễn phí. Nếu bạn muốn chỉnh
+    sửa lại nó, vui lòng để lại credit của người tạo plugin này :).'
+  facebook: '§bFacebook §fAuthor: %1'
+  youtube: '§cYou§fTube §fAuthor: %1'
+  website: '§6Website §fAuthor: %1'
+  discord: '§9Discord §fAuthor: %1'
+boss:
+  death:
+    message1: §dNgười chơi §a%1 §dđã giết boss §6%2 §dVà đã nhận được §e%3§d!
+    message2: §dTrong vòng §a%1 §dnữa boss §6%2 §dsẽ được hồi sinh.
+  spawn: §dBoss §6%1 [%2§6] §dĐã được hồi sinh tại §6/warp boss§d!
+  respawninfo: |-
+    §6%1
+    §l§aSẼ ĐƯỢC TỰ ĐỘNG HỒI SINH SAU
+    §a%2§d.
+command:
+  consoleError: '§cXin lỗi: §7Vui lòng nhập lệnh này trong game.'
+  permissionError: '§cXin lỗi: §7Bạn không thể nhập lệnh này.'
+  sendHelp:
+    empty: §dBạn có thể xem thêm nhiều lệnh hơn bằng cách nhập lệnh §a/boss help.
+  info:
+    usage: /boss info
+    description: §fThông tin của người tạo plugin
+  help:
+    usage: /boss help
+    description: §fHelp
+  create:
+    usage: /boss create <Tên boss> <Loại mob> <Máu>
+    description: §fLệnh tạo boss
+    error1: '§cThử: %1'
+    error2: §cBoss §a%1 §cđã được tạo trước đó.
+    error3: §cKhông tìm thấy loại mob §a%1§c.
+    complete: §dBoss §a%1 §dloại mob §a%2 §dđã được tạo thành công.
+  remove:
+    usage: /boss remove <Tên boss>
+    description: §fLoại bỏ boss
+    error1: '§cThử: %1.'
+    error2: §cKhông tìm thấy boss §a%1§c.
+    complete: §dBoss §a%1 §dđã được xóa.
+  respawn:
+    usage: /boss respawn <Tên boss>
+    description: §fHồi sinh boss
+    error1: '§cThử: %1.'
+    error2: §cKhông tìm thấy boss §a%1§c.
+    complete: §dTrong vòng §a%1 §dBoss §6%2§d sẽ được hồi sinh.
+  setrespawn:
+    usage: /boss setrespawn <Tên boss> <Thời gian>
+    description: §fSetRespawn boss
+    error1: '§cThử: %1.'
+    error2: §cKhông tìm thấy boss §a%1§c.
+    complete: §dTrong vòng §a%1 §dboss §6%2 §dsẽ hồi sinh§d.
+  slapper_respawn:
+    usage: /boss slapper_respawn <Tên boss>
+    description: §fTạo npc để hồi sinh boss.
+    error1: '§cThử: %1.'
+    error2: §cKhông tìm thấy boss §6%1§c.
+form:
+  menu:
+    button1: §l§8【 §aTạo 1 con boss §8】
+    button2: §l§8【 §aTạo 1 con mob §8】
+  create:
+    input1: Tên của con boss
+    input2: Thời gian để boss tự động làm mới (giây)
+    input3: Thời gian hồi sinh sau khi chết (giây)
+    input4: Máu của boss
+    input5: Tốc độ chạy/bay
+    input6: Độ lớn của boss
+    input7: Sát thương thấp nhất
+    input8: Sát thương cao nhất
+    input9: Tin nhắn sau khi người chơi giết boss
+    input10: Lệnh sau khi người chơi giết boss
+    error1: |-
+      §cĐã xảy ra lỗi
+      §e<%1> §cCần phải nhập
+    error2: |-
+      §cĐã xảy ra lỗi
+      §e<%1> §cCần thiết và vui lòng chỉ nhập số
+  edit:
+    button1: 【 Chỉnh sửa boss 】
+    button2: 【 Cài đặt hồi sinh boss 】
+    button3: 【 Hồi sinh boss 】
+    button4: 【 Tạo npc hồi sinh boss 】
+    button5: §8【 §cXóa bỏ boss §8】
+  edit2:
+    complete: §aBoss %1 đã được chỉnh sửa thành công.
+  remove:
+    content: §fBạn có chắc chắn xóa boss §a%1
+    button1: §8【 §aOk §8】
+    button2: §8【 §cCancel §8】
+utils:
+  sendtime:
+    msgday: ＮGÀY.
+    msghours: ＧIỜ.
+    msgminutes: ＰHÚT.
+    msgseconds: ＧIÂY.
+  makeslapper:
+    complete: §aTạo npc hồi sinh boss thành công.
+...

@@ -1,0 +1,17 @@
+---
+# World specific settings must use the world folder name.
+# The names are case sensitive.  Disabled worlds will have
+# priority over enabled worlds.  This means that if a world
+# is listed in enabled and disabled, it will be considered
+# disabled.  If any worlds are added to the enabled group
+# then any world that is not in that group will be disabled.
+
+enabled-worlds: []
+
+disabled-worlds: []
+
+# If set to true, this will teleport players to the default
+# world for the server.  Otherwise, the player will be sent
+# back to the default spawn point for the world they are in.
+
+use-default-world: true

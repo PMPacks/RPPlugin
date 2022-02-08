@@ -1,0 +1,36 @@
+commands:
+  use-in-game: "{RED}Vui lòng dùng ở trong game."
+  crate:
+    error:
+      invalid-crate: "{RED}Sai loại rương"
+    success: "{GREEN}Vui lòng nhấn vào 1 cái rương để làm rương mở, hoặc dùng /crate cancel để hủy việc này"
+    creation-mode:
+      not-in-mode: "{RED}You are not in crate creation mode."
+      cancelled: "{GREEN}Đã hủy việc làm rương mở."
+  key:
+    error:
+      invalid-player: "{RED}Invalid player."
+      invalid-crate: "{RED}Invalid crate type."
+      not-numeric: "{RED}Amount must be numeric."
+    success:
+      sender: "{GREEN}§6Bạn đã nhận được §5{CRATE} §6key."
+      target: "{GREEN}You've given {TARGET} the {CRATE} key."
+  keyall:
+    error:
+      invalid-crate: "{RED}Invalid crate type."
+      not-numeric: "{RED}Amount must be numeric."
+    success:
+      sender: "{GREEN}§6Bạn đã nhận được §5{CRATE} §6key."
+      target: "{GREEN}You've given all online players the {CRATE} key."
+crates:
+  menu-name: "§l§8Xem Trước Rương {CRATE}"
+  preview:
+    item:
+      name: "§l{GREEN}{COUNT}x {RESET}{ITEM}"
+      lore: "{GOLD}§lTỉ lệ ra đồ: {GOLD}{CHANCE} %"
+  error:
+    invalid-crate: "{RED}Invalid or missing crate type."
+    currently-opened: "{RED}§lRương đang tiến hành mở, vui lòng chờ...."
+    inventory-full: "{RED}§lBạn cần phải có {COUNT} ô đồ trống."
+  success:
+    crate-created: "{GREEN}{CRATE} Đã tạo rương =]"

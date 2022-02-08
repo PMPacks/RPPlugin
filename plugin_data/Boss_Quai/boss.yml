@@ -1,0 +1,276 @@
+---
+- name: §e§l【 §aＧoblin I §e】
+  skin: goblin
+  maxhealth: 400
+  damage: 5
+  speed: 1
+  posX: 285.952
+  posY: 71
+  posZ: 260.8163
+  level: waiting
+  drops:
+  - "57:0:16"
+  scale: 1
+  commands:
+  - givemoney {player} 10000
+  - boss cooldown 0 1350
+  custom-item:
+    1:
+      id: "322:1:1"
+      chance: 15
+      name: §6[ Ｔáo Ｖàng ]
+      lore: §9Quả táo ngàn năm, ăn vào sống nhăn răng đi săn boss
+      enchantment:
+      - "1:1"
+- name: §e§l【 §aＧoblin II §e】
+  skin: goblin
+  maxhealth: 400
+  damage: 5
+  speed: 1
+  posX: 287.4158
+  posY: 71
+  posZ: 262.7886
+  level: waiting
+  drops:
+  - "57:0:16"
+  scale: 1
+  commands:
+  - boss cooldown 1 1350
+  - givemoney {player} 10000
+  custom-item:
+    1:
+      id: "322:1:1"
+      chance: 15
+      name: §6[ Ｔáo Ｖàng ]
+      lore: §9Quả táo ngàn năm, ăn vào sống nhăn răng đi săn boss
+      enchantment:
+      - "1:1"
+- name: §e§l【 §aＧoblin III §e】
+  skin: goblin
+  maxhealth: 400
+  damage: 5
+  speed: 1
+  posX: 289.2545
+  posY: 71
+  posZ: 259.0349
+  level: waiting
+  drops:
+  - "57:0:16"
+  scale: 1
+  commands:
+  - boss cooldown 2 1350
+  - givemoney {player} 10000
+  custom-item:
+    1:
+      id: "322:1:1"
+      chance: 15
+      name: §6[ Ｔáo Ｖàng ]
+      lore: §9Quả táo ngàn năm, ăn vào sống nhăn răng đi săn boss
+      enchantment:
+      - "1:1"
+- name: §e§l【 §bＯrc - Monster §e】
+  skin: orc
+  maxhealth: 2000
+  damage: 10
+  speed: 1
+  posX: 262.4902
+  posY: 71
+  posZ: 260.4893
+  level: waiting
+  drops:
+  - 57:0:64
+  scale: 2
+  commands:
+  - boss cooldown 3 2700
+  - pckey Weapon 1 {player}
+  - pckey Armor 1 {player}
+  - givemoney {player} 10000
+  - say §e[§d{player}§e] Đã tiêu diệt boss §e§l【 §bＯrc - Monster §e】 §r§evà nhận được
+    1 key weapon và armor
+  custom-item:
+    1:
+      id: "322:1:1"
+      chance: 10
+      name: §6[ Ｔáo Ｖàng ]
+      lore: §9Quả táo ngàn năm, ăn vào sống nhăn răng đi săn boss
+      enchantment:
+      - "1:1"
+- name: §e§l【 §6Ｇoblin - Ｍonster §e】
+  skin: goblin_berserker
+  maxhealth: 2000
+  damage: 10
+  speed: 1
+  posX: 273.2809
+  posY: 71
+  posZ: 285.0077
+  level: waiting
+  drops:
+  - 57:0:64
+  scale: 2
+  commands:
+  - boss cooldown 4 2700
+  - pckey Weapon 1 {player}
+  - pckey Armor 1 {player}
+  - givemoney {player} 10000
+  - say §e[§d{player}§e] Đã tiêu diệt boss §e§l【 §6Ｇoblin - Ｍonster §e】 §r§evà nhận
+    được 1 key weapon và armor
+  custom-item:
+    1:
+      id: "322:1:1"
+      chance: 10
+      name: §6[ Ｔáo Ｖàng ]
+      lore: §9Quả táo ngàn năm, ăn vào sống nhăn răng đi săn boss
+      enchantment:
+      - "1:1"
+- name: §e§l【 §cＳＡＴＹＲ - ＢＯＳＳ §e】
+  skin: satyr
+  maxhealth: 8000
+  damage: 24
+  speed: 1
+  posX: 274.143
+  posY: 71
+  posZ: 268.6305
+  level: waiting
+  drops:
+  - 57:0:64
+  scale: 2.8
+  commands:
+  - boss cooldown 5 8100
+  - pckey Weapon 3 {player}
+  - pckey Armor 2 {player}
+  - pckey Daily 2 {player}
+  - givepoint {player} 4
+  - say §e[§d{player}§e] Đã tiêu diệt boss §e§l【 §cＳＡＴＹＲ - ＢＯＳＳ §e】 §r§evà nhận được
+    3 key weapon và 2 key daily + armor
+  custom-item:
+    1:
+      id: "278:0:1"
+      chance: 7
+      name: §c§l【 ＣÚP §4ＢＯＳＳ 】
+      lore: §r§e[ Cúp may mắn nhận được từ boss, chúc mừng bạn <3 ]
+      enchantment:
+      - "17:30"
+      - "26:30"
+      - "9:20"
+      - "15:35"
+- name: §l§e【 §aＭinion I §e】
+  skin: Minion
+  maxhealth: 400
+  damage: 5
+  speed: 1
+  posX: 287.907
+  posY: 71
+  posZ: 276.5862
+  level: waiting
+  drops:
+  - "57:0:16"
+  scale: 1
+  commands:
+  - givemoney {player} 10000
+  - boss cooldown 6 1350
+  custom-item:
+    1:
+      id: "322:1:1"
+      chance: 15
+      name: §6[ Ｔáo Ｖàng ]
+      lore: §9Quả táo ngàn năm, ăn vào sống nhăn răng đi săn boss
+      enchantment:
+      - "1:1"
+- name: §l§e【 §aＭinion II §e】
+  skin: Minion
+  maxhealth: 400
+  damage: 5
+  speed: 1
+  posX: 285.3598
+  posY: 71
+  posZ: 279.0558
+  level: waiting
+  drops:
+  - "57:0:16"
+  scale: 1
+  commands:
+  - givemoney {player} 10000
+  - boss cooldown 7 1350
+  custom-item:
+    1:
+      id: "322:1:1"
+      chance: 15
+      name: §6[ Ｔáo Ｖàng ]
+      lore: §9Quả táo ngàn năm, ăn vào sống nhăn răng đi săn boss
+      enchantment:
+      - "1:1"
+- name: §l§e【 §aＭinion III §e】
+  skin: Minion
+  maxhealth: 400
+  damage: 5
+  speed: 1
+  posX: 284.9199
+  posY: 71
+  posZ: 276.3681
+  level: waiting
+  drops:
+  - "57:0:16"
+  scale: 1
+  commands:
+  - givemoney {player} 10000
+  - boss cooldown 8 1350
+  custom-item:
+    1:
+      id: "322:1:1"
+      chance: 15
+      name: §6[ Ｔáo Ｖàng ]
+      lore: §9Quả táo ngàn năm, ăn vào sống nhăn răng đi săn boss
+      enchantment:
+      - "1:1"
+- name: §l§e【 §7Ｍinotaur - Ｍonster §e】
+  skin: minotaur
+  maxhealth: 2000
+  damage: 10
+  speed: 1
+  posX: 256.7568
+  posY: 71
+  posZ: 277.955
+  level: waiting
+  drops:
+  - 57:0:64
+  scale: 2
+  commands:
+  - boss cooldown 9 2700
+  - pckey Weapon 1 {player}
+  - pckey Armor 1 {player}
+  - givemoney {player} 10000
+  - say §e[§d{player}§e] Đã tiêu diệt boss §l§e【 §7Ｍinotaur - Ｍonster §e】 §r§evà nhận
+    được 1 key weapon và armor
+  custom-item:
+    1:
+      id: "322:1:1"
+      chance: 10
+      name: §6[ Ｔáo Ｖàng ]
+      lore: §9Quả táo ngàn năm, ăn vào sống nhăn răng đi săn boss
+      enchantment:
+      - "1:1"
+- name: WilfredVN
+  skin: WilfredVN
+  maxhealth: 1000000
+  damage: 100
+  speed: 3
+  posX: 266.697
+  posY: 71
+  posZ: 262.1982
+  level: waiting
+  drops:
+  - "1:0:1"
+  - 4:0:64
+  scale: 5
+  commands:
+  - boss cooldown 10 20
+  custom-item:
+    1:
+      id: "278:0:1"
+      chance: 50
+      name: §l§aSuper Pickaxe
+      lore: §l§aRARITY:§e **
+      enchantment:
+      - "17:5"
+      - "15:8"
+...

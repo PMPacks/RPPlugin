@@ -1,0 +1,23 @@
+---
+
+# Rimuovei drop di esperienza derivati dal mining dei minerali e li aggiunge alla tua barra dell'esperienza
+# Removes xp drops from mining minerals and adds them to your xp bar
+breaking-experience: true
+
+# Rimuovei drop di esperienza derivati dall'uccisione di un player e li aggiunge alla tua barra dell'esperienza
+# Removes xp drops from killing players and adds them to your xp bar
+killing-experience: true
+
+# Decide in che mondi sono attive le opzioni precedenti.
+# Esempio: ["NomeMondo1,"NomeMondo2"]
+# Utilizza worlds: "all" se vuoi attivarle su tutti i mondi
+# Decides in which worlds the previous options are active.
+# Example ["WorldName1,"WorldName2"]
+# use worlds: "all" if you want to activate them in every world
+worlds: ["all"]
+
+# Sovrascrive la bottiglia di esperienza di pocketmine in modo che quando la si utilizza l'esperienza vada direttamente nella barrra dell'esperienza del giocatore
+# Override pocketmine's xp botte so the xp goes directly into the player's xp bar
+override-experience-bottle: true
+
+---

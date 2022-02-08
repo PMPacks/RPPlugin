@@ -1,0 +1,341 @@
+---
+MemberKit:
+  # Format: "id:damage:count:name:ench_name:ench_level"
+
+  # If you want only custom name 【no enchantments】: "id:damage:count:name"
+
+  # If you don't want enchantments or custom name: "id:damage:count"
+
+  # If you want only enchantments 【no custom name】: "id:damage:count:DEFAULT:ench_name:ench_level" -- you have to put DEFAULT in the name field
+
+  # If you want more than one enchantment just do: "id:damage:count:name:ench1_name:ench1_level:ench2_name:ench2_level"
+  # or "id:damage:count:DEFAULT:ench1_name:ench1_level:ench2_name:ench2_level" if you don't want a custom item name
+
+  # Please note: You have to write numeric IDs
+  items:
+  - "297:0:12"
+  - "262:0:32"
+  - "272:0:1:§l§8【 §fKiếm §aMember §8】:sharpness:1:unbreaking:1"
+  - "274:0:1:§l§8【 §fCúp §aMember §8】:efficiency:1:unbreaking:1"
+  - "275:0:1:§l§8【 §fRìu §aMember §8】:efficiency:1:unbreaking:1"
+  - "273:0:1:§l§8【 §fXẻng §aMember §8】:efficiency:1:unbreaking:1"
+  - "261:0:1:§l§8【 §fCung §aMember §8】:power:1:unbreaking:1:flame:1"
+  helmet: "298:0:1:§l§8【 §fMũ §aMember §8】:protection:1"
+  chestplate: "299:0:1:§l§8【 §fÁo §aMember §8】:protection:1"
+  leggings: "300:0:1:§l§8【 §fQuần §aMember §8】:protection:1"
+  boots: "301:0:1:§l§8【 §fGiày §aMember §8】:protection:1"
+  
+
+  commands: # {player} will get replaced by player's name
+  - "tell {player} §l§fBạn Đã Nhận Kit §8【§aMember§8】 §fVà Được 1 Key §6Ｗeapon §fMiễn Phí"
+  - "pckey Weapon 1 {player}"
+
+  cooldown:
+    hours: 24
+    minutes: 1
+
+  # Format: "name:time:amplifier"
+  # Time is in seconds
+  effects:
+  - "speed:50:2"
+  
+  #Kit name to show on the menu, you can use color symbol '§'
+  kit-name: "§l§8【 §0Kit §aMember §8】"
+
+  # Add a cost for the kit. Compatible with EconomyAPI only
+  # Put 0 if you want the kit to be free
+  money: 0
+  
+  #Enter image url for the kit. png image. The image will be shown in kit main menu if its compatible.
+  image-url: "https://static.wikia.nocookie.net/minecraft_gamepedia/images/9/9f/Enchanted_Leather_Tunic_%28item%29.gif/revision/latest/scale-to-width-down/250?cb=20201120003725"
+
+  # Info to show when selected a Kit in UI form
+  info: "§l§fBạn Sẽ Mua Kit Này Với Giá: §eMiễn phí§f Yêu cầu có rank §8[§aMember§8] §8[§aTất Cả Các Rank§8]. §8[§r§cNhớ cởi hết giáp trên người trước khi nhận kit§8§l]"
+  
+  # Custom Kit perms, CaSe sEnSiTiVe
+  permission: "kit.member"
+  
+MemberSKit:
+  # Format: "id:damage:count:name:ench_name:ench_level"
+
+  # If you want only custom name 【no enchantments】: "id:damage:count:name"
+
+  # If you don't want enchantments or custom name: "id:damage:count"
+
+  # If you want only enchantments 【no custom name】: "id:damage:count:DEFAULT:ench_name:ench_level" -- you have to put DEFAULT in the name field
+
+  # If you want more than one enchantment just do: "id:damage:count:name:ench1_name:ench1_level:ench2_name:ench2_level"
+  # or "id:damage:count:DEFAULT:ench1_name:ench1_level:ench2_name:ench2_level" if you don't want a custom item name
+
+  # Please note: You have to write numeric IDs
+  items:
+  - "297:0:24"
+  - "262:0:32"
+  - "267:0:1:§l§8【 §fKiếm §bMember§eＳ §8】:sharpness:3:unbreaking:1:fire_aspect:1"
+  - "257:0:1:§l§8【 §fCúp §bMember§eＳ §8】:efficiency:3:unbreaking:1"
+  - "258:0:1:§l§8【 §fRìu §bMember§eＳ §8】:efficiency:2:unbreaking:1"
+  - "256:0:1:§l§8【 §fXẻng §bMember§eＳ §8】:efficiency:2:unbreaking:1"
+  - "261:0:1:§l§8【 §fCung §bMember§eＳ §8】:power:3:unbreaking:1:flame:2"
+  helmet: "302:0:1:§l§8【 §fMũ §bMember§eＳ §8】:protection:2:unbreaking:2"
+  chestplate: "303:0:1:§l§8【 §fÁo §bMember§eＳ §8】:protection:2:unbreaking:2"
+  leggings: "304:0:1:§l§8【 §fQuần §bMember§eＳ §8】:protection:2:unbreaking:2"
+  boots: "305:0:1:§l§8【 §fGiày §bMember§eＳ §8】:protection:2:unbreaking:2"
+  
+
+  commands: # {player} will get replaced by player's name
+  - "tell {player} §l§fBạn Đã Nhận Kit §8【§bMember§eＳ§8】 §fVà Được 1 key §6Ｗeapon + §6Ａrmor §fVà 2000§e⛀ §fMiễn Phí"
+  - "givecoin {player} 2000"
+  - "pckey Weapon 1 {player}"
+  - "pckey Armor 1 {player}"
+
+  cooldown:
+    hours: 36
+    minutes: 1
+
+  # Format: "name:time:amplifier"
+  # Time is in seconds
+  effects:
+  - "speed:50:2"
+  
+  #Kit name to show on the menu, you can use color symbol '§'
+  kit-name: "§l§8【 §0Kit §bMember§eＳ §8】"
+
+  # Add a cost for the kit. Compatible with EconomyAPI only
+  # Put 0 if you want the kit to be free
+  money: 0
+  
+  #Enter image url for the kit. png image. The image will be shown in kit main menu if its compatible.
+  image-url: "https://static.wikia.nocookie.net/minecraft_gamepedia/images/9/9a/Enchanted_Chainmail_Chestplate_%28item%29.gif/revision/latest/scale-to-width-down/250?cb=20201117042920"
+
+  # Info to show when selected a Kit in UI form
+  info: "§l§fBạn Sẽ Mua Kit Này Với Giá: §eMiễn phí§f Yêu cầu có rank §8[§bMember§eＳ§8] §8[§aTất Cả Các Rank Trừ Member§8]. §8[§r§cNhớ cởi hết giáp trên người trước khi nhận kit§8§l]"
+  
+  # Custom Kit perms, CaSe sEnSiTiVe
+  permission: "kit.members"
+VoteKit:
+
+  items:
+  - "366:0:24"
+  - "262:0:64"
+  - "267:0:1:§l§8【 §fKiếm §eVote §6✰ §8】:sharpness:4:unbreaking:2:fire_aspect:1"
+  - "257:0:1:§l§8【 §fCúp §eVote §6✰ §8】:efficiency:4:unbreaking:1"
+  - "258:0:1:§l§8【 §fRìu §eVote §6✰ §8】:efficiency:3:unbreaking:2"
+  - "256:0:1:§l§8【 §fXẻng §eVote §6✰ §8】:efficiency:3:unbreaking:3"
+  - "261:0:1:§l§8【 §fCung §eVote §6✰ §8】:power:3:unbreaking:3:flame:3"
+  helmet: "306:0:1:§l§8【 §fMũ §eVote §6✰ §8】:protection:4:unbreaking:2"
+  chestplate: "307:0:1:§l§8【 §fÁo §eVote §6✰ §8】:protection:4:unbreaking:1:thorns:2"
+  leggings: "308:0:1:§l§8【 §fQuần §eVote §6✰ §8】:protection:4:unbreaking:2"
+  boots: "309:0:1:§l§8【 §fGiày §eVote §6✰ §8】:protection:4:unbreaking:2"
+
+  commands:
+  - "pckey Daily 2 {player}"
+  - "tell {player} §l§fBạn Đã Nhận Kit §8【§eVote §6✰§8】 §fVà Được 2 Keys §6Ｄaily §fMiễn Phí"
+
+  cooldown:
+    hours: 24
+    minutes: 1
+
+  effects:
+  - "speed:50:2"
+  
+  kit-name: "§l§8【 §0Kit §eVote §6✰ §8】"
+
+  money: 0
+  
+  image-url: "https://static.wikia.nocookie.net/minecraft_gamepedia/images/6/60/Enchanted_Iron_Chestplate_%28item%29.gif/revision/latest/scale-to-width-down/250?cb=20201118221314"
+
+  info: "§l§fBạn Sẽ Mua Kit Này Với Giá: §eMiễn phí§f Yêu cầu có rank §8[§eVote §6✰§8] §8[§r§cNhớ cởi hết giáp trên người trước khi nhận kit§8§l]"
+  
+  permission: "kit.votekit"
+VipIKit:
+
+  items:
+  - "364:0:32"
+  - "322:0:5"
+  - "262:0:64"
+  - "276:0:1:§l§8【 §fKiếm §eVIP§7 丶 §dI §e༻ §8】:sharpness:5:unbreaking:2:fire_aspect:2"
+  - "278:0:1:§l§8【 §fCúp §eVIP§7 丶 §dI §e༻ §8】:efficiency:5:unbreaking:2"
+  - "279:0:1:§l§8【 §fRìu §eVIP§7 丶 §dI §e༻ §8】:efficiency:4:unbreaking:2"
+  - "277:0:1:§l§8【 §fXẻng §eVIP§7 丶 §dI §e༻ §8】:efficiency:4:unbreaking:2"
+  - "261:0:1:§l§8【 §fCung §eVIP§7 丶 §dI §e༻ §8】:power:5:unbreaking:3:flame:3"
+  helmet: "310:0:1:§l§8【 §fMũ §eVIP§7 丶 §dI §e༻ §8】:protection:5:unbreaking:3:thorns:3"
+  chestplate: "311:0:1:§l§8【 §fÁo §eVIP§7 丶 §dI §e༻ §8】:protection:5:unbreaking:3:thorns:3"
+  leggings: "312:0:1:§l§8【 §fQuần §eVIP§7 丶 §dI §e༻ §8】:protection:5:unbreaking:3:thorns:3"
+  boots: "313:0:1:§l§8【 §fGiày §eVIP§7 丶 §dI §e༻ §8】:protection:5:unbreaking:3:thorns:3"
+
+  commands:
+  - "pckey Armor 2 {player}"
+  - "pckey Weapon 2 {player}"
+  - "givecoin {player} 5000"
+  - "tell {player} §l§fBạn Đã Nhận Kit §8【§eVIP§7 丶 §dI §e༻§8】 §fVà Được 2 Key §6Ａrmor + §6Ｗeapon §fVà 5000§e⛀ §fMiễn Phí"
+
+  cooldown:
+    hours: 48
+    minutes: 1
+
+  effects:
+  - "speed:50:2"
+  
+  kit-name: "§l§8【 §0Kit §eVIP§7 丶 §dI §e༻ §8】"
+
+  money: 0
+  
+  image-url: "https://static.wikia.nocookie.net/minecraft_gamepedia/images/8/87/Enchanted_Golden_Chestplate_%28item%29.gif/revision/latest/scale-to-width-down/250?cb=20201118111844"
+
+  info: "§l§fBạn Sẽ Mua Kit Này Với Giá: §eMiễn phí§f Yêu cầu có rank §8[§eVIP§7 丶 §dI §e༻§8] §8[§r§cNhớ cởi hết giáp trên người trước khi nhận kit§8§l]"
+  
+  permission: "kit.vip1"
+VipIIKit:
+
+  items:
+  - "364:0:32"
+  - "322:0:5"
+  - "262:0:64"
+  - "276:0:1:§l§8【 §fKiếm §eVIP§7 丶 §dII §e༻ §8】:sharpness:5:unbreaking:3:fire_aspect:2"
+  - "278:0:1:§l§8【 §fCúp §eVIP§7 丶 §dII §e༻ §8】:efficiency:5:unbreaking:2"
+  - "279:0:1:§l§8【 §fRìu §eVIP§7 丶 §dII §e༻ §8】:efficiency:5:unbreaking:2"
+  - "277:0:1:§l§8【 §fXẻng §eVIP§7 丶 §dII §e༻ §8】:efficiency:5:unbreaking:2"
+  - "261:0:1:§l§8【 §fCung §eVIP§7 丶 §dII §e༻ §8】:power:5:unbreaking:4:flame:4"
+  helmet: "310:0:1:§l§8【 §fMũ §eVIP§7 丶 §dII §e༻ §8】:protection:5:unbreaking:4:thorns:4"
+  chestplate: "311:0:1:§l§8【 §fÁo §eVIP§7 丶 §dII §e༻ §8】:protection:5:unbreaking:4:thorns:4"
+  leggings: "312:0:1:§l§8【 §fQuần §eVIP§7 丶 §dII §e༻ §8】:protection:5:unbreaking:4:thorns:4"
+  boots: "313:0:1:§l§8【 §fGiày §eVIP§7 丶 §dII §e༻ §8】:protection:5:unbreaking:4:thorns:4"
+
+  commands:
+  - "pckey Armor 3 {player}"
+  - "pckey Weapon 3 {player}"
+  - "pckey Daily 1 {player}"
+  - "givecoin {player} 10000"
+  - "tell {player} §l§fBạn Đã Nhận Kit §8【§eVIP§7 丶 §dII §e༻§8】 §fVà Được 2 Keys §6Ａrmor + §6Ｗeapon §fVới 1 Key §6Ｄaily §fVà 10000§e⛀ §fMiễn Phí"
+
+  cooldown:
+    hours: 48
+    minutes: 1
+
+  effects:
+  - "speed:50:2"
+  
+  kit-name: "§l§8【 §0Kit §eVIP§7 丶 §dII §e༻ §8】"
+
+  money: 0
+  
+  image-url: "https://static.wikia.nocookie.net/minecraft_gamepedia/images/8/87/Enchanted_Golden_Chestplate_%28item%29.gif/revision/latest/scale-to-width-down/250?cb=20201118111844"
+
+  info: "§l§fBạn Sẽ Mua Kit Này Với Giá: §eMiễn phí§f Yêu cầu có rank §8[§eVIP§7 丶 §dII §e༻§8] §8[§r§cNhớ cởi hết giáp trên người trước khi nhận kit§8§l]"
+  
+  permission: "kit.vip2"
+KingsKit:
+
+  items:
+  - "364:0:32"
+  - "322:0:5"
+  - "262:0:64"
+  - "276:0:1:§l§8【 §fKiếm §6King§eＳ §c༉࿑ §8】:sharpness:6:unbreaking:4:fire_aspect:2"
+  - "278:0:1:§l§8【 §fCúp §6King§eＳ §c༉࿑ §8】:efficiency:6:unbreaking:4"
+  - "279:0:1:§l§8【 §fRìu §6King§eＳ §c༉࿑ §8】:efficiency:6:unbreaking:3:fire_aspect:2"
+  - "277:0:1:§l§8【 §fXẻng §6King§eＳ §c༉࿑ §8】:efficiency:6:unbreaking:3"
+  - "261:0:1:§l§8【 §fCung §6King§eＳ §c༉࿑ §8】:power:6:unbreaking:5:flame:5"
+  helmet: "310:0:1:§l§8【 §fMũ §6King§eＳ §c༉࿑ §8】:protection:6:unbreaking:5:thorns:5"
+  chestplate: "311:0:1:§l§8【 §fÁo §6King§eＳ §c༉࿑ §8】:protection:6:unbreaking:5:thorns:5"
+  leggings: "312:0:1:§l§8【 §fQuần §6King§eＳ §c༉࿑ §8】:protection:6:unbreaking:5:thorns:5"
+  boots: "313:0:1:§l§8【 §fGiày §6King§eＳ §c༉࿑ §8】:protection:6:unbreaking:5:thorns:5"
+
+  commands:
+  - "pckey Armor 4 {player}"
+  - "pckey Weapon 4 {player}"
+  - "pckey Daily 4 {player}"
+  - "givecoin {player} 14000"
+  - "tell {player} §l§fBạn Đã Nhận Kit §8【§6King§eＳ §c༉࿑§8】 §fVà Được 4 Keys §6Ａrmor + §6Ｗeapon + §6Ｄaily §fVà 14000§e⛀ §fMiễn Phí"
+
+  cooldown:
+    hours: 60
+    minutes: 1
+
+  effects:
+  - "speed:50:2"
+  
+  kit-name: "§l§8【 §0Kit §6King§eＳ §c༉࿑ §8】"
+
+  money: 0
+  
+  image-url: "https://static.wikia.nocookie.net/minecraft_gamepedia/images/8/8a/Enchanted_Diamond_Chestplate_%28item%29.gif/revision/latest/scale-to-width-down/250?cb=20201118111612"
+
+  info: "§l§fBạn Sẽ Mua Kit Này Với Giá: §eMiễn phí§f Yêu cầu có rank §8[§6King§eＳ §c༉࿑§8] §8[§r§cNhớ cởi hết giáp trên người trước khi nhận kit§8§l]"
+  
+  permission: "kit.kings"
+Legendary:
+
+  items:
+  - "364:0:32"
+  - "322:0:5"
+  - "262:0:64"
+  - "276:0:1:§l§8【 §fKiếm §cＬegen§4dary §6࿐ §8】:sharpness:7:unbreaking:5:fire_aspect:5"
+  - "278:0:1:§l§8【 §fCúp §cＬegen§4dary §6࿐ §8】:efficiency:7:unbreaking:5"
+  - "279:0:1:§l§8【 §fRìu §cＬegen§4dary §6࿐ §8】:efficiency:7:unbreaking:4:fire_aspect:4"
+  - "277:0:1:§l§8【 §fXẻng §cＬegen§4dary §6࿐ §8】:efficiency:7:unbreaking:4"
+  - "261:0:1:§l§8【 §fCung §cＬegen§4dary §6࿐ §8】:power:7:unbreaking:5:flame:5"
+  helmet: "310:0:1:§l§8【 §fMũ §cＬegen§4dary §6࿐ §8】:protection:7:unbreaking:5:thorns:6"
+  chestplate: "311:0:1:§l§8【 §fÁo §cＬegen§4dary §6࿐ §8】:protection:7:unbreaking:5:thorns:6"
+  leggings: "312:0:1:§l§8【 §fQuần §cＬegen§4dary §6࿐ §8】:protection:7:unbreaking:5:thorns:6"
+  boots: "313:0:1:§l§8【 §fGiày §cＬegen§4dary §6࿐ §8】:protection:7:unbreaking:5:thorns:6"
+
+  commands:
+  - "pckey Armor 5 {player}"
+  - "pckey Weapon 5 {player}"
+  - "pckey Daily 5 {player}"
+  - "givecoin {player} 20000"
+  - "tell {player} §l§fBạn Đã Nhận Kit §8【§cＬegen§4dary §6࿐§8】 §fVà Được 5 Keys §6Ａrmor + §6Ｗeapon + §6Ｄaily §fVà 20000§e⛀ §fMiễn Phí"
+
+  cooldown:
+    hours: 60
+    minutes: 1
+
+  effects:
+  - "speed:50:2"
+  
+  kit-name: "§l§8【 §0Kit §cＬegen§4dary §6࿐ §8】"
+
+  money: 0
+  
+  image-url: "https://static.wikia.nocookie.net/minecraft_gamepedia/images/8/8a/Enchanted_Diamond_Chestplate_%28item%29.gif/revision/latest/scale-to-width-down/250?cb=20201118111612"
+
+  info: "§l§fBạn Sẽ Mua Kit Này Với Giá: §eMiễn phí§f Yêu cầu có rank §8[§cLegen§4dary §6࿐§8]. §8[§r§cNhớ cởi hết giáp trên người trước khi nhận kit§8§l]"
+  
+  permission: "kit.legendary"
+hothankit:
+
+  items:
+  - "364:0:32"
+  - "322:0:5"
+  - "262:0:64"
+  - "276:0:1:§7§l【§c=§6=§e=§a=§b=§7】 §cKi§4ếm §6Hổ Thần §4㊋ §7【§c=§6=§e=§a=§b=§7】:sharpness:6:unbreaking:4:fire_aspect:4"
+  - "278:0:1:§7§l【§c=§6=§e=§a=§b=§7】 §cC§4úp §6Hổ Thần §4㊋ §7【§c=§6=§e=§a=§b=§7】:efficiency:6:unbreaking:4"
+  - "279:0:1:§7§l【§c=§6=§e=§a=§b=§7】 §cR§4ìu §6Hổ Thần §4㊋ §7【§c=§6=§e=§a=§b=§7】:efficiency:6:unbreaking:5:fire_aspect:3"
+  - "277:0:1:§7§l【§c=§6=§e=§a=§b=§7】 §cXẻ§4ng §6Hổ Thần §4㊋ §7【§c=§6=§e=§a=§b=§7】:efficiency:6:unbreaking:5"
+  - "261:0:1:§7§l【§c=§6=§e=§a=§b=§7】 §cCu§4ng §6Hổ Thần §4㊋ §7【§c=§6=§e=§a=§b=§7】:power:6:unbreaking:4:flame:4"
+  helmet: "310:0:1:§7§l【§c=§6=§e=§a=§b=§7】 §cM§4ũ §6Hổ Thần §4㊋ §7【§c=§6=§e=§a=§b=§7】:protection:6:unbreaking:5:thorns:3"
+  chestplate: "311:0:1:§7§l【§c=§6=§e=§a=§b=§7】 §cÁ§4o §6Hổ Thần §4㊋ §7【§c=§6=§e=§a=§b=§7】:protection:6:unbreaking:5:thorns:4"
+  leggings: "312:0:1:§7§l【§c=§6=§e=§a=§b=§7】 §cQu§4ần §6Hổ Thần §4㊋ §7【§c=§6=§e=§a=§b=§7】:protection:6:unbreaking:5:thorns:3"
+  boots: "313:0:1:§7§l【§c=§6=§e=§a=§b=§7】 §cGi§4ày §6Hổ Thần §4㊋ §7【§c=§6=§e=§a=§b=§7】:protection:6:unbreaking:3:thorns:3"
+  
+  commands:
+  - "pckey Daily 3 {player}"
+  - "tell {player} §l§fBạn Đã Nhận Set §l§8【§6Hổ Thần §4㊋ §8】 §6Và Được 3 Keys §6Ｄaily §6Miễn Phí"
+
+  cooldown:
+    hours: 0
+    minutes: 0
+
+  effects:
+  - "speed:1:1"
+
+  kit-name: "§l§8【 §0Set §6Hổ Thần  §8】 §8【Money】"
+
+  money: 3990000
+  
+  image-url: "https://static.wikia.nocookie.net/minecraft_gamepedia/images/8/8a/Enchanted_Diamond_Chestplate_%28item%29.gif/revision/latest/scale-to-width-down/250?cb=20201118111612"
+
+  info: "§l§6Bạn Sẽ Mua Kit Này Với Giá: §e3990000⛀? §6Không Yêu Cầu Rank §8[§r§cNhớ cởi hết giáp trên người trước khi nhận kit§8§l]"
+  
+  permission: "kit.hothankit"
+...

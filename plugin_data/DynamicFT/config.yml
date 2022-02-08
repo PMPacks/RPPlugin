@@ -1,0 +1,6 @@
+---
+checkSeconds: 1
+modules:
+  EconomyAPI: false
+  FactionsPro: false
+...

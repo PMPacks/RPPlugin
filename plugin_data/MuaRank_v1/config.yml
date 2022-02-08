@@ -1,0 +1,113 @@
+# - Rank Cost Configuration -
+
+NewbieSday.cost: 55
+VipIday.cost: 210
+VipIIday.cost: 399
+Kingsday.cost: 450
+Legendday.cost: 670
+
+#vv
+NewbieS.cost: 240
+VipI.cost: 730
+VipII.cost: 940
+Kings.cost: 1499
+Legend.cost: 2599
+
+# -= Rank Purchase / Fail Configuration =-
+
+NewbieS.complete: §o§l§9MUA§fRANK §r§7➣ §r§aBạn đã mua rank §0[§bMember§eＳ§0] [§cVĩnh viễn§0] §avới giá §8240§6Ｐ
+NewbieS.failed: §o§l§9MUA§fRANK §r§7➣ §r§cBạn đã mua rank thất bại. Vui lòng kiểm tra §6Ｐ §ccủa bạn
+
+VipI.complete: §o§l§9MUA§fRANK §r§7➣ §r§aBạn đã mua rank §0[§eVIP§7 丶 §dI §e༻§0] [§cVĩnh viễn§0] §avới giá §8730§6Ｐ
+VipI.failed: §o§l§9MUA§fRANK §r§7➣ §r§cBạn đã mua rank thất bại. Vui lòng kiểm tra §6Ｐ §ccủa bạn
+
+VipII.complete: §o§l§9MUA§fRANK §r§7➣ §r§aBạn đã mua rank §0[§eVIP§7 丶 §dII §e༻§0] [§cVĩnh viễn§0] §avới giá §8940§6Ｐ
+VipII.failed: §o§l§9MUA§fRANK §r§7➣ §r§cBạn đã mua rank thất bại. Vui lòng kiểm tra §6Ｐ §ccủa bạn
+
+Kings.complete: §o§l§9MUA§fRANK §r§7➣ §r§aBạn đã mua rank §0[§6King§eＳ §c༉࿑§0] [§cVĩnh viễn§0] §avới giá §81499§6Ｐ
+Kings.failed: §o§l§9MUA§fRANK §r§7➣ §r§cBạn đã mua rank thất bại. Vui lòng kiểm tra §6Ｐ §ccủa bạn
+
+Legend.complete: §o§l§9MUA§fRANK §r§7➣ §r§aBạn đã mua rank §0[§cＬegen§4dary §6࿐§0] [§cVĩnh viễn§0] §avới giá §82599§6Ｐ
+Legend.failed: §o§l§9MUA§fRANK §r§7➣ §r§cBạn đã mua rank thất bại. Vui lòng kiểm tra §6Ｐ §ccủa bạn
+
+#day
+
+NewbieSday.complete: §o§l§9MUA§fRANK §r§7➣ §r§aBạn đã mua rank §0[§bMember§eＳ§0] [§915 ngày§0]§a với giá §855§6Ｐ
+NewbieSday.failed: §o§l§9MUA§fRANK §r§7➣ §r§cBạn đã mua rank thất bại. Vui lòng kiểm tra §6Ｐ §ccủa bạn
+
+VipIday.complete: §o§l§9MUA§fRANK §r§7➣ §r§aBạn đã mua rank §0[§eVIP§7 丶 §dI §e༻§0] [§915 ngày§0] §avới giá §8210§6Ｐ
+VipIday.failed: §o§l§9MUA§fRANK §r§7➣ §r§cBạn đã mua rank thất bại. Vui lòng kiểm tra §6Ｐ §ccủa bạn
+
+VipIIday.complete: §o§l§9MUA§fRANK §r§7➣ §r§aBạn đã mua rank §0[§eVIP§7 丶 §dII §e༻§0] [§915 ngày§0] §avới giá §8399§6Ｐ
+VipIIday.failed: §o§l§9MUA§fRANK §r§7➣ §r§cBạn đã mua rank thất bại. Vui lòng kiểm tra §6Ｐ §ccủa bạn
+
+Kingsday.complete: §o§l§9MUA§fRANK §r§7➣ §r§aBạn đã mua rank §0[§6King§eＳ §c༉࿑§0] [§915 ngày§0] §avới giá §8450§6Ｐ
+Kingsday.failed: §o§l§9MUA§fRANK §r§7➣ §r§cBạn đã mua rank thất bại. Vui lòng kiểm tra §6Ｐ §ccủa bạn
+
+Legendday.complete: §o§l§9MUA§fRANK §r§7➣ §r§aBạn đã mua rank §0[§cＬegen§4dary §6࿐§0] [§915 ngày§0] §avới giá §8670§6Ｐ
+Legendday.failed: §o§l§9MUA§fRANK §r§7➣ §r§cBạn đã mua rank thất bại. Vui lòng kiểm tra §6Ｐ §ccủa bạn
+
+# -= Content Configuration -=
+
+NewbieS.info: §lBạn đang tiếp tục mua rank §0[§bMember§eＳ§0] [§cVĩnh viễn§0] §r§lvới giá 240§6Ｐ§r§l. Bạn chắc chắn mua không?
+VipI.info: §lBạn đang tiếp tục mua rank §0[§eVIP§7 丶 §dI §e༻§0] [§cVĩnh viễn§0] §r§lvới giá 730§6Ｐ§r§l. Bạn chắc chắn mua không?
+VipII.info: §lBạn đang tiếp tục mua rank §0[§eVIP§7 丶 §dII §e༻§0] [§cVĩnh viễn§0] §r§lvới giá 940§6Ｐ§r§l. Bạn chắc chắn mua không?
+Kings.info: §lBạn đang tiếp tục mua rank §0[§6King§eＳ §c༉࿑§0] [§cVĩnh viễn§0] §r§lvới giá 1499§6Ｐ§r§l. Bạn chắc chắn mua không?
+Legend.info: §lBạn đang tiếp tục mua rank §0[§cＬegen§4dary §6࿐§0] [§cVĩnh viễn§0] §r§lvới giá 2599§6Ｐ§r§l. Bạn chắc chắn mua không?
+#day
+NewbieSday.info: §lBạn đang tiếp tục mua rank §0[§bMember§eＳ§0] [§915 ngày§0] §r§lvới giá 55§6Ｐ§r§l. Bạn chắc chắn mua không?
+VipIday.info: §lBạn đang tiếp tục mua rank §0[§eVIP§7 丶 §dI §e༻§0] [§915 ngày§0] §r§lvới giá 210§6Ｐ§r§l. Bạn chắc chắn mua không?
+VipIIday.info: §lBạn đang tiếp tục mua rank §0[§eVIP§7 丶 §dII §e༻§0] [§915 ngày§0] §r§lvới giá 399§6Ｐ§r§l. Bạn chắc chắn mua không?
+Kingsday.info: §lBạn đang tiếp tục mua rank §0[§6King§eＳ §c༉࿑§0] [§915 ngày§0] §r§lvới giá 450§6Ｐ§r§l. Bạn chắc chắn mua không?
+Legendday.info: §lBạn đang tiếp tục mua rank §0[§cＬegen§4dary §6࿐§0] [§915 ngày§0] §r§lvới giá 670§6Ｐ§r§l. Bạn chắc chắn mua không?
+
+# -= Others Configuration =-
+ 
+title.rshop: §l§9CỬA HÀNG MUA RANK §8[]
+
+othermsg1complete.txt: §l§r
+othermsg2complete.txt: §l§r
+othermsg3complete.txt: §l§r
+othermsg4complete.txt: §l§r
+othermsg5complete.txt: §l§r
+
+othermsg1fail.txt: §l§r
+othermsg2fail.txt: §l§r
+othermsg3fail.txt: §l§r
+othermsg4fail.txt: §l§r
+othermsg5fail.txt: §l§r
+
+purchase1.title: §l§r
+purchase2.title: §l§r
+purchase3.title: §l§r
+purchase4.title: §l§r
+purchase5.title: §l§r
+
+NewbieS.name: §l§0【 §bMember§eＳ §0】 [§cVĩnh viễn§0]
+VipI.name: §l§0【 §eVIP§7 丶 §dI §e༻ §0】 [§cVĩnh viễn§0]
+VipII.name: §l§0【 §eVIP§7 丶 §dII §e༻ §0】 [§cVĩnh viễn§0]
+Kings.name: §l§0【 §6King§eＳ §c༉࿑ §0】 [§cVĩnh viễn§0]
+Legend.name: §l§0【 §cＬegen§4dary §6࿐ §0】 [§cVĩnh viễn§0]
+#day
+NewbieSday.name: §l§0【 §bMember§eＳ §0】 [§915 ngày§0]
+VipIday.name: §l§0【 §eVIP§7 丶 §dI §e༻ §0】 [§915 ngày§0]
+VipIIday.name: §l§0【 §eVIP§7 丶 §dII §e༻ §0】 [§915 ngày§0]
+Kingsday.name: §l§0【 §6King§eＳ §c༉࿑ §0】 [§915 ngày§0]
+Legendday.name: §l§0【 §cＬegen§4dary §6࿐ §0】 [§915 ngày§0]
+
+# Features Configuration
+# Shows a list of features of the rank. Edit it here
+
+NewbieS.features: §lQuyền lợi rank §0[§bMember§eＳ§0] [§cVĩnh viễn§0] §r§lnhư sau §r§7➢ Đặc quyền dùng §c/nick §7để đổi tên§8,§7 sử dụng kit MemberS bằng cách dùng lệnh §c/kit§8,§r§7 Nhận ngay 2000⛀ mỗi 36h sau khi dùng lệnh §c/kit§8,§r§7 Nhận ngay 1 key weapon + armor mỗi 36h bằng lệnh §c/kit§8, §r§7Dùng được song song kit [Member] và [MemberS]
+VipI.features: §lQuyền lợi rank §0[§eVIP§7 丶 §dI §e༻§0] [§cVĩnh viễn§0] §r§lnhư sau §r§7➢ Đặc quyền dùng §c/nick §7để đổi tên§8,§7 có thể dùng §c/food §7để hồi thức ăn§8,§7 sử dụng kit VipI bằng lệnh §c/kit§8,§r§7 Nhận 5000⛀ mỗi 48h sau khi dùng lệnh §c/kit§8,§r§7 Nhận ngay 2 key weapon + armor mỗi 48h bằng lệnh §c/kit§8, §r§7Đặc quyền fly trong đảo free bằng lệnh §c/fly§8, §r§7Dùng được song song kit [Member] + [MemberS] + [VipI]
+VipII.features: §lQuyền lợi rank §0[§eVIP§7 丶 §dII §e༻§0] [§cVĩnh viễn§0] §r§lnhư sau §r§7➢ Đặc quyền dùng §c/nick §7để đổi tên§8,§7 có thể dùng §c/food §7để hồi thức ăn§8,§7 sử dụng kit VipII bằng lệnh §c/kit§8,§r§7 Nhận 10000⛀ mỗi 48h sau khi dùng lệnh §c/kit§8,§r§7 Nhận ngay 3 key weapon + armor và 1 key daily mỗi 48h bằng lệnh §c/kit§8, §r§7Đặc quyền fly trong đảo free bằng lệnh §c/fly§8, §r§7Dùng được song song kit [Member] + [MemberS] + [VipII]
+Kings.features: §lQuyền lợi rank §0[§6King§eＳ §c༉࿑§0] [§cVĩnh viễn§0] §r§lnhư sau §r§7➢ Đặc quyền dùng §c/nick §7để đổi tên§8,§7 có thể dùng §c/food và §c/heal §7để hồi thức ăn và máu§8,§7 sử dụng kit KingS bằng lệnh §c/kit§8,§r§7 Nhận 15000⛀ mỗi 60h sau khi dùng lệnh §c/kit§8,§r§7 Nhận ngay 4 key weapon + armor + daily mỗi 60h bằng lệnh §c/kit§8, §r§7Đặc quyền fly trong đảo free bằng lệnh §c/fly§8, §r§7Dùng được song song kit [Member] + [MemberS] + [KingS]
+Legend.features: §lQuyền lợi rank §0[§cＬegen§4dary §6࿐§0] [§cVĩnh viễn§0] §r§lnhư sau §r§7➢ Đặc quyền dùng §c/nick §7để đổi tên§8,§7 có thể dùng §c/food và §c/heal §7để hồi thức ăn và máu§8, §7sử dụng kit Legendary bằng lệnh §c/kit§8,§r§7 Nhận 20000⛀ mỗi 48h sau khi dùng lệnh §c/kit§8,§r§7 Nhận ngay 5 key weapon + armor + daily mỗi 60h bằng lệnh §c/kit§8, §r§7Đặc quyền fly trong đảo free bằng lệnh §c/fly§8, §r§7Dùng được song song kit [Member] + [MemberS] + [Legendary]
+
+NewbieSday.features: §lQuyền lợi rank §0[§bMember§eＳ§0] [§915 ngày§0] §r§lnhư sau §r§7➢ Đặc quyền dùng §c/nick §7để đổi tên§8,§7 sử dụng kit MemberS bằng cách dùng lệnh §c/kit§8,§r§7 Nhận ngay 2000⛀ mỗi 36h sau khi dùng lệnh §c/kit§8,§r§7 Nhận ngay 1 key weapon + armor mỗi 36h bằng lệnh §c/kit§8, §r§7Dùng được song song kit [Member] và [MemberS]
+VipIday.features: §lQuyền lợi rank §0[§eVIP§7 丶 §dI §e༻§0] [§915 ngày§0] §r§lnhư sau §r§7➢ Đặc quyền dùng §c/nick §7để đổi tên§8,§7 có thể dùng §c/food §7để hồi thức ăn§8,§7 sử dụng kit VipI bằng lệnh §c/kit§8,§r§7 Nhận 5000⛀ mỗi 48h sau khi dùng lệnh §c/kit§8,§r§7 Nhận ngay 2 key weapon + armor mỗi 48h bằng lệnh §c/kit§8, §r§7Đặc quyền fly trong đảo free bằng lệnh §c/fly§8, §r§7Dùng được song song kit [Member] + [MemberS] + [VipI]
+VipIIday.features: §lQuyền lợi rank §0[§eVIP§7 丶 §dII §e༻§0] [§915 ngày§0] §r§lnhư sau §r§7➢ Đặc quyền dùng §c/nick §7để đổi tên§8,§7 có thể dùng §c/food §7để hồi thức ăn§8,§7 sử dụng kit VipII bằng lệnh §c/kit§8,§r§7 Nhận 10000⛀ mỗi 48h sau khi dùng lệnh §c/kit§8,§r§7 Nhận ngay 3 key weapon + armor và 1 key daily mỗi 48h bằng lệnh §c/kit§8, §r§7Đặc quyền fly trong đảo free bằng lệnh §c/fly§8, §r§7Dùng được song song kit [Member] + [MemberS] + [VipII]
+Kingsday.features: §lQuyền lợi rank §0[§6King§eＳ §c༉࿑§0] [§915 ngày§0] §r§lnhư sau §r§7➢ Đặc quyền dùng §c/nick §7để đổi tên§8,§7 có thể dùng §c/food và §c/heal §7để hồi thức ăn và máu§8,§7 sử dụng kit KingS bằng lệnh §c/kit§8,§r§7 Nhận 15000⛀ mỗi 60h sau khi dùng lệnh §c/kit§8,§r§7 Nhận ngay 4 key weapon + armor + daily mỗi 60h bằng lệnh §c/kit§8, §r§7Đặc quyền fly trong đảo free bằng lệnh §c/fly§8, §r§7Dùng được song song kit [Member] + [MemberS] + [KingS]
+Legendday.features: §lQuyền lợi rank §0[§cＬegen§4dary §6࿐§0] [§915 ngày§0] §r§lnhư sau §r§7➢ Đặc quyền dùng §c/nick §7để đổi tên§8,§7 có thể dùng §c/food và §c/heal §7để hồi thức ăn và máu§8, §7sử dụng kit Legendary bằng lệnh §c/kit§8,§r§7 Nhận 20000⛀ mỗi 48h sau khi dùng lệnh §c/kit§8,§r§7 Nhận ngay 5 key weapon + armor + daily mỗi 60h bằng lệnh §c/kit§8, §r§7Đặc quyền fly trong đảo free bằng lệnh §c/fly§8, §r§7Dùng được song song kit [Member] + [MemberS] + [Legendary]
+
+...

@@ -1,0 +1,58 @@
+---
+language: en
+commands:
+  mypoint:
+    usage: /mypoint
+    description: See your point
+  toppoint:
+    usage: /toppoint [page]
+    description: Shows top point of this server
+  setpoint:
+    usage: /setpoint <player> <amount>
+    description: Set point of player
+  seepoint:
+    usage: /seepoint <player>
+    description: Shows point of player
+  givepoint:
+    usage: /givepoint <player> <amount>
+    description: Gives point to player
+  takepoint:
+    usage: /takepoint <player> <amount>
+    description: Takes point from player
+  payp:
+    usage: /payp <player> <amount>
+    description: Pays point to player
+  setlangp:
+    usage: /setlangp <language>
+    description: Set your language
+  mystatusp:
+    usage: /mystatusp
+    description: Shows your status of point
+language-set: Đã chọn %1 là ngôn ngữ
+request-cancelled: Yêu cầu của bạn đã bị hủy
+player-not-connected: §cNgười chơi §f%1 §ckhông online
+player-never-connected: §cNgười chơi §f%1 §cchưa từng được thấy trong server
+toppoint-tag: '- §aTOP POINT (%1/%2) -'
+toppoint-format: '§e[%1] §f%2: §e%3'
+payp-failed: §cBạn không có đủ tiền để chuyển.
+payp-success: §aBạn đã chuyển §f%MONETARY_UNIT% §ePoint §acho §f%2 §athành công.
+point-paid: §aNgười chơi §f%1 §ađã gửi cho bạn §f%MONETARY_UNIT% §ePoint.
+takepoint-must-be-number: Số lượng phải là số
+takepoint-invalid-number: Số không hợp lệ
+takepoint-player-lack-of-point: '%1 does not have enough %MONETARY_UNIT%%2. %1''s
+  point : %MONETARY_UNIT%%3'
+takepoint-point-taken: Your %MONETARY_UNIT%%1 have been taken
+takepoint-took-point: Taken %MONETARY_UNIT%%2 from %1
+takepoint-failed: You have failed to take point
+givepoint-must-be-number: Amount must be numeric
+givepoint-invalid-number: Invalid number
+givepoint-point-given: You have earned %MONETARY_UNIT%%1
+givepoint-gave-point: Gave %MONETARY_UNIT%%1 to %2
+seepoint-seepoint: 'Người chơi %1 có: %2 Point'
+setpoint-setpoint: Player %1's point has been set to %MONETARY_UNIT%%2
+setpoint-set: Your point was set to %MONETARY_UNIT%%1
+setpoint-failed: §cKhông thể set point do lỗi không xác định
+setpoint-invalid-number: '%MONETARY_UNIT%%1 must be a numeric value'
+mypoint-mypoint: 'Point của bạn: %MONETARY_UNIT%%1'
+mystatusp-show: 'Trạng thái point của bạn là: %1%'
+...

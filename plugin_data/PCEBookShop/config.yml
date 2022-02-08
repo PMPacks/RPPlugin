@@ -1,0 +1,22 @@
+# PCEBookShop Configuration File
+
+economy:
+  # Possible Providers: economyapi, multieconomy, xp
+  provider: xp
+  # This is used for the MultiEconomy provider
+  multieconomy-currency: ""
+
+cost:
+  # If you are using xp provider, 1 = 1 level of experience.
+  common: 50
+  uncommon: 65
+  rare: 75
+  mythic: 90
+
+chance:
+  # Gamma for weighting levels. Higher gamma = lower change of high-level books.
+  # Tests: https://gist.github.com/Aericio/856c9b54f98af2164ce8600c5be3eb17
+  gamma: 1.5
+
+excluded-enchants:
+  - "placeholder"

@@ -1,0 +1,8 @@
+name: MineLevel
+version: 1.0.0
+main: TungstenVn\MineLevel
+api: 3.0.0
+author: TungstenVn
+commands:
+  minelevel:
+    description: Cấp mine thẻ mùa của bạn / xem cấp người khác

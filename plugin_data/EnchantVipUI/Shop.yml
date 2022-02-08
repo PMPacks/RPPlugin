@@ -1,0 +1,143 @@
+---
+#Don't Change this
+version: "0.6"
+
+#send EnchantUI to the player when he interacts with the Enchanting-table
+enchanting-table: true
+
+#EnchantUI version 0.5
+Title: "§l§8【 §cSHOP ENCHANT POINT §8】"
+Button: "§l§c{NAME} §f{PRICE}§6Ｐ"
+slider-title: "§c§lCấp §f( §cMax 1 §f-> §c5 Tùy Theo Loại §f)"
+messages:
+  thanks: "§l§fCảm ơn vì đã dùng §cMuaECVip."
+  label: "§l§cBạn sẽ mua với giá §f{PRICE}§6Ｐ §cmỗi level enchant."
+  not-enough-money: "§f§lBạn không đủ §6Ｐ §fđể mua enchant này!"
+  paid-success: "§l§fBạn đã mua §c{NAME} §fcấp §c{LEVEL} §fvới giá {PRICE}§6Ｐ§f."
+  hold-item: "§l§fLàm ơn hãy cầm item có thể enchant trên tay!"
+  no-perm: "§l§cBạn không có quyền để dùng lệnh này!"
+  incompatible-enchantment: []
+  
+#WARNING: Use only Enchantment ID at incompatible-enchantments example [1,10,13]
+shop:
+- name: "§l§cĐâm Đằng Sau §8【§cVũ Khí§8】"
+  enchantment: backstab
+  price: 50
+  max-level: 3
+  incompatible-enchantments: []
+- name: "§l§cGây Mù §8【§cVũ Khí§8】"
+  enchantment: blind
+  price: 50
+  max-level: 1
+  incompatible-enchantments: []
+- name: "§l§cGây Què Chân §8【§cVũ Khí§8】"
+  enchantment: cripple
+  price: 50
+  max-level: 3
+  incompatible-enchantments: []
+- name: "§l§cHất Tung §8【§cVũ Khí§8】"
+  enchantment: gooey
+  price: 50
+  max-level: 3
+  incompatible-enchantments: []
+- name: "§l§cGây Độc §8【§cVũ Khí§8】"
+  enchantment: poison
+  price: 50
+  max-level: 2
+  incompatible-enchantments: []
+- name: "§l§cHút Máu §8【§cVũ Khí§8】"
+  enchantment: vampire
+  price: 55
+  max-level: 3
+  incompatible-enchantments: []
+- name: "§l§cLấy Mạng §8【§cVũ Khí§8】"
+  enchantment: lifesteal
+  price: 50
+  max-level: 3
+  incompatible-enchantments: []
+- name: "§l§cCầu Lửa §8【§cCung§8】"
+  enchantment: blaze
+  price: 55
+  max-level: 2
+  incompatible-enchantments: []
+- name: "§l§cHồi Phục Người Khác §8【§cCung§8】"
+  enchantment: healing
+  price: 45
+  max-level: 3
+  incompatible-enchantments: []
+- name: "§l§cXuyên Thấu §8【§cCung§8】"
+  enchantment: piercing
+  price: 50
+  max-level: 3
+  incompatible-enchantments: []
+- name: "§l§cTự Nung Chảy §8【§cCông Cụ§8】"
+  enchantment: smelting
+  price: 50
+  max-level: 3
+  incompatible-enchantments: []
+- name: "§l§cSự Nhanh Chóng §8【§cCông Cụ§8】"
+  enchantment: quickening
+  price: 50
+  max-level: 3
+  incompatible-enchantments: []
+- name: "§l§cHaste §8【§cCúp§8】"
+  enchantment: haste
+  price: 55
+  max-level: 5
+  incompatible-enchantments: []
+- name: "§l§cNhân Đôi Quặng §8【§cCúp§8】"
+  enchantment: jackpot
+  price: 50
+  max-level: 3
+  incompatible-enchantments: []
+- name: "§l§cTiều Phu §8【§cRìu§8】"
+  enchantment: lumberjack
+  price: 50
+  max-level: 3
+  incompatible-enchantments: []
+- name: "§l§cNông Dân §8【§cCuốc§8】"
+  enchantment: farmer
+  price: 50
+  max-level: 3
+  incompatible-enchantments: []
+- name: "§l§cThu Thập §8【§cCuốc§8】"
+  enchantment: harvest
+  price: 50
+  max-level: 3
+  incompatible-enchantments: []
+- name: "§l§cSát Thủ §8【§cÁo Giáp§8】"
+  enchantment: cloaking
+  price: 55
+  max-level: 3
+  incompatible-enchantments: []
+- name: "§l§cHồi Sinh Dùng 1 Lần §8【§cÁo Giáp§8】"
+  enchantment: revive
+  price: 7
+  max-level: 1
+  incompatible-enchantments: []
+- name: "§l§cĐóng Băng §8【§cÁo Giáp§8】"
+  enchantment: frozen
+  price: 50
+  max-level: 3
+  incompatible-enchantments: []
+- name: "§l§cNổi Máu §8【§cÁo Giáp§8】"
+  enchantment: berserker
+  price: 50
+  max-level: 3
+  incompatible-enchantments: []
+- name: "§l§cNhìn Trong Bóng Tối §8【§cMũ§8】"
+  enchantment: glowing
+  price: 50
+  max-level: 1
+  incompatible-enchantments: []
+- name: "§l§cThiền §8【§cMũ§8】"
+  enchantment: meditation
+  price: 50
+  max-level: 3
+  incompatible-enchantments: []
+- name: "§l§cTự Sửa Chữa §8【§cTất Cả§8】"
+  enchantment: autorepair
+  price: 55
+  max-level: 5
+  incompatible-enchantments: []
+...

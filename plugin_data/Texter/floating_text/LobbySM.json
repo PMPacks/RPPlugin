@@ -1,0 +1,50 @@
+{
+    "boss1": {
+        "x": 2020202,
+        "y": 38382828,
+        "z": 7202020,
+        "texts": [
+            "§l§e[ §aTrữ §e/ §aLấy Đồ Của Bạn Tại Đây§e ]"
+        ]
+    },
+    "khu1": {
+        "x": 98.4,
+        "y": 12,
+        "z": 107.4,
+        "texts": [
+            "§l§aBoss §e【§bＸácＣhếtＢăngＧía§e】#§l§aĐộ Khó §e【§cKhó§e】"
+        ]
+    },
+    "khu2": {
+        "x": 125.7,
+        "y": 11,
+        "z": 145.5,
+        "texts": [
+            "§l§aBoss §e【ＶuaＲừngＸanh§e】#§l§aĐộ Khó §e【§4Siêu Khó§e】"
+        ]
+    },
+    "khu3": {
+        "x": 117.6,
+        "y": 11,
+        "z": 134.8,
+        "texts": [
+            "§l§aBoss §e【§aＺombieＨưＫhông§e】#§l§aĐộ Khó §e【§aDễ§e】"
+        ]
+    },
+    "khu4": {
+        "x": 113.5,
+        "y": 11,
+        "z": 153.9,
+        "texts": [
+            "§l§aBoss §e【§dＨộＶệＳaＭạc§e】#§l§aĐộ Khó §e【§gTrung Bình§e】"
+        ]
+    },
+    "z1": {
+        "x": 161.5,
+        "y": 11,
+        "z": 145.1,
+        "texts": [
+            "§l§e【§aQuái Nhỏ§e】#§l§aĐộ Khó §e【§5???§e】"
+        ]
+    }
+}

@@ -1,0 +1,365 @@
+{
+    "cursed": {
+        "durationMultipliers": [
+            60
+        ],
+        "amplifierMultipliers": [
+            1
+        ]
+    },
+    "drunk": {
+        "durationMultipliers": [
+            60,
+            60,
+            60
+        ],
+        "amplifierMultipliers": [
+            1,
+            1,
+            0
+        ]
+    },
+    "frozen": {
+        "durationMultipliers": [
+            60
+        ],
+        "amplifierMultipliers": [
+            1
+        ]
+    },
+    "hardened": {
+        "durationMultipliers": [
+            60
+        ],
+        "amplifierMultipliers": [
+            1
+        ]
+    },
+    "poisoned": {
+        "durationMultipliers": [
+            60
+        ],
+        "amplifierMultipliers": [
+            1
+        ]
+    },
+    "revulsion": {
+        "durationMultipliers": [
+            20
+        ],
+        "amplifierMultipliers": [
+            0
+        ]
+    },
+    "aerial": {
+        "additionalMultiplier": 0.1
+    },
+    "backstab": {
+        "additionalMultiplier": 0.1
+    },
+    "charge": {
+        "additionalMultiplier": 0.1
+    },
+    "blind": {
+        "durationMultiplier": [
+            20
+        ],
+        "amplifierMultiplier": [
+            0
+        ],
+        "baseDuration": [
+            100
+        ],
+        "baseAmplifier": [
+            0
+        ]
+    },
+    "cripple": {
+        "durationMultiplier": [
+            100,
+            100
+        ],
+        "amplifierMultiplier": [
+            0,
+            1
+        ],
+        "baseDuration": [
+            0
+        ],
+        "baseAmplifier": [
+            0
+        ]
+    },
+    "poison": {
+        "durationMultiplier": [
+            60
+        ],
+        "amplifierMultiplier": [
+            1
+        ],
+        "baseDuration": [
+            0
+        ],
+        "baseAmplifier": [
+            0
+        ]
+    },
+    "wither": {
+        "durationMultiplier": [
+            60
+        ],
+        "amplifierMultiplier": [
+            1
+        ],
+        "baseDuration": [
+            0
+        ],
+        "baseAmplifier": [
+            0
+        ]
+    },
+    "blaze": [],
+    "homing": [],
+    "porkified": [],
+    "witherskull": [],
+    "enraged": {
+        "baseAmplifier": -1,
+        "amplifierMultiplier": 1
+    },
+    "gears": {
+        "baseAmplifier": 0,
+        "amplifierMultiplier": 0
+    },
+    "glowing": {
+        "baseAmplifier": 0,
+        "amplifierMultiplier": 0
+    },
+    "haste": {
+        "baseAmplifier": 0,
+        "amplifierMultiplier": 1
+    },
+    "obsidianshield": {
+        "baseAmplifier": 0,
+        "amplifierMultiplier": 0
+    },
+    "oxygenate": {
+        "baseAmplifier": 0,
+        "amplifierMultiplier": 0
+    },
+    "springs": {
+        "baseAmplifier": 3,
+        "amplifierMultiplier": 0
+    },
+    "antiknockback": [],
+    "antitoxin": [],
+    "autoaim": {
+        "radiusMultiplier": 50
+    },
+    "autorepair": {
+        "baseRepair": 1,
+        "repairMultiplier": 1
+    },
+    "armored": {
+        "absorbedDamageMultiplier": 0.2
+    },
+    "berserker": {
+        "minimumHealth": 4,
+        "effectDurationMultiplier": 200,
+        "effectAmplifierBase": 3,
+        "effectAmplifierMultiplier": 1
+    },
+    "blessed": [],
+    "bombardment": [],
+    "bountyhunter": {
+        "base": 7,
+        "multiplier": 1
+    },
+    "cactus": [],
+    "chicken": {
+        "treasureChanceMultiplier": 5,
+        "treasures": [
+            "266:0:1"
+        ],
+        "interval": 6000
+    },
+    "cloaking": {
+        "durationMultiplier": 60
+    },
+    "deathbringer": {
+        "base": 2,
+        "multiplier": 0.1
+    },
+    "deepwounds": {
+        "interval": 20,
+        "durationMultiplier": 20,
+        "base": 1,
+        "multiplier": 0.066
+    },
+    "disarming": [],
+    "disarmor": [],
+    "driller": {
+        "distanceMultiplier": 1
+    },
+    "endershift": {
+        "speedDurationMultiplier": 200,
+        "speedBaseAmplifier": 3,
+        "speedAmplifierMultiplier": 1,
+        "strengthDurationMultiplier": 200,
+        "strengthBaseAmplifier": 3,
+        "strengthAmplifierMultiplier": 1
+    },
+    "energizing": {
+        "duration": 20,
+        "baseAmplifier": -1,
+        "amplifierMultiplier": 1
+    },
+    "enlighted": {
+        "durationMultiplier": 60,
+        "baseAmplifier": 0,
+        "amplifierMultiplier": 1
+    },
+    "explosive": {
+        "sizeMultiplier": 5
+    },
+    "farmer": [],
+    "fertilizer": {
+        "radiusMultiplier": 1
+    },
+    "focused": [],
+    "forcefield": {
+        "radiusMultiplier": 0.75
+    },
+    "gooey": {
+        "base": 0.75,
+        "multiplier": 0.15
+    },
+    "grappling": [],
+    "grow": {
+        "power": 1200,
+        "base": 0.3,
+        "multiplier": 0.0125
+    },
+    "hallucination": [],
+    "harvest": {
+        "radiusMultiplier": 1
+    },
+    "headhunter": {
+        "additionalMultiplier": 0.1
+    },
+    "healing": {
+        "healthReplenishMultiplier": 1
+    },
+    "heavy": {
+        "absorbedDamageMultiplier": 0.2
+    },
+    "implants": {
+        "foodReplenishAmountMultiplier": 1,
+        "airTicksReplenishAmountMultiplier": 40,
+        "airReplenishInterval": 60
+    },
+    "jackpot": [],
+    "lifesteal": {
+        "base": 2,
+        "multiplier": 1
+    },
+    "luckycharm": {
+        "additionalMultiplier": 0.05
+    },
+    "lumberjack": {
+        "limit": 800
+    },
+    "magmawalker": {
+        "baseRadius": 2,
+        "radiusMultiplier": 1
+    },
+    "meditation": {
+        "duration": 400,
+        "healthReplenishAmountMultiplier": 1,
+        "foodReplenishAmountMultiplier": 1
+    },
+    "molotov": [],
+    "molten": {
+        "durationMultiplier": 3
+    },
+    "overload": {
+        "multiplier": 2
+    },
+    "parachute": [],
+    "paralyze": {
+        "slownessBaseDuration": 40,
+        "slownessDurationMultiplier": 20,
+        "slownessBaseAmplifier": 4,
+        "slownessAmplifierMultiplier": 1,
+        "blindnessBaseDuration": 40,
+        "blindnessDurationMultiplier": 20,
+        "weaknessBaseDuration": 40,
+        "weaknessDurationMultiplier": 20,
+        "weaknessBaseAmplifier": 4,
+        "weaknessAmplifierMultiplier": 1
+    },
+    "piercing": [],
+    "prowl": [],
+    "quickening": {
+        "duration": 40,
+        "baseAmplifier": 1,
+        "amplifierMultiplier": 1
+    },
+    "radar": {
+        "radiusMultiplier": 50
+    },
+    "revive": {
+        "nauseaDuration": 600,
+        "slownessDuration": 600
+    },
+    "selfdestruct": {
+        "tntAmountMultiplier": 1
+    },
+    "shielded": [],
+    "shrink": {
+        "power": 1200,
+        "base": 0.7,
+        "multiplier": 0.0125
+    },
+    "shuffle": [],
+    "smelting": [],
+    "soulbound": [],
+    "spider": [],
+    "stomp": {
+        "redistributedDamageMultiplier": 0.5,
+        "absorbedDamageMultiplier": 0.75
+    },
+    "tank": {
+        "absorbedDamageMultiplier": 0.2
+    },
+    "telepathy": [],
+    "vacuum": {
+        "radiusMultiplier": 3
+    },
+    "vampire": {
+        "healthMultiplier": 0.5,
+        "foodMultiplier": 0.5
+    },
+    "volley": {
+        "base": 1,
+        "multiplier": 2
+    },
+    "jetpack": {
+        "power": 300,
+        "rechargeAmount": 0.66,
+        "enableAmount": 25,
+        "drainMultiplier": 1,
+        "sprintDrainMultiplier": 1.25,
+        "speedMultiplier": 1,
+        "sprintSpeedMultiplier": 1.25
+    },
+    "lightning": [],
+    "missile": {
+        "multiplier": 1
+    },
+    "poisonouscloud": {
+        "radiusMultiplier": 3,
+        "durationMultiplier": 100,
+        "baseAmplifier": -1,
+        "amplifierMultiplier": 1
+    }
+}

@@ -1,0 +1,63 @@
+# Use the § symbol for color coding
+# Color code list https://minecraft.tools/en/color-code.php
+# Use %name for the name of the player who vanished
+# use %other-name for the name of the player who vanished another player
+#   Default Config:
+#     FakeLeave-message: "§e%name Left the game"
+#     FakeJoin-message: "§e%name joined the game"
+#     vanish-message: "§aYou are now vanished."
+#     unvanish-message: "§cYou are no longer vanished!"
+#     vanish: "§7§o[%name: Vanished]"
+#     unvanish: "§7§o[%name: Unvanished]"
+#     vanish-other: "§aVanished %name"
+#     unvanish-other: "§cUnvanished %name"
+#     vanished-other: "§aYou are now vanished."
+#     unvanished-other: "§cYou are no longer vanished!"
+#     hud-message: "§aYou are currently vanished"
+
+
+# Do not change this!
+config-version: 4
+
+# The message that will be sent to online players when you turn on your vanish
+enable-leave: false
+FakeLeave-message: "§e%name Đã thoát server"
+
+# The message that will be sent to online players when you turn off your vanish
+enable-join: false
+FakeJoin-message: "§e%name Đã vào server"
+
+# choose the message that will be sent when a player execute /vanish
+vanish-message: "§aBạn đang ở chế độ tàng hình."
+unvanish-message: "§cBạn đã hết tàng hình!"
+
+# Choose the message that will be sent to player with the permission vanish.see when a player execute /vanish
+vanish: ""
+unvanish: ""
+
+# Choose the message that will be sent to the player who vanished another player
+vanish-other: "§Đã tàng hình %name"
+unvanish-other: "§cĐã hết tàng hình %name"
+
+# Choose the message that will be sent to the player when another player vanish him
+vanished-other: "§aBạn đang ở chế độ tàng hình."
+unvanished-other: "§cBạn đã hết tàng hình!"
+
+# Choose the hud message that will be shown when you are vanished
+hud-message: "§aBẠN ĐANG Ở CHẾ ĐỘ TÀNG HÌNH"
+
+# Choose if the player should be unvanished when he leave the server
+unvanish-after-leaving: false
+
+# Choose if vanished players can fly when they are in survival
+enable-fly: true
+
+# Choose if vanished players can take damage when they are in survival mode
+disable-damage: true
+
+# Choose if chest should be silent when you open them (Chests will be read-only)
+silent-chest: true
+
+# Choose if vanished players should lose hunger
+hunger: false
+...

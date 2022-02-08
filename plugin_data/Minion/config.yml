@@ -1,0 +1,22 @@
+# The name of the vault's inventory
+# {PLAYER} -> The player name
+# {NUMBER} -> The vault number
+inventory-name: "§lTÚI ĐỒ CỦA MINION - ĐỆ TỬ"
+
+ban-blocks: [7, 54]
+database:
+  # The database type. "sqlite" and "mysql" are supported.
+  type: sqlite
+
+  # Edit these settings only if you choose "sqlite".
+  sqlite:
+    # The file name of the database in the plugin data folder.
+    # You can also put an absolute path here.
+    file: data.sqlite
+  # Edit these settings only if you choose "mysql".
+  mysql:
+    host: 127.0.0.1
+    # Avoid using the "root" user for security reasons.
+    username: root
+    password: ""
+    schema: your_schema

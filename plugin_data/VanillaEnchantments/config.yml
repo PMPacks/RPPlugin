@@ -1,0 +1,28 @@
+---
+# Developed by TheAz928
+# VanillaEnchantments configuration file
+
+# Fortune applicable blocks
+# Only these blocks will have their drops multiplied
+# Format: "name or id"
+fortune.blocks:
+- coal_ore
+- iron_ore
+- gold_ore
+- diamond_ore
+- leaves
+- nether_quartz_ore
+- glowstone
+- redstone_ore
+- emerald_ore
+- glowing_redstone_ore
+
+# Looting applicable entities
+looting.entities:
+  chicken:
+  - "feather" # If drops contain feather, it'll be multiplied
+
+# Version, recommended to not change
+version: "1.2.5"
+
+...

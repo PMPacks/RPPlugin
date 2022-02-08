@@ -1,0 +1,9 @@
+name: MuaSsp
+version: 2.0
+api: 3.0.0
+main: MuaSsp\Main
+author: NoobPvP2k3 And Shin1134
+
+commands:
+  muassp:
+   description: Mua SeasonPass

@@ -1,0 +1,24 @@
+---
+# MysteryCrate Language File. Default (en), mod to (vi)
+#
+# Use "§" for adding colors.
+
+no_perm_use_crate: "§l§7【§a༺§bMNF§a༻§7】 §c§lBạn Không Có Quyền Để Sử Dụng §dCrate."
+no_perm_destroy: "§l§7【§a༺§bMNF§a༻§7】 §l§cBạn Không Có Quyền Để Đập §dCrate."
+no_perm_create: "§l§7【§a༺§bMNF§a༻§7】 §c§lBạn Không Có Quyền Để Tạo §dCrate."
+
+crate_destroy_successful: "§l§7【§a༺§bMNF§a༻§7】 §aĐã Phá Hủy Rương Thành Công, Khởi Động Lại Server Để Xóa Hiệu Ứng Và Tên."
+crate_place_successful: "§l§7【§a༺§bMNF§a༻§7】 §aĐã Tạo Rương Thành Công, Khởi Động Lại Server Để Hiện Hiệu Ứng Và Tên"
+
+no_key: "§l§7【§a༺§bMNF§a༻§7】 §e§lBạn Cần Phải Có §d%TYPE% §eKey Để Mở Crate."
+
+error_sneak: "§l§7【§a༺§bMNF§a༻§7】 §c§lBạn Không Thể Mở Crate Vì Bạn Đang Ngồi."
+error_crate_in_use: "§l§7【§a༺§bMNF§a༻§7】 §e§lCrate Đang Được Mở, Xin Chờ 1 Lát...."
+
+# The message that will be sent to the players when they win a reward from the crate.
+# Optional:
+# %REWARD% - The name of the reward given to the player.
+# %COUNT% - The amount of the reward the player would receive.
+# %CRATE% - The name of the crate from which player received the reward.
+win_message: "§l§7【§a༺§bMNF§a༻§7】 §6§lChúc Mừng, Bạn Đã Nhận Được §c%REWARD% §c(x%COUNT%) §6§lTừ §d%CRATE% §6Crate."
+...

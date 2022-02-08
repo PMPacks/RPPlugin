@@ -1,0 +1,93 @@
+VERSION: "1.1.0" # Internal use only
+
+entities:
+  # Enable lightning and fire damage
+  lightning-fire-damage: true
+  # Enable or disable minecart functionality
+  minecarts: false
+  # Enable or disable fireworks
+  fireworks: true
+  end-crystal:
+    # Enable or disable End Crystal explosions
+    explosions: true
+    # Set End Crystal explosion power
+    power: 6
+
+enchantments:
+  # Enable or disable vanilla enchantment registration
+  vanilla: true
+  # Enable or disable enchantment tables
+  # WARNING: This feature is currently handled by the client and can be exploited
+  enchantment-table: false
+
+dimensions:
+  # Nether dimension configuration
+  nether:
+    # Enable or disable teleporting to the Nether dimension (using portal)
+    enabled: true
+    # Enable or disable the Nether level generation
+    # If you have your own Nether world, you can disable this to use it
+    generate: true
+    # Set the name of the nether level
+    name: "nether"
+  # End dimension configuration
+  end:
+    # Enable or disable teleporting to the End dimension (using portal)
+    enabled: false
+    # Enable or disable the End level generation
+    # If you have your own End world, you can disable this to use it
+    generate: true
+    # Set the name of the end level
+    name: "end"
+
+weather:
+  # Enable or disable the weather cycle
+  enabled: false
+  # These values are in ticks
+  duration:
+    # Minimum weather duration for one cycle
+    minimum: 6000
+    # Maximum weather duration for one cycle
+    maximum: 12000
+  # Enable or disable lightning in weather storms
+  lightning: true
+
+player:
+  # Choose whether to limit players in creative from moving or dropping items
+  limited-creative: false
+  # Choose whether to clear a player's inventory when they switch gamemodes
+  clear-inv: false
+  # Choose whether to allow players to right click armor to equip
+  instant-armor: true
+  # Elytra configuration
+  elytra:
+    # Enable or disable elytra functionality
+    enabled: true
+    # Enable or disable elytra boosting functionality
+    boost: true
+    # Enable or disable elytra particles
+    particles: true
+  # Enable or disable fishing functionality
+  fishing: false
+
+blocks:
+  # Enable or disable dragon egg teleportation
+  dragon-egg-teleport: true
+  # Enable or disable brewing stand functionality
+  brewing-stands: false
+  # Enable or disable cauldron functionality
+  cauldrons: false
+  # Enable or disable shulker box functionality
+  shulker-box: true
+  # Enable or disable snow melting
+  snow-melts: true
+  # Enable or disable hopper functionality
+  hoppers: true
+  # Enable or disable anvil functionality
+  # WARNING: This feature is currently handled by the client and can be exploited
+  anvils: false
+  beacons:
+    # Enable or disable beacon functionality
+    enabled: false
+    # Enable or disable beacon effects
+    effects: true

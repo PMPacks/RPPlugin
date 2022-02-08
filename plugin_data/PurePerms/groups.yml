@@ -1,0 +1,413 @@
+---
+Member:
+  alias: member
+  isDefault: true
+  inheritance: []
+  permissions:
+  - -pocketmine.command.me
+  - autosell.command.autosell
+  - kit.hothankit
+  - kit.member
+  - mw.cmd.teleport
+  - pchat.colored.format
+  - pchat.colored.nametag
+  - pocketmine.command.list
+  - pperms.command.ppinfo
+  - use.shop.menu
+  worlds: []
+MemberS:
+  alias: members
+  inheritance:
+  - Member
+  permissions:
+  - -pocketmine.command.me
+  - autosell.command.autosell
+  - kit.hothankit
+  - kit.member
+  - kit.members
+  - mw.cmd.teleport
+  - nick.use
+  - pchat.colored.format
+  - pchat.colored.nametag
+  - pocketmine.command.list
+  - pperms.command.ppinfo
+  - use.shop.menu
+  worlds: []
+Vote:
+  alias: vote
+  inheritance:
+  - Member
+  - MemberS
+  permissions:
+  - -pocketmine.command.me
+  - autosell.command.autosell
+  - flype.command
+  - kit.hothankit
+  - kit.member
+  - kit.members
+  - kit.votekit
+  - nick.use
+  - pchat.colored.format
+  - pchat.colored.nametag
+  - pocketmine.command.list
+  - pperms.command.ppinfo
+  - use.shop.menu
+  worlds: []
+VipI:
+  alias: vip1
+  inheritance:
+  - Member
+  - MemberS
+  - Vote
+  permissions:
+  - -pocketmine.command.me
+  - autosell.command.autosell
+  - flype.command
+  - food.command
+  - kit.hothankit
+  - kit.member
+  - kit.members
+  - kit.vip1
+  - mw.cmd.teleport
+  - nick.use
+  - pchat.colored.format
+  - pchat.colored.nametag
+  - pocketmine.command.list
+  - pperms.command.ppinfo
+  - use.shop.menu
+  worlds: []
+VipII:
+  alias: vip2
+  inheritance:
+  - Member
+  - MemberS
+  - VipI
+  - Vote
+  permissions:
+  - -pocketmine.command.me
+  - autosell.command.autosell
+  - flype.command
+  - food.command
+  - kit.hothankit
+  - kit.member
+  - kit.members
+  - kit.vip2
+  - mw.cmd.teleport
+  - nick.use
+  - pchat.colored.format
+  - pchat.colored.nametag
+  - pocketmine.command.list
+  - pperms.command.ppinfo
+  - use.shop.menu
+  worlds: []
+KingS:
+  alias: kings
+  inheritance:
+  - Member
+  - MemberS
+  - VipI
+  - VipII
+  - Vote
+  permissions:
+  - -pocketmine.command.me
+  - autosell.command.autosell
+  - flype.command
+  - food.command
+  - heal.command
+  - kit.hothankit
+  - kit.kings
+  - kit.member
+  - kit.members
+  - nick.use
+  - pchat.colored.format
+  - pchat.colored.nametag
+  - pocketmine.command.list
+  - pperms.command.ppinfo
+  - use.shop.menu
+  worlds: []
+Legendary:
+  alias: legend
+  inheritance:
+  - Member
+  - MemberS
+  - VipI
+  - VipII
+  - KingS
+  - Vote
+  permissions:
+  - -pocketmine.command.me
+  - autosell.command.autosell
+  - flype.command
+  - food.command
+  - heal.command
+  - kit.hothankit
+  - kit.legendary
+  - kit.member
+  - kit.members
+  - nick.use
+  - pchat.colored.format
+  - pchat.colored.nametag
+  - pocketmine.command.list
+  - pperms.command.ppinfo
+  - use.shop.menu
+  worlds: []
+Admin:
+  alias: admin
+  inheritance:
+  - Member
+  - MemberS
+  - VipI
+  - VipII
+  - KingS
+  - Vote
+  - Legendary
+  - Police
+  permissions:
+  - -pocketmine.command.me
+  - 1vs1.cmd.join
+  - autosell.command.autosell
+  - flype.command
+  - food.command
+  - heal.command
+  - invsee.enderinventory
+  - invsee.enderinventory.view
+  - invsee.inventory
+  - invsee.inventory.view
+  - kit.hothankit
+  - kit.kings
+  - kit.legendary
+  - kit.member
+  - kit.members
+  - kit.vip1
+  - kit.vip2
+  - nick.use
+  - pchat.colored.format
+  - pchat.colored.nametag
+  - pocketmine.command.ban
+  - pocketmine.command.ban.player
+  - pocketmine.command.gamemode
+  - pocketmine.command.kick
+  - pocketmine.command.list
+  - pocketmine.command.say
+  - pocketmine.command.teleport
+  - pocketmine.command.time.set
+  - pocketmine.command.tp
+  - pocketmine.command.unban
+  - pocketmine.command.unban.player
+  - pperms.command.ppinfo
+  - size.command
+  - use.shop.menu
+  - vanish.see
+  - vanish.use
+  - vanish.use.other
+  worlds: []
+Tagvip1:
+  alias: adfakevip1
+  inheritance:
+  - Member
+  permissions:
+  - -pocketmine.command.me
+  - autosell.command.autosell
+  - flype.command
+  - food.command
+  - kit.hothankit
+  - kit.member
+  - kit.members
+  - kit.vip1
+  - nick.use
+  - pchat.colored.format
+  - pchat.colored.nametag
+  - pocketmine.command.list
+  - pperms.command.ppinfo
+  - use.shop.menu
+  worlds: []
+Police:
+  alias: police
+  inheritance:
+  - Member
+  - MemberS
+  - VipI
+  - VipII
+  - KingS
+  - Vote
+  - Legendary
+  permissions:
+  - -pocketmine.command.me
+  - autosell.command.autosell
+  - flype.command
+  - food.command
+  - heal.command
+  - invsee.enderinventory
+  - invsee.enderinventory.view
+  - invsee.inventory
+  - invsee.inventory.view
+  - kit.hothankit
+  - kit.kings
+  - kit.legendary
+  - kit.member
+  - kit.members
+  - kit.vip1
+  - kit.vip2
+  - nick.use
+  - pchat.colored.format
+  - pchat.colored.nametag
+  - pocketmine.command.ban
+  - pocketmine.command.ban.player
+  - pocketmine.command.gamemode
+  - pocketmine.command.kick
+  - pocketmine.command.list
+  - pocketmine.command.say
+  - pocketmine.command.teleport
+  - pocketmine.command.time.set
+  - pocketmine.command.unban
+  - pocketmine.command.unban.player
+  - pperms.command.ppinfo
+  - use.shop.menu
+  - vanish.see
+  - vanish.use
+  - vanish.use.other
+  worlds: []
+Helper:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions:
+  - -pocketmine.command.me
+  - autosell.command.autosell
+  - flype.command
+  - food.command
+  - heal.command
+  - kit.hothankit
+  - kit.kings
+  - kit.legendary
+  - kit.member
+  - kit.members
+  - kit.vip1
+  - kit.vip2
+  - pocketmine.command.gamemode
+  - pocketmine.command.kick
+  - pocketmine.command.teleport
+  - pocketmine.command.time.set
+  - pocketmine.command.unban
+  - pointapi.command.pay
+  - use.shop.menu
+  worlds: []
+Owner:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions: []
+  worlds: []
+Youtuber:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions:
+  - autosell.command.autosell
+  - flype.command
+  - food.command
+  - heal.command
+  - kit.hothankit
+  - kit.kings
+  - kit.legendary
+  - kit.member
+  - kit.members
+  - kit.vip1
+  - kit.vip2
+  worlds: []
+Developer:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions:
+  - autosell.command.autosell
+  - flype.command
+  - food.command
+  - heal.command
+  - kit.hothankit
+  - kit.kings
+  - kit.legendary
+  - kit.member
+  - kit.members
+  - kit.vip1
+  - kit.vip2
+  - pocketmine.command.ban
+  - pocketmine.command.ban.player
+  - pocketmine.command.gamemode
+  - pocketmine.command.teleport
+  - pocketmine.command.time.set
+  - pocketmine.command.timeset
+  - pocketmine.command.tp
+  - pocketmine.command.unban
+  - pocketmine.command.unban.player
+  worlds: []
+FBI:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions: []
+  worlds: []
+CốVấn:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions: []
+  worlds: []
+Assist:
+  alias: assist
+  isDefault: false
+  inheritance: []
+  permissions:
+  - -pocketmine.command.me
+  - autosell.command.autosell
+  - flype.command
+  - food.command
+  - heal.command
+  - kit.hothankit
+  - kit.kings
+  - kit.legendary
+  - kit.member
+  - kit.members
+  - kit.vip1
+  - kit.vip2
+  - pocketmine.command.gamemode
+  - pocketmine.command.kick
+  - pocketmine.command.teleport
+  - pocketmine.command.time.set
+  - pocketmine.command.unban
+  - use.shop.menu
+  worlds: []
+Warriors:
+  alias: test
+  isDefault: false
+  inheritance: []
+  permissions:
+  - -pocketmine.command.me
+  - autosell.command.autosell
+  - flype.command
+  - food.command
+  - heal.command
+  - kit.hothankit
+  - kit.legendary
+  - kit.member
+  - kit.members
+  - nick.use
+  - pchat.colored.format
+  - pchat.colored.nametag
+  - pocketmine.command.list
+  - pperms.command.ppinfo
+  - use.shop.menu
+  worlds: []
+DemonKing:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions: []
+  worlds: []
+asittan:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions: []
+  worlds: []
+...

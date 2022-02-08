@@ -1,0 +1,335 @@
+#  ______ _  __     _______  ______ 
+# |  ____| | \ \   / /  __ \|  ____|
+# | |__  | |  \ \_/ /| |__) | |__   
+# |  __| | |   \   / |  ___/|  __|  
+# | |    | |____| |  | |    | |____ 
+# |_|    |______|_|  |_|    |______|
+
+##### VERSION #####
+
+# CONFIG VERSION! (DO NOT CHANGE THIS VALUE)
+config-version: 3.8
+
+###################
+
+
+##### FLY SETTINGS #####
+
+# NOTE: "apply-flight-settings-gmc" configuration will allow settings to be applied for gamemode creative.
+
+# If set to true, fly is disabled when a player joins.
+# If set to false, fly wouldn't be disabled when a player joins.
+join-disable-fly: true
+
+# If set to true, fly is disabled when a punches another player.
+# If set to false, fly wouldn't be disabled when a punches another player.
+combat-disable-fly: false
+
+# If set to true, players would be able to drop items while they are in flight mode.
+# If set to false, players would not be able to drop items while they are in flight mode.
+item-dropping: true
+
+# If set to true, players would be able to pick up items while they are in flight mode.
+# If set to false, players would not be able to pick up items while they are in flight mode.
+picking-up-items: true
+
+# If set to true, players would be able to break blocks while they are in flight mode.
+# If set to false, players would not be able to break blocks while they are in flight mode.
+block-breaking: true
+
+# If set to true, players would be able to place blocks while they are in flight mode.
+# If set to false, players would not be able to place blocks while they are in flight mode.
+block-placing: true
+
+# If set to true, players would be able to eat while they are in flight mode.
+# If set to false, players would not be able to eat while they are in flight mode.
+player-eating: true
+
+#######################
+
+
+##### FLY SPEED #####
+
+# Enable fly speed modification.
+# PERMISSION: flype.flightspeed (op)
+# NOTE: This may be buggy. Use with caution.
+fly-speed-mod: false
+
+# Multiplies the current fly speed.
+# 
+# NOTE:
+# THE LIMIT IS 3 BECAUSE OF THE LIMITED RANGE. 
+# AN InvalidArgumentException WILL BE THROWN IF IT IS OVER 3.4!
+# I SUGGEST THAT IT SHOULD BE SET TO A MAXIMUM OF 2 INSTEAD!
+fly-speed: 1
+
+# Flight speed check rate. The faster it is, the less buggy it is and more performance consuming.
+# 20 (ticks) = 1 second
+fly-speed-check-rate: 20
+
+# If set to true, players in gamemode creative will have the speed modification.
+# If set to false, players in gamemode creative will NOT have the speed modification.
+fly-speed-creative: false
+
+#####################
+
+
+##### FLY UI #####
+
+# If set to true, a UI would show up when a player runs the /fly command.
+# If set to false, everything would be normal and players would be able to toggle flight normally.
+enable-fly-ui: true
+
+# If set to true and enableflyui is set to true, players would have to pay to enable fly. (NOTE THAT YOU NEED THE ECONOMYAPI PLUGIN)
+# If set to true and enableflyui is set to false, everything would be normal and player would be able to toggle flight.
+# If set to false and enableflyui is set to true, players would not have to pay for fly.
+pay-for-fly: false
+
+# If payforfly is set to true, set this to the amount of money a player needs to pay for fly. (1800, 4500, 8500 etc.)
+buy-fly-cost: 100000
+
+##################
+
+# If set to true, the texts on the UI will be editable by the configurations below.
+# If set to false, the default texts would be used.
+custom-ui-texts: true
+
+# The title that is located at the top of the UI.
+fly-ui-title: "§l§8【 Menu Tính Năng Bay 】"
+
+# The toggle fly button.
+# {cost} = Cost of flight.
+fly-ui-toggle: "§l§8【§aBật§8】 / 【§cTắt§8】 Tính Năng Bay"
+
+# The exit button.
+fly-ui-exit: "§l§8【 §cThoát Menu §r§8】"
+
+##################
+
+
+##### PARTICLES #####
+
+# If set to true, particles will appear on player's feet if they are flying.
+# If set to false, no particles will appear.
+# PERMISSION: flype.particles (op)
+enable-fly-particles: false
+
+# Type of particle to spawn. Default: FlameParticle.
+# SUPPORTED: (case insensitive)
+# 
+# BubbleParticle, CriticalParticle, EnchantParticle, InstantEnchantParticle, ExplodeParticle, HugeExplodeParticle
+# EntityFlameParticle, FlameParticle, HeartParticle, InkParticle, LavaDripParticle, LavaParticle, PortalParticle
+# RedstoneParticle, SmokeParticle, SplashParticle, SporeParticle, MobSpawnParticle, WaterDripParticle
+# WaterParticle, EnchantmentTableParticle, HappyVillagerParticle, AngryVillagerParticle, RainSplashParticle
+# BlockForceFieldParticle, DestroyBlockParticle, SnowballPoofParticle
+fly-particle-type: "FlameParticle"
+
+# Rate of fly particle.
+# 20 (ticks) = 1 second
+fly-particle-rate: 5
+
+# Only change the configuration below if you're using the DestroyBlockParticle.
+particle-block-id: 1
+
+#####################
+
+
+##### EFFECTS #####
+
+# If set to true, players will get effects if they are flying.
+# If set to false, no effects will be given.
+# PERMISSION: flype.effects (op)
+enable-fly-effects: false
+
+# Type of effect to be given. Default: HASTE.
+# SUPPORTED: (case insensitive)
+# 
+# SPEED, SLOWNESS, HASTE, MINING_FATIGUE, STRENGTH, INSTANT_HEALTH, INSTANT_DAMAGE, JUMP_BOOST
+# NAUSEA, REGENERATION, RESISTANCE, FIRE_RESISTANCE, WATER_BREATHING, INVISIBILITY, BLINDNESS
+# NIGHT_VISION, HUNGER, WEAKNESS, POISON, WITHER, HEALTH_BOOST, ABSORPTION, SATURATION
+# LEVITATION, FATAL_POISON, CONDUIT_POWER
+effect-type: HASTE
+
+# The amplifier is a value that increases the level of the effect.
+effect-amplifier: 1
+
+# If set to true, particles from the effects will be visible.
+# If set to false, particles from the effects will be visible.
+effect-visible: true
+
+# Rate of fly effect check.
+# 20 (ticks) = 1 second
+fly-effect-check-rate: 20
+
+##################
+
+
+##### INTEGRATIONS #####
+
+# It is fine if you set the values to true even though you don't have the plugins.
+
+# If set to true, players that are hidden from VanishV2 will not show the particles and effects.
+# If set to false, particles and effects will always show.
+vanishv2-support: true
+
+# If set to true, effects and particles underneath will be removed.
+# If set to false, effects and particles underneath are shown.
+simplelay-support: true
+
+########################
+
+
+##### CREATIVE MODE ######
+
+# If set to true, players that fly and are in gamemode creative will have effects applied to them.
+# If set to false, players that fly and are in gamemode creative will NOT have effects applied to them.
+creative-mode-effects: false
+
+# If set to true, players that fly and are in gamemode creative will have particles applied to them.
+# If set to false, players that fly and are in gamemode creative will NOT have particles applied to them.
+creative-mode-particles: false
+
+# If set to true, players that run /fly and are in gamemode creative will be allowed to toggle their flight.
+# If set to false, players that run /fly and are in gamemode creative will NOT be allowed to toggle their flight.
+allow-toggle-flight-gmc: false
+
+# If set to true, players that are in gamemode creative will have fly settings applied to them.
+# If set to false, players that are in gamemode creative will NOT have fly settings applied to them.
+#
+# NOTE: USE WITH CAUTION
+apply-flight-settings-gmc: false
+
+##########################
+
+
+##### TOGGLE FLIGHT SOUND #####
+
+# If set to true, after flight is enabled/disabled, a sound will be played.
+# If set to false, after flight is enabled/disabled, nothing will be played.
+enable-fly-sound: true
+
+# Type of sound to be played after flight is enabled. Default: PopSound.
+# SUPPORTED: (case insensitive)
+# 
+# AnvilBreakSound, AnvilFallSound, AnvilUseSound, BlazeShootSound, ClickSound, DoorBumpSound
+# DoorCrashSound, DoorSound, EndermanTeleportSound, FizzSound, GhastShootSound, GhastSound
+# LaunchSound, PopSound
+fly-enabled-sound: "PopSound"
+
+# Type of sound to be played after flight is disabled. Default: PopSound.
+# SUPPORTED: (case insensitive)
+# 
+# AnvilBreakSound, AnvilFallSound, AnvilUseSound, BlazeShootSound, ClickSound, DoorBumpSound
+# DoorCrashSound, DoorSound, EndermanTeleportSound, FizzSound, GhastShootSound, GhastSound
+# LaunchSound, PopSound
+fly-disabled-sound: "PopSound"
+
+###############################
+
+
+##### TEMPORAL FLY #####
+
+# If set to true, players that toggle flight will be timed.
+# If set to false, players that toggle flight will NOT be timed.
+time-fly: false
+
+# Amount of seconds a player can fly for.
+fly-seconds: 300
+
+########################
+
+
+##### BLACKLIST OR WHITELIST WORLDS #####
+
+# If set to blacklist, players that are in the worlds listed in blacklisted-worlds wouldn't be able to run /fly.
+# If set to whitelist, players that are in the worlds listed in whitelisted-worlds would be able to run /fly.
+mode: blacklist
+
+# (BLACKLIST) These worlds only apply if the mode is set to blacklist.
+blacklisted-worlds:
+ - "Bedwarslobby"
+ - "crates"
+ - "FactionsPvP"
+ - "farmspawner"
+ - "Lobby3"
+ - "LobbySM"
+ - "event"
+ - "pakour"
+ - "Hub"
+ - "Solo-1"
+ - "SoloLobby"
+ 
+# (WHITELIST) These worlds only apply if the mode is set to whitelist.
+whitelisted-worlds:
+ - "flyworld1"
+ - "flyworld2"
+ - "flyworld3"
+
+# Toggle message when a player moves to a world that restricts flight.
+level-change-restricted: true
+
+# Toggle message when a player moves to a world that does not restrict flight.
+level-change-unrestricted: false
+ 
+#########################################
+ 
+ 
+##### MESSAGES #####
+
+# NOTE: Adding a color will override the default color.
+
+# The message a player gets if joindisablefly is set to true and player is flying.
+# {name} = Player's Name
+onjoin-flight-disabled: "§l§7【§eFLY§7】 §cĐã tắt bay!"
+
+# The message a player gets for toggling on flight.
+# {name} = Player's Name
+toggled-flight-on: "§l§7【§eFLY§7】 §aĐã chuyển đổi bay thành bật!"
+
+# The message a player gets for toggling off flight.
+# {name} = Player's Name
+toggled-flight-off: "§l§7【§eFLY§7】 §cĐã chuyển đổi bay thành tắt!"
+
+# The message a player gets when they toggle on flight for others.
+# {name} = Player's Name
+flight-for-other-on: ""
+
+# The message a player gets when they toggle off flight for others.
+# {name} = Player's Name
+flight-for-other-off: ""
+
+# The message a player gets when the player stated could not be found.
+# {name} = Player's Name
+player-cant-be-found: "§l§7【§eFLY§7】 §cKhông thể tìm thấy người chơi!"
+
+# The message a player gets when they try to toggle flight for others without permission.
+# {name} = Player's Name
+cant-toggle-flight-others: "§l§7【§eFLY§7】 §cBạn không có quyền để bật tính năng bay cho người khác!"
+ 
+# The message a player gets when they try to toggle on flight in a restricted world.
+# {world} = Player's World Name
+flight-not-allowed: "§l§7【§eFLY§7】 §cBay bị cấm tại thế giới này! Chỉ được bay tại đảo"
+
+# The message a player gets when they move to a unrestricted world.
+# {world} = Player's World Name
+flight-is-allowed: ""
+
+# The message a player gets when they try to toggle off flight in creative mode.
+# {name} = Player's Name
+disable-fly-creative: "§l§7【§eFLY§7】 §cBạn không thể tắt bay khi đang ở sáng tạo!"
+
+# The message a player gets when they attack a player.
+# {name} = Player's Name
+combat-fly-disable: "§l§7【§eFLY§7】 §cBạn không thể bay khi đang chiến đấu!"
+
+# The message a player gets when they do not have enough money to toggle flight.
+# {name} = Player's Name
+# {cost} = Flight Cost
+not-enough-money: "§l§7【§eFLY§7】 §cBạn không có đủ tiền!"
+
+# The message a player gets when they have successfully purchased flight.
+# {name} = Player's Name
+# {cost} = Flight Cost
+buy-fly-successful: "§l§7【§eFLY§7】 §aMua khả năng bay thành công, lưu ý, chỉ dùng 1 lần, thoát sv sẽ bị tắt!"
+
+####################

@@ -1,0 +1,88 @@
+---
+# Available tags for broadcast messages, popups and titles:
+# - {MAXPLAYERS}: Show the maximum number of players supported by the server
+# - {TOTALPLAYERS}: Show the number of all online players
+# - {PREFIX}: Show prefix
+# - {SUFFIX}: Show suffix
+# - {TIME}: Show current time
+# Available tags for /sendmessage, /sendpopup and /sendtitle format:
+# - {MESSAGE}: Show message
+# - {MAXPLAYERS}: Show the maximum number of players supported by the server
+# - {TOTALPLAYERS}: Show the number of all online players
+# - {PREFIX}: Show prefix
+# - {PLAYER}: Message receiver
+# - {SENDER}: Show sender name
+# - {SUFFIX}: Show suffix
+# - {TIME}: Show current time
+# Extra tag for titles:
+# - {SUBTITLE}: Add subtitle (the text after this tag will be the content of the subtitle) 
+# Prefix
+prefix: "§l§7【§cS§6U§eG§aA§bR§7】 §7【§r§l§dBOT§l§7】 §7§l➤§r"
+# Suffix
+suffix: "[A]"
+# Date\Time format (replaced in {TIME}). For format codes read http://php.net/manual/en/datetime.formats.php
+datetime-format: "h:i:s"
+# Message broadcast
+message-broadcast:
+ # Enable message broadcast
+ enabled: true
+ # Broadcast interval (in seconds)
+ time: 130
+ # Command /sendmessage format
+ command-format: "&e[{TIME}] {PREFIX} {SUFFIX} &a{SENDER}&e>&f {MESSAGE}"
+ # Broadcast messages
+ messages:
+  - "§l{PREFIX} §r§eDonate Cho Ad Có Tiền Mua Bim Bim Tại §dunghotoi.com/1553602527brhsn."
+  - "§l{PREFIX} §r§cChú Ý:§e Server Đang Trong Beta [B5] Nên Sẽ Có Lỗi. Nếu Có Thể Hãy Report Lỗi Cho Admin!"
+  - "§l{PREFIX} §r§d/muadetu §eĐể Mở Menu Mua Đệ."
+  - "§l{PREFIX} §r§a/sachnangcap §6Để Mua Sách Cường Hóa Cao Cấp Bằng Exp."
+  - "§l{PREFIX} §r§cVote server tại §fbit.ly/votemnf2021§c, để nhận 2key vote và thịt miễn phí, vote nhiều sẽ được free rank vote 15 days!"
+  - "§l{PREFIX} §r§d/pickaxe §aĐể Nhận Lại Cúp Nếu Bị Mất Cúp."
+  - "§l{PREFIX} §r§b/warp trade §eĐể Vào Khu Trade."
+  - "§l{PREFIX} §r§c/bank §aĐể Mở Menu Ngân Hàng Và Gửi Tiền."
+  - "§l{PREFIX} §r§6/suachua §eĐể Sửa Vật Phẩm Và Giáp."
+  - "§l{PREFIX} §r§e/muaec hoặc /buyecvip §fĐể mở menu enchant money + point."
+  - "§l{PREFIX} §r§c/bank §fGhi Nhớ Thông Điệp 5k Để Bảo Vệ Bản Thân Trong Mùa Dịch."
+  - "§l{PREFIX} §r§c/tocao §eĐể Tố Cáo Người Chơi Dùng Bug Hoặc Hack Trong Server."
+  - "§l{PREFIX} §r§d/ah §aĐể Vào Menu Chợ Đen"
+  - "§l{PREFIX} §r§c/mualong point Để Mua Lồng Spawner §aCho Bạn Giá Rẻ :3"
+  - "§l{PREFIX} §r§cVote server tại §fbit.ly/votemnf2021§c, để nhận 2key vote và thịt miễn phí, vote nhiều sẽ được free rank vote 15 days!"
+  - "§l{PREFIX} §r§a/pshop §6Để Mua Đệ Tử Hoặc Mua Beacon... Đồ Xịn Khác."
+  - "§l{PREFIX} §r§7/muarank §eĐể Mua Rank §cVIP §eBằng Points."
+  - "§l{PREFIX} §r§6/warp §eĐể Xem Tất Cả Các Warp."
+  - "§l{PREFIX} §r§c/tocao §eĐể Tố Cáo Người Chơi Dùng Bug Hoặc Hack Trong Server."
+  - "§l{PREFIX} §r§cVote server tại §fbit.ly/votemnf2021§c, để nhận 2key vote và thịt miễn phí, vote nhiều sẽ được free rank vote 15 days!"
+  - "§l{PREFIX} §r§b/warp pvp §eĐể Thể Hiện Bản Lĩnh Với Toàn Server."
+  - "§l{PREFIX} §r§c/kit §eĐể Xem Danh Sách Kit Của Server."
+  - "§l{PREFIX} §r§e/warp §dmoruong §eĐể Tới Khu §dMở Rương Hoặc Mua Key."
+  - "§l{PREFIX} §r§d/sell inv §eĐể Bán Hết Item Của Bạn. §cLưu Ý: §eNhớ Cất Item Quan Trọng Của Bạn Trước Khi Bán!!!!"
+  - "§l{PREFIX} §r§c/mualong Để Mua Lồng Spawner §aCho Bạn Giá Rẻ :3"
+  - "§l{PREFIX} §r§cVote server tại §fbit.ly/votemnf2021§c, để nhận 2key vote và thịt miễn phí, vote nhiều sẽ được free rank vote 15 days!"
+  - "§l{PREFIX} §r§b/warp skyblock Để Tới Khu Cho SkyBlock, Sau Đó Nhấn Vào Npc §e【Menu SkyBlock】 §bĐể Bắt Đầu Tạo Đảo Hoặc Vào Đảo."
+  - "§l{PREFIX} §r§e/shop §aĐể Vào Cửa Hàng Money, §e/pshop §aĐể Vào Shop §6Vip §aCủa Server."
+  - "§l{PREFIX} §r§7/napthe §atại facebook admin: Minh Pháp, sự kiện nạp x2 points."
+  - "§l{PREFIX} §r§gKhông Thích Nạp Tiền Để Mua §6Point§g? §6/muapoint §gĐể Mua Hoặc Đổi Point!"
+# Popup broadcast
+popup-broadcast:
+ # Enable popup broadcast
+ enabled: false
+ # Popup broadcast interval (in seconds)
+ time: 170
+ # Popup duration (in seconds)
+ duration: 20
+ # Command /sendpopup format
+ command-format: "&a{SENDER}&e>>&f {MESSAGE}"
+ # Popup broadcast messages
+ messages:
+  - "§c"
+# Title broadcast
+title-broadcast:
+ # Enable title broadcast
+ enabled: false
+ # Title broadcast interval
+ time: 30
+ # Command /sendtitle format
+ command-format: "&d{MESSAGE}"
+ # Title broadcast messages
+ messages:
+...

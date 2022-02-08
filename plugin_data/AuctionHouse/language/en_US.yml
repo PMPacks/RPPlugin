@@ -1,0 +1,219 @@
+---
+# DO NOT EDIT THIS VALUE, INTERNAL USE ONLY. #
+lang-version: 2
+
+# Refer to https://minecraft.gamepedia.com/Formatting_codes for formatting codes, you can replace the '§' symbol with a '&'
+
+# The titles of the Auction House UI
+menu-name: "MENU CHỢ ĐEN"
+listings-menu-name: "&2VẬT PHẨM ĐANG BÁN"
+expired-menu-name: "&cBỊ HỦY BỎ / VẬT PHẨM HẾT HẠN"
+purchase-menu-name: "XÁC NHẬN MUA"
+manage-listing-name: "&l&eQUẢN LÝ VẬT PHẨM ĐANG BÁN"
+player-listing: "&2{player} &6DANH SÁCH"
+
+# Chat messages
+item-purchased: "&eVật phẩm đã mua thành công&e!"
+buyer-purchased: "&6%buyer% &eđã mua vật phẩm của bạn với giá &6$%price%&e!"
+item-listed: "&2Bạn đã bán &d@item &r&d(x@amount) &2Với giá &d@price. §2Nhập &e/ah listings &2để xem danh sách vật phẩm bạn đã bán"
+cancelled-item: "&eBạn đã hủy bán 1 vật phẩm trên chợ đen. Lấy lại vật phẩm đã hủy bỏ bằng cách &6/ah expired&e."
+cancelled-purchase: "&cBạn đã hủy mua bán"
+admin-removed: "&eDanh sách vật phẩm bị xóa."
+purchased-item: "&2Bạn đã mua thành công &d@item &r&d(x@amount) &2với giá &d@price"               #@player, @item, @price, @amount
+seller-message: "&e@player &bđã mua §e@item (x@amount) §btừ bạn với giá &e@price§b!"         #@player, @item, @price, @amount
+returned-item: "&2Bạn đã xóa thành công &d@item &r&d(x@amount) &2từ chợ đen."                     #@item, @amount
+
+# Error messages
+in-creative: "&cKo thể bán vật phẩm khi bạn đang ở sáng tạo."
+max-listings: "&cBạn ko thể bán nhiều hơn 45 vật phẩm đang bán trên chợ đen."
+invalid-price: "&cSai giá bán."
+no_empty: "&cKho đồ của bạn trống."
+not-enough-space: "Ko đủ ô đồ, vui lòng dọn bớt"
+self-purchase: "&cBạn ko thể mua vật phẩm của chính mình!"
+item-gone: "§cVật phẩm này ko còn tồn tại"
+no-item: "&cBạn cần phải cầm trên tay vật phẩm bạn muốn bán!"
+cannot-afford: "&cBạn ko có đủ tiền để mua vật phẩm này."
+item-blacklisted: "&cVật phẩm này ko được quyền bán trên chợ đen!"
+invalid-balance: "&cBạn không có đủ tiền để niêm yết một cuộc đấu giá."
+listing-gone: "&cDanh sách này ko còn tồn tại."
+price-range: "&cSai giá trị bạn đang bán"                                                                         #@min, @max
+player-not-found: "&cNgười chơi này ko có vật phẩm hoạt động trên chợ đen."
+player-listings-usage: "&cXem danh sách vật phẩm của bạn bằng /ah listings"
+
+# Items in the menu UI
+listed-item:
+    # %price% = Price of listing
+    # %seller% = Username of seller
+    # %time% = Time until listing expires
+    - "&7-------------------------"
+    - "&aNhấn vào đây để mua vật phẩm."
+    - ""
+    - "&9Giá bán của vật phẩm: &e%price%"
+    - "&9Người bán vật phẩm: &e%seller%"
+    - "&9Hết hạn: &e%time%"
+    - "&7-------------------------"
+your-listed-item:
+    # %price% = Price of listing
+    # %time% = Time until listing expires
+    - "&7-------------------------"
+    - "&cNhấn vào đây để xóa danh sách của vật phẩm."
+    - ""
+    - "&9Giá bán vật phẩm: &e%price%"
+    - "&9Hết hạn: &e%time%"
+    - "&7-------------------------"
+expired-item:
+    # %price% = Price of listing
+    - "&7-------------------------"
+    - "&aNhấn vào đây để nhận vật phẩm."
+    - ""
+    - ""
+    - "&9Giá bán vật phẩm: &e%price%"
+    - "&7-------------------------"
+view-listed-items:
+    # %selling% = Number of active listings
+    id: 264
+    name: "&6Vật phẩm bạn đang bán"
+    lore:
+        - "&aNhấn vào đây để xem vật phẩm bạn"
+        - "&ahiện đang bán trên chợ đen."
+        - ""
+        - "&9Vật phẩm bán: &e%selling%"
+view-expired-items:
+    # %expired% = Number of expired listings
+    id: 394
+    name: "&6Lấy lại vật phẩm hết hạn / hủy bỏ"
+    lore:
+      - "&r&aNhấn vào đây để xem vật phẩm"
+      - "&ahiện đã hủy bỏ trên chợ đen."
+      - ""
+      - "&9Vật phẩm lấy lại: &e%expired%"
+# Pagination items
+# Admin Menu
+view-admin-menu:
+    id: 0
+    name: ""
+    lore:
+        - ""
+main-stats-admin:
+    # %page% = Current page
+    # %max% = Max page
+    # %expired% = Expired listing count
+    # %total% = Total listing count
+    id: "152"
+    name: "&l&cAdmin-Menü"
+    lore:
+        - "&aSeite %page%/%max%"
+        - "&7Insgesamt &b%total% &7Angebote"
+        - "&c(&b%expired% &cabgelaufene Angebote)"
+        - "Klickt hier zum Aktualisieren der Seite"
+listed-item-admin:
+    # %price% = Price of listing
+    # %seller% = Username of seller
+    # %status% = Status of the listing (Active/Expired)
+    - "&7-------------------------"
+    - "&6Klickt hier um das Angebot zu bearbeiten"
+    - ""
+    - "&9Preis: &e%price%"
+    - "&9Verkäufer: &e%seller%"
+    - "&9Status: %status%"
+    - "&7-------------------------"
+
+status-active: "&aAktiv"
+status-expired: "&cAbgelaufen"
+selected-listing-name: "&l&cAngebot verwalten"
+
+duplicate-item: "&aKlickt hier um eine Kopie des Items in deinen Inventar zu erhalten"
+remove-listing: "&eKlickt hier um das Angebot zu entfernen"
+delete-item: "&cKlickt hier um das Angebot und das Item zu löschen"
+
+# Pagination items
+previous-page:
+    id: "339"
+    name: "&a<- Trang trước đó"
+    lore:
+        - "Đi đến trang trước đó"
+next-page:
+    id: "339"
+    name: "&aTrang sau đó ->"
+    lore:
+        - "Đi đénw trang sau đó"
+back-button:
+    id: "339"
+    name: "&6Trở lại"
+    lore:
+sell-description:
+    id: "388"
+    name: "&6Cách bán vật phẩm"
+    lore:
+        - "&aĐể liệt kê một mặt hàng trên chợ đen, chỉ cần giữ"
+        - "&amón đồ trong tay bạn và nhập &b/ah sell <price>&a."
+main-description:
+    id: "340"
+    name: "&6Đây là trang gì?"
+    lore:
+        - "&aĐây là menu chợ đen, dùng để"
+        - "&aliệt kê các mặt hàng mua bán"
+        - "&amà những người khác đã liệt kê để bán."
+        - ""
+        - "&aChợ đen cũng là một cách tuyệt vời để"
+        - "&akiếm tiền bằng cách bán các vật phẩm bạn có"
+        - "&ađể người chơi có thể quan tâm đến việc mua."
+main-stats:
+    # %page% = Current page
+    # %max% = Max page
+    # %total% = Total listing count
+    id: "54"
+    name: "&l&6Chợ đen"
+    lore:
+        - "&aTrang vật phẩm %page%/%max%"
+        - "&7Tổng cộng có &b%total% &7vật phẩm"
+        - "Nhấn để làm mới trang"
+listings-description:
+    id: "340"
+    name: "&6Đây là trang gì?"
+    lore:
+        - "&aĐây là danh sách hiện tại của bạn, tất cả"
+        - "&acác mục bạn hiện đã liệt kê trên"
+        - "&achợ đen sẽ xuất hiện ở đây."
+        - ""
+        - "&aBạn có thể hủy và xem danh sách của mình"
+        - "&ahết hạn tại đây."
+listings-stats:
+    # %page% = Current page
+    # %max% = Max page
+    # %total% = Total listing count
+    id: "54"
+    name: "&l&6Danh sách vật phẩm"
+    lore:
+        - "&aTrang vật phẩm %page%/%max%"
+        - "&7Tổng cộng có &b%total% &7vật phẩm"
+expired-description:
+    id: "340"
+    name: "&6Đây là trang nào?"
+    lore:
+        - "&aTrang này chứa tất cả những gì bạn đã hủy bán và"
+        - "&amặt hàng hết hạn, khi danh sách bị hủy"
+        - "&ahoặc hết hạn sẽ được trả lại"
+        - "&avật phẩm cho bạn từ menu này."
+        - ""
+        - "&aChỉ cần nhấp vào mục và nếu bạn có đủ"
+        - "&atúi đồ bạn sẽ nhận đc hết vật phẩm."
+expired-stats:
+    # %page% = Current page
+    # %max% = Max page
+    # %total% = Total listing count
+    id: "152"
+    name: "&l&6Hết hạn"
+    lore:
+        - "&aTrang vật phẩm %page%/%max%"
+        - "&7Tổng cộng có &b%total% &7vật phẩm"
+purchase-confirm:
+    name: "&aChấp nhận trao đổi"
+purchase-cancel:
+    name: "&cHủy bỏ trao đổi"
+purchaseItem:
+    lore:
+        - ""
+        - "&9Giá bán vật phẩm: &e$%price%"
+        - "&9Người bán vật phẩm: &e%seller%"
+...

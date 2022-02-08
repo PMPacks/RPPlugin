@@ -1,0 +1,15 @@
+command:
+  use-in-game: "{RED}Sử dụng lệnh trong game."
+  insufficient-funds: "{RED}Bạn không có đủ §akinh nghiệm {RED}. Bạn cần thêm §a{AMOUNT} kinh nghiệm {RED} nữa để mua sách này."
+  inventory-full: "{RED}Túi đồ của bạn đã đầy! không thể mua sách nâng cấp"
+item:
+  unused-name: "{YELLOW}Sách nâng cấp / Nhấn sách này kết hợp vào item trong ô đồ"
+  name: "§l§c{ENCHANTMENT} §e【 Sách nâng cấp trang bị 】"
+  lore: "{NEWLINE}Cầm quyển sách và nhấn vào mặt đất để mở sách nâng cấp."
+menu:
+  title: "{RED}§l【 CỬA HÀNG SÁCH NÂNG CẤP 】"
+  button: "§l{RARITY_COLOR}{ENCHANTMENT}{NEWLINE}{RESET}Giá tiền: {AMOUNT} §aKinh nghiệm"
+  confirmation:
+    title: "{RED}§l【 SÁCH NÂNG CẤP 】 - §r§lChấp nhận mua hàng"
+    content: "Bạn có chắc chắn muốn mua sách nâng cấp {RARITY_COLOR}{ENCHANTMENT} §fvới giá §a{AMOUNT} kinh nghiệm§f không?"
+    inventory-full: "{RED}Mua thất bại, túi đồ bị đầy, không thể nhận sách."

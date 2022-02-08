@@ -1,0 +1,460 @@
+---
+# DO NOT EDIT THIS VALUE.
+# ONLY FOR INTERNAL USE.
+crates-version: 1
+
+# IMPORTANT NOTE:
+# To reward the player with a command make sure that the meta of the reward is same as
+# commandMeta set in config.yml or else the command won't work.
+#
+# Note(s):
+# - Please use tabs instead of spaces.
+# - You can add infinite many crates to your server just follow the example below.
+# - Use "§" for adding colors.
+# - The headings/keys marked with (OPTIONAL) means that you don't need to add them. The item will work just fine even if its not there.
+crates:
+# EXAMPLE CONFIGURATION.
+# ------------------------
+# crate-name:             | Set the name of the crate.
+#  drops:                 | List the items that can be received from the crate.
+#   - name: "G-Helmet"    | Custom name for the item. (OPTIONAL).
+#     id: 1               | ID of the reward.
+#     meta: 0             | Meta or Damage value of the Item.
+#     amount: 1           | The amount of Item that player receives.
+#     enchantments:       | Set enchants for items here. Both VanillaEnchantments and PiggyCustomEnchants are supported. (OPTIONAL).
+#       protection:       | Name of enchant you wish to apply.
+#         level: 3        | The level for enchant.
+#       unbreaking:       | You can set multiple enchants as long as they are registered.
+#         level: 2        | NOTE: If you don't want enchants simply remove the enchantments heading.
+#     lore: "USE ME"      | Add a custom lore to the reward. Use "\n" for next line. (OPTIONAL).
+#     commands:           | Add commands to execute when player wins a reward. Multiple commands supported. (OPTIONAL).
+#     - "say hi"          | Use \"%PLAYER%\" to insert player name (with the quotes and slash).
+#     - "say test"        | Don't forget to mention the maxCommands in config.yml.
+#  block: "911:0"         | Set the block ID you want the crate to represent. Placing a chest on it will activate the crate.
+#  broadcast:             | Want to broadcast a message when a player opens a crate?
+#   enable: true          | Set this to true to enable broadcasts and false to disable broadcasts.
+#   command: "say hi"     | The command the executes when a player opens a crate.
+# ------------------------
+
+  lucky:
+    drops:
+      - id: 152
+        meta: 0
+        amount: 64
+      - id: 57
+        meta: 0
+        amount: 64
+      - id: 57
+        meta: 0
+        amount: 64
+      - id: 57
+        meta: 0
+        amount: 64
+      - id: 41
+        meta: 0
+        amount: 64
+      - id: 41
+        meta: 0
+        amount: 64
+      - id: 133
+        meta: 0
+        amount: 32
+      - id: 133
+        meta: 0
+        amount: 32
+      - id: 133
+        meta: 0
+        amount: 32
+      - id: 133
+        meta: 0
+        amount: 32
+      - id: 133
+        meta: 0
+        amount: 32
+      - id: 133
+        meta: 0
+        amount: 32
+      - id: 1
+        meta: 0
+        amount: 64
+      - id: 1
+        meta: 0
+        amount: 64
+      - id: 4
+        meta: 0
+        amount: 32
+      - id: 4
+        meta: 0
+        amount: 32
+      - id: 4
+        meta: 0
+        amount: 32
+      - id: 4
+        meta: 0
+        amount: 32
+      - id: 4
+        meta: 0
+        amount: 32
+      - id: 3
+        meta: 0
+        amount: 32
+      - id: 3
+        meta: 0
+        amount: 32
+      - id: 3
+        meta: 0
+        amount: 32
+      - id: 4
+        meta: 0
+        amount: 32
+      - id: 2
+        meta: 0
+        amount: 32
+      - id: 2
+        meta: 0
+        amount: 32
+      - id: 3
+        meta: 0
+        amount: 64
+      - id: 3
+        meta: 0
+        amount: 64
+      - id: 3
+        meta: 0
+        amount: 64
+      - id: 2
+        meta: 0
+        amount: 32
+      - id: 6
+        meta: 0
+        amount: 5
+      - id: 6
+        meta: 0
+        amount: 5
+      - id: 6
+        meta: 0
+        amount: 5
+      - id: 17
+        meta: 0
+        amount: 16
+      - id: 17
+        meta: 0
+        amount: 16
+      - id: 17
+        meta: 0
+        amount: 16
+      - id: 17
+        meta: 0
+        amount: 16
+      - id: 295
+        meta: 0
+        amount: 8
+      - id: 295
+        meta: 0
+        amount: 8
+      - id: 295
+        meta: 0
+        amount: 8
+      - id: 295
+        meta: 0
+        amount: 8
+      - id: 338
+        meta: 0
+        amount: 8
+      - id: 338
+        meta: 0
+        amount: 8
+      - id: 338
+        meta: 0
+        amount: 8
+      - id: 338
+        meta: 0
+        amount: 8
+      - id: 362
+        meta: 0
+        amount: 8
+      - id: 362
+        meta: 0
+        amount: 8
+      - id: 362
+        meta: 0
+        amount: 8
+      - name: "§l§cÁo Thần §aRa 【え】"
+        id: 311
+        meta: 0
+        amount: 1
+        enchantments:
+          protection:
+            level: 6
+          unbreaking:
+            level: 6
+          autorepair:
+            level: 2
+          armored:
+            level: 2
+        lore: "§l§e-=§c☯§e=- §6Armored§d(§eLV 2§d)§6: Giảm Sát Thương Của Kiếm\n§l§e-=§c☯§e=- §6Autorepair§d(§eLV 2§d)§6: Tự sửa độ bền của giáp\n§d§oĐộ Bền:§e ■■■□□□□□□□\n§d§oSức Bảo Vệ:§a ■■■□□□□□□□\n§c§oKhông có nội tại phụ"
+        commands:
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §6L§eU§aC§bK§dI§cL§fY §6Và Nhận Được §l§cÁo Thần §aRa 【え】."
+      - id: 362
+        meta: 0
+        amount: 8
+      - id: 362
+        meta: 0
+        amount: 8
+      - id: 362
+        meta: 0
+        amount: 8
+      - id: 12
+        meta: 0
+        amount: 32
+      - name: "§l§eKey §6Legendary"
+        id: 130
+        meta: 50
+        amount: 1
+        commands:
+          - "key legendary \"%PLAYER%\" 1"
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §6L§eU§aC§bK§dI§cL§fY §6Và Nhận Được §l§eKey §6Legendary."
+      - name: "§l§eKey §4Mythic"
+        id: 130
+        meta: 50
+        amount: 1
+        commands:
+          - "key mythic \"%PLAYER%\" 1"
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §6L§eU§aC§bK§dI§cL§fY §6Và Nhận Được §l§eKey §4Mythic."
+      - id: 362
+        meta: 0
+        amount: 8
+      - id: 362
+        meta: 0
+        amount: 8
+      - id: 12
+        meta: 0
+        amount: 32
+      - name: "§l§eKey §eVote"
+        id: 130
+        meta: 50
+        amount: 1
+        commands:
+          - "key vote \"%PLAYER%\" 1"
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §6L§eU§aC§bK§dI§cL§fY §6Và Nhận Được §l§eKey §eVote."
+      - name: "§l§eKey §aUncommon"
+        id: 130
+        meta: 50
+        amount: 1
+        commands:
+          - "key uncommon \"%PLAYER%\" 1"
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §6L§eU§aC§bK§dI§cL§fY §6Và Nhận Được §l§eKey §aUncommon."
+      - id: 362
+        meta: 0
+        amount: 8
+      - id: 362
+        meta: 0
+        amount: 8
+      - id: 12
+        meta: 0
+        amount: 32
+      - name: "§l§eKey §fCommon"
+        id: 130
+        meta: 50
+        amount: 1
+        commands:
+          - "key common \"%PLAYER%\" 1"
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §6L§eU§aC§bK§dI§cL§fY §6Và Nhận Được §l§eKey §fCommon."
+      - name: "§l§6300,000$"
+        id: 130
+        meta: 50
+        amount: 1
+        commands:
+          - "givemoney \"%PLAYER%\" 300000"
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §6L§eU§aC§bK§dI§cL§fY §6Và Nhận Được §a$300,000."
+      - name: "§l§aCung §fBức Tốc§r"
+        id: 261
+        meta: 0
+        amount: 1
+        enchantments:
+          power:
+            level: 5
+          unbreaking:
+            level: 4
+          mending:
+            level: 2
+          flame:
+            level: 3
+          punch:
+            level: 3
+          healing:
+            level: 1
+        lore: "§l§e-=§c☯§e=- §6Healing §d(§eLV 1§d): §6 Hồi Máu Cho Đồng Đội Khi Bắn Vào\n§d§oĐộ Bền:§e ■■□□□□□□□□\n§d§oSát Thương:§a ■■■□□□□□□□\n§6§oCó Khả Năng Hồi Phục Lại Kha Khá Độ Bền Nhờ Exp Của Quái §8(Nội Tại Phụ)\n§6§oGây Cháy Và Làm Bật Lùi Đối Phương Ở Cự Ly Khá Gần §8(Nội Tại Phụ)§r"
+        commands:
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §6L§eU§aC§bK§dI§cL§fY §6Và Nhận Được §l§aCung §fBức Tốc§r."
+      - id: 362
+        meta: 0
+        amount: 8
+      - id: 362
+        meta: 0
+        amount: 8
+      - id: 12
+        meta: 0
+        amount: 32
+      - name: "§l§eCúp §dQuân Vương 【彡】"
+        id: 278
+        meta: 0
+        amount: 1
+        enchantments:
+          efficiency:
+            level: 6
+          unbreaking:
+            level: 6
+          fortune:
+            level: 3
+        lore: "§l§e-=§c☯§e=- §dChưa Có Nội Tại\n§d§oĐộ Bền:§e ■■■□□□□□□□\n§d§oTốc Độ Đào:§a ■■■□□□□□□□\n§6§oCó Tỉ Lệ Cực Cao Nhân Đôi Số Lượng Vật Phẩm Mà Bạn Đào Từ Quặng §8(Nội Tại Phụ)\n\n§r§o§7Cúp độc quyền được lưu truyền 300 năm về trước."
+        commands:
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §6L§eU§aC§bK§dI§cL§fY §6Và Nhận Được §l§eCúp §dQuân Vương 【彡】."
+      - id: 362
+        meta: 0
+        amount: 8
+      - id: 362
+        meta: 0
+        amount: 8
+      - id: 12
+        meta: 0
+        amount: 32
+      - name: "§l§eCúp §dQuân Vương 【彡】"
+        id: 278
+        meta: 0
+        amount: 1
+        enchantments:
+          efficiency:
+            level: 6
+          unbreaking:
+            level: 6
+          fortune:
+            level: 3
+        lore: "§l§e-=§c☯§e=- §dChưa Có Nội Tại\n§d§oĐộ Bền:§e ■■■□□□□□□□\n§d§oTốc Độ Đào:§a ■■■□□□□□□□\n§6§oCó Tỉ Lệ Cực Cao Nhân Đôi Số Lượng Vật Phẩm Mà Bạn Đào Từ Quặng §8(Nội Tại Phụ)\n\n§r§o§7Cúp độc quyền được lưu truyền 300 năm về trước."
+        commands:
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §6L§eU§aC§bK§dI§cL§fY §6Và Nhận Được §l§eCúp §dQuân Vương 【彡】."
+      - name: "§l§c【○✠○】 Thanh §4Côn §eKiếm 【○✠○】"
+        id: 276
+        meta: 0
+        amount: 1
+        enchantments:
+          autorepair:
+            level: 5
+          vampire:
+            level: 5
+          sharpness:
+            level: 35
+          unbreaking:
+            level: 35
+          fire_aspect:
+            level: 5
+        lore: "§l§e-=§c☯§e=- §6AutoRepair §d(§eLV 5§d)§6: Tự Sửa Chữa Vật Phẩm§6\n§l§e-=§c☯§e=- §6Vampire §d(§eLV 5§d)§6: Hút máu kẻ thù khi tấn công§6\n§d§oSát Thương:§e ■■■■■■■■■■■\n§d§oĐộ Bền:§a ■■■■■■■■■■■\n§6§oGây Cháy Đối Phương §8(Nội Tại Phụ)§r\n\n§r§o§7Vua của vinh quang."
+        commands:
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §6L§eU§aC§bK§dI§cL§fY §6Và Nhận Được §l§c【○✠○】 Thanh §4Côn §eKiếm 【○✠○】."
+    block: "152:0"
+    broadcast:
+      enable: true
+      command: "say §l§b\"%PLAYER%\" §l§dĐã Mở Crate §6L§eU§aC§bK§dI§cL§fY §dTại §e/warp moruong"
+  eventboss:
+    drops:
+      - name: "§l§eMẢNH VỠ BIỂN CẢ §r§c【Event Trade §f☘§l§r§c】"
+        id: 409
+        meta: 5
+        amount: 2
+        lore: "§7Vật phẩm đặc biệt dùng tại khu /warp trade\n§l§cCÁCH DÙNG: §aDùng để đổi giáp sự kiện, nhớ đổi tránh hết hạn"
+        commands:
+          - "say §l§7【§a༺§bMNF§a༻§7】 §b\"%PLAYER%\" §6 Đã Mở Crate §cEvent§fBoss §6Và Nhận Được §l§eMẢNH VỠ BIỂN CẢ §r§c【Event Trade §f☘§l§r§c】§6."
+      - name: "§rＩron Ｉngot"
+        id: 265
+        meta: 0
+        amount: 64
+      - name: "§l§6TINH HOA NGOẠN LẠC §r§c【Event Trade §f☘§l§r§c】"
+        id: 348
+        meta: 5
+        amount: 2
+        lore: "§7Vật phẩm đặc biệt dùng tại khu /warp trade\n§l§cCÁCH DÙNG: §aDùng để đổi kiếm sự kiện, nhớ đổi tránh hết hạn"
+        commands:
+          - "say §l§7【§a༺§bMNF§a༻§7】 §b\"%PLAYER%\" §6 Đã Mở Crate §cEvent§fBoss §6Và Nhận Được §l§eTINH HOA NGỌAN LẠC §r§c【Event Trade §f☘§l§r§c】§6."
+      - name: "§rＩron Ｉngot"
+        id: 265
+        meta: 0
+        amount: 64
+      - name: "§l§eMẢNH VỠ BIỂN CẢ §r§c【Event Trade §f☘§l§r§c】"
+        id: 409
+        meta: 5
+        amount: 4
+        lore: "§7Vật phẩm đặc biệt dùng tại khu /warp trade\n§l§cCÁCH DÙNG: §aDùng để đổi giáp sự kiện, nhớ đổi tránh hết hạn"
+        commands:
+          - "say §l§7【§a༺§bMNF§a༻§7】 §b\"%PLAYER%\" §6 Đã Mở Crate §cEvent§fBoss §6Và Nhận Được §l§eMẢNH VỠ BIỂN CẢ §r§c【Event Trade §f☘§l§r§c】§6."
+      - name: "§rＩron Ｉngot"
+        id: 265
+        meta: 0
+        amount: 64
+      - name: "§l§6TINH HOA NGOẠN LẠC §r§c【Event Trade §f☘§l§r§c】"
+        id: 348
+        meta: 5
+        amount: 4
+        lore: "§7Vật phẩm đặc biệt dùng tại khu /warp trade\n§l§cCÁCH DÙNG: §aDùng để đổi kiếm sự kiện, nhớ đổi tránh hết hạn"
+        commands:
+          - "say §l§7【§a༺§bMNF§a༻§7】 §b\"%PLAYER%\" §6 Đã Mở Crate §cEvent§fBoss §6Và Nhận Được §l§eTINH HOA NGỌAN LẠC §r§c【Event Trade §f☘§l§r§c】§6."
+      - name: "§rＩron Ｉngot"
+        id: 265
+        meta: 0
+        amount: 64
+      - name: "§rＩron Ｉngot"
+        id: 265
+        meta: 0
+        amount: 64
+      - name: "§rＩron Ｉngot"
+        id: 265
+        meta: 0
+        amount: 64
+      - name: "§rＩron Ｉngot"
+        id: 265
+        meta: 0
+        amount: 64
+      - name: "§rＩron Ｉngot"
+        id: 265
+        meta: 0
+        amount: 64
+      - name: "§rＩron Ｉngot"
+        id: 265
+        meta: 0
+        amount: 64
+      - name: "§rＩron Ｉngot"
+        id: 265
+        meta: 0
+        amount: 64
+      - name: "§rＩron Ｉngot"
+        id: 265
+        meta: 0
+        amount: 64
+    block: "22:0"
+    broadcast:
+      enable: true
+      command: "say §l§7【§a༺§bMNF§a༻§7】 §b\"%PLAYER%\" §l§dĐã Mở Crate §cEvent§fBoss §dTại §e/warp crates"
+  eventbossdev:
+    drops:
+      - name: "§l§eMẢNH VỠ BIỂN CẢ §r§c【Event Trade §f☘§l§r§c】"
+        id: 409
+        meta: 5
+        amount: 64
+        lore: "§7Vật phẩm đặc biệt dùng tại khu /warp trade\n§l§cCÁCH DÙNG: §aDùng để đổi giáp sự kiện, nhớ đổi tránh hết hạn"
+        commands:
+          - "say §l§7【§a༺§bMNF§a༻§7】 §b\"%PLAYER%\" §6 Đã Mở Crate §cEvent§fBoss §6Và Nhận Được §l§eMẢNH VỠ BIỂN CẢ §r§c【Event Trade §f☘§l§r§c】§6."
+      - name: "§l§6TINH HOA NGOẠN LẠC §r§c【Event Trade §f☘§l§r§c】"
+        id: 348
+        meta: 5
+        amount: 64
+        lore: "§7Vật phẩm đặc biệt dùng tại khu /warp trade\n§l§cCÁCH DÙNG: §aDùng để đổi kiếm sự kiện, nhớ đổi tránh hết hạn"
+        commands:
+          - "say §l§7【§a༺§bMNF§a༻§7】 §b\"%PLAYER%\" §6 Đã Mở Crate §cEvent§fBoss §6Và Nhận Được §l§eTINH HOA NGỌAN LẠC §r§c【Event Trade §f☘§l§r§c】§6."
+    block: "98:3"
+    broadcast:
+      enable: true
+      command: "say §l§7【§a༺§bMNF§a༻§7】 §b\"%PLAYER%\" §l§dĐã Mở Crate §cEvent§fBossDEV"
+
+# ---------------------------------------------------------
+# Bạn Có Thể Thêm Nhiều Rương Hơn Bằng Cách Viết Dòng Code Cùng Dòng Với Nhau.
+# ---------------------------------------------------------
+...

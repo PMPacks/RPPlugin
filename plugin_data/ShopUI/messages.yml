@@ -1,0 +1,20 @@
+# UIShop Việt Hóa 98% By Nờ Cờ Dờ (NCD) ❤
+message-version: 1
+Messages:
+  Survival: "§l§cBạn không được mở giao diện shop khi đang ở chế độ sáng tạo"
+  ExitButton: "§l【 §cQuay Lại §r§l】"
+  Category_ExitButton: "§l【 §cThoát Menu §r§l】"
+  Input: "§l§c↣ Số Lượng:"
+  Each: "$ Mỗi cái"
+  BuySell: "§l§f• §aMua§f/§aBán\n"
+  Information: "§l§c↣ §aMua: §f${cost}\n\n§l§c↣ §cBán: §f${sell}\n"
+  Paid_for: "§l§aBạn đã mua §f{amount} §e{item} §avới giá §f${cost} §athành công"
+  Not_enough_money: "§l§cBạn không đủ tiền để mua §f{amount} §e{item} §cvới giá §f${cost}§c. Bạn cần thêm §f${missing} §cđể mua"
+  Paid: "§l§aBạn đã bán §f{amount} §e{item} §avới giá §f${pay} §athành công"
+  Not_enough_items: "§l§cBạn không đủ §f{amount} §e{item} §cđể bán với giá §f${pay}"
+  Thanks: "§l§aCảm ơn bạn đã sử dụng Cửa hàng!"
+  Thanks2: "§l§aCảm ơn bạn đã ghé thăm Cửa hàng!"
+  cmd_confirm: "§l§eBạn có chắc chắn muốn mua Lệnh này?"
+  yes: "§a§l✔ Mua"
+  no: "§4§l✘ Không"
+  command_buy_cance: "§l§cBạn đã hủy mua bán!"

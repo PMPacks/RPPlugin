@@ -1,0 +1,13 @@
+#MuaPointUI Config
+#Thêm màu mè nếu bạn muốn, mình không rành về điều đó :vvv
+
+price: 280000 #Giá 1 point tính theo money
+
+msg:
+  buy-done: "§l§a✔ §eBạn đã mua thành công§6 【{point}】 Ｐoint"
+  buy-fail: "§l§e✘ §eBạn không đủ tiền, cần thêm§e 【{price}】 Xu"
+  null-input: "§l§c✘ §cVui lòng nhập số §6Ｐoint§c bạn cần mua"
+  not-numeric-input: "§l§c✘ §cVui lòng nhập số, không phải kí tự khác"
+form:
+  title: "§l【 MENU MUA §6ＰＯＩＮＴＳ  §r§l】"
+  input: "§7§oNhập số point bạn cần mua"

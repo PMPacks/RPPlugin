@@ -1,0 +1,947 @@
+crates:
+  Weapon:
+    drops:
+      - id: 41
+        meta: 0
+        amount: 64
+        chance: 80
+      - id: 41
+        meta: 0
+        amount: 64
+        chance: 80
+      - id: 57
+        meta: 0
+        amount: 64
+        chance: 80
+      - id: 133
+        meta: 0
+        amount: 64
+        chance: 80
+      - id: 267
+        meta: 0
+        amount: 1
+        chance: 13
+        name: "§lＫiếm §aThợ §2Săn"
+        lore: "§l§7[=======================================]\n§b§l-=☯=- §eVampire (LvI): §r§ehút máu đối phương theo tỉ lệ nhỏ\n§b§l-=☯=- §eGooey (LvI): §r§ehất tung kẻ thù với độ cao thấp\n§l§7[=======================================]\n§l§cĐộ bền §r§d■■§8□□□□□□□□\n§l§cSát thương §r§d■■§8□□□□□□□\n§l§7[=======================================]"
+        enchantments:
+          - name: "Unbreaking"
+            level: 3
+          - name: "Sharpness"
+            level: 3
+          - name: "Vampire"
+            level: 1
+          - name: "Gooey"
+            level: 1
+        commands:
+          - "tell {PLAYER} §6Bạn đã nhận được [ §lＫiếm §aThợ §2Săn§r§6 ] §c(x1) §6từ rương weapon!"
+      - id: 267
+        meta: 0
+        amount: 1
+        chance: 10
+        name: "§lＫiếm §bQuân §3Vương"
+        lore: "§l§7[=======================================]\n§b§l-=☯=- §eCripple (LvI): §r§egây choáng kèm làm chậm đối thủ\n§b§l-=☯=- §eAutorepair (LvII): §r§etự sửa vật phẩm khi di chuyển\n§l§7[=======================================]\n§l§cĐộ bền §r§d■■■§8□□□□□□□\n§l§cSát thương §r§d■■§8□□□□□□□\n§l§cGây cháy §r§d■■§8□□□□□□□\n§l§7[=======================================]"
+        enchantments:
+          - name: "Unbreaking"
+            level: 5
+          - name: "Sharpness"
+            level: 4
+          - name: "Fire Aspect"
+            level: 2
+          - name: "Cripple"
+            level: 1
+          - name: "Autorepair"
+            level: 2
+        commands:
+          - "tell {PLAYER} §6Bạn đã nhận được [ §lＫiếm §bQuân Vương§r§6 ] §c(x1) §6từ rương weapon!"
+      - id: 268
+        meta: 0
+        amount: 1
+        chance: 16
+        name: "§lＫiếm §2Tre Kendo"
+        lore: "§l§7[=======================================]\n§b§l-=☯=- §ePoison (LvI): §r§egây độc đối phương theo sát thương nhỏ\n§l§7[=======================================]\n§l§cĐộ bền §r§d■§8□□□□□□□□□\n§l§cSát thương §r§d■§8□□□□□□□□\n§l§7[=======================================]"
+        enchantments:
+          - name: "Unbreaking"
+            level: 2
+          - name: "Sharpness"
+            level: 2
+          - name: "Poison"
+            level: 1
+        commands:
+          - "tell {PLAYER} §6Bạn đã nhận được [ §lＫiếm §2Tre Kendo§r§6 ] §c(x1) §6từ rương weapon!"
+      - id: 276
+        meta: 0
+        amount: 1
+        chance: 7
+        name: "§c§lＫiếm §6Rồng §5Thần 【࿐】"
+        lore: "§l§7[=======================================]\n§b§l-=☯=- §eBlind (LvII): §r§egây mù cho đối thủ trong thời gian ngắn\n§b§l-=☯=- §eCripple (LvII): §r§egây choáng kèm làm chậm đối thủ\n§l§7[=======================================]\n§l§cĐộ bền §r§d■■■■§8□□□□□□\n§l§cSát thương §r§d■■■■§8□□□□□\n§l§cGây cháy §r§d■■■§8□□□□□□\n§l§7[=======================================]"
+        enchantments:
+          - name: "Unbreaking"
+            level: 8
+          - name: "Sharpness"
+            level: 8
+          - name: "Fire Aspect"
+            level: 5
+          - name: "Blind"
+            level: 2
+          - name: "Cripple"
+            level: 2
+        commands:
+          - "tell {PLAYER} §6Bạn đã nhận được [ §c§lＫiếm §6Rồng §5Thần 【࿐】§r§6 ] §c(x1) §6từ rương weapon!"
+      - id: 276
+        meta: 0
+        amount: 1
+        chance: 5
+        name: "§6§lＫiếm §fThủy §bThần 【む】"
+        lore: "§l§7[=======================================]\n§b§l-=☯=- §eCharge (LvIII): §r§etăng thêm sát thương khi chạy\n§b§l-=☯=- §eCripple (LvIII): §r§egây choáng kèm làm chậm đối thủ\n§b§l-=☯=- §eBlessed (LvIII): §r§etỉ lệ giảm các hiệu ứng có hại khi đang đánh nhau\n§b§l-=☯=- §eWither (LvII): §r§egây hiệu ứng khô héo vào đối thủ\n§l§7[=======================================]\n§l§cĐộ bền §r§d■■■■§8□□□□□□\n§l§cSát thương §r§d■■■■§8□□□□□\n§l§cGây cháy §r§d■■■§8□□□□□□\n§l§7[=======================================]"
+        enchantments:
+          - name: "Unbreaking"
+            level: 12
+          - name: "Sharpness"
+            level: 12
+          - name: "Fire Aspect"
+            level: 8
+          - name: "Charge"
+            level: 3
+          - name: "Cripple"
+            level: 3
+          - name: "Blessed"
+            level: 3
+          - name: "Wither"
+            level: 2
+        commands:
+          - "tell {PLAYER} §6Bạn đã nhận được [ §6§lＫiếm §fThủy §bThần 【む】§r§6 ] §c(x1) §6từ rương weapon!"
+      - id: 276
+        meta: 0
+        amount: 1
+        chance: 3
+        name: "§e---§6=== §c§lＫiếm §5Ma §dVương 【ボ】 §6===§e---"
+        lore: "§l§7[=======================================]\n§b§l-=☯=- §eCharge (LvIV): §r§etăng thêm sát thương khi chạy\n§b§l-=☯=- §eBlind (LvIV): §r§egây mù đối thủ trong thời gian dài\n§b§l-=☯=- §eDeep Wounds (LvIV): §r§egăm sâu vết thương làm kẻ thù chảy máu\n§b§l-=☯=- §eBackstab (LvIII): §r§eđâm sau kẻ thù gây sát thương gia tăng\n§b§l-=☯=- §eAutorepair (LvIII): §r§etự sửa vật phẩm khi di chuyển\n§l§7[=======================================]\n§l§cĐộ bền §r§d■■■■■■■■§8□□\n§l§cSát thương §r§d■■■■■■■■■§8□\n§l§cGây cháy §r§d■■■■■■§8□□□□\n§l§7[=======================================]"
+        enchantments:
+          - name: "Unbreaking"
+            level: 15
+          - name: "Sharpness"
+            level: 18
+          - name: "Fire Aspect"
+            level: 12
+          - name: "Charge"
+            level: 4
+          - name: "Blind"
+            level: 4
+          - name: "Deep Wounds"
+            level: 4
+          - name: "Backstab"
+            level: 3
+          - name: "Autorepair"
+            level: 3
+        commands:
+          - "tell {PLAYER} §6Bạn đã nhận được [ §e---§6=== §c§lＫiếm §5Ma §dVương 【ボ】 §6===§e---§r§6 ] §c(x1) §6từ rương weapon!"
+      - id: 261
+        meta: 0
+        amount: 1
+        chance: 13
+        name: "§lＣung §aXạ §2Thủ"
+        lore: "§l§7[=======================================]\n§b§l-=☯=- §ePiercing (LvI): §r§etăng 10% xuyên giáp kẻ thù\n§b§l-=☯=- §eHeadhunter (LvI): §r§ebắn vào đầu gây thêm ít sát thương\n§l§7[=======================================]\n§l§cĐộ bền §r§d■■§8□□□□□□□\n§l§cSát thương §r§d■■§8□□□□□□□\n§l§7[=======================================]"
+        enchantments:
+          - name: "Unbreaking"
+            level: 3
+          - name: "Power"
+            level: 3
+          - name: "Headhunter"
+            level: 1
+          - name: "Piercing"
+            level: 1
+        commands:
+          - "tell {PLAYER} §6Bạn đã nhận được [ §lＣung §aXạ §2Thủ§r§6 ] §c(x1) §6từ rương weapon!"
+      - id: 261
+        meta: 0
+        amount: 1
+        chance: 10
+        name: "§lＣung §eThuần §gThục"
+        lore: "§l§7[=======================================]\n§b§l-=☯=- §eParalyze (LvI): §r§egây nôn mửa, làm chậm và yếu đi kẻ thù\n§b§l-=☯=- §eVolley (LvII): §r§ebắn ra một vòng mũi tên hình tròn\n§l§7[=======================================]\n§l§cĐộ bền §r§d■■■§8□□□□□□\n§l§cSát thương §r§d■■■§8□□□□□□\n§l§7[=======================================]"
+        enchantments:
+          - name: "Unbreaking"
+            level: 5
+          - name: "Power"
+            level: 5
+          - name: "Paralyze"
+            level: 1
+          - name: "Volley"
+            level: 2
+        commands:
+          - "tell {PLAYER} §6Bạn đã nhận được [ §lＣung §eThuần §gThục§r§6 ] §c(x1) §6từ rương weapon!"
+      - id: 261
+        meta: 0
+        amount: 1
+        chance: 7
+        name: "§a§lＣung §5Ngọa §dLong 【࿐】"
+        lore: "§l§7[=======================================]\n§b§l-=☯=- §eParalyze (LvII): §r§egây nôn mửa, làm chậm và yếu đi kẻ thù\n§b§l-=☯=- §eVolley (LvII): §r§ebắn ra một vòng mũi tên hình tròn\n§b§l-=☯=- §ePiercing (LvI): §r§exuyên giáp tăng 10%\n§l§7[=======================================]\n§l§cĐộ bền §r§d■■■■§8□□□□□\n§l§cSát thương §r§d■■■■§8□□□□□\n§l§cGây cháy §r§d■■■§8□□□□□□□\n§l§7[=======================================]"
+        enchantments:
+          - name: "Unbreaking"
+            level: 8
+          - name: "Power"
+            level: 8
+          - name: "Flame"
+            level: 5
+          - name: "Paralyze"
+            level: 2
+          - name: "Volley"
+            level: 2
+          - name: "Piercing"
+            level: 1
+        commands:
+          - "tell {PLAYER} §6Bạn đã nhận được [ §a§lＣung §5Ngọa §dLong 【࿐】§r§6 ] §c(x1) §6từ rương weapon!"
+      - id: 261
+        meta: 0
+        amount: 1
+        chance: 5
+        name: "§l§6Ｃung §cHỏa §4Xà 【㊒】"
+        lore: "§l§7[=======================================]\n§b§l-=☯=- §eBlaze (LvIII): §r§ebắn ra một quả cầu lửa\n§b§l-=☯=- §eParalyze (LvIII): §r§egây ra hiệu ứng mù, làm chậm, gây yếu khi bắn trúng địch\n§b§l-=☯=- §eAuto Aim (LvII): §r§emũi tên tự động bắn vào kẻ địch\n§b§l-=☯=- §eGrappling (LvII): §r§ekéo kẻ thù lại gần bạn nếu bạn bắn trúng họ\n§l§7[=======================================]\n§l§cĐộ bền §r§d■■■■■■■§8□□□\n§l§cSát thương §r§d■■■■■■■§8□□□\n§l§cGây cháy §r§d■■■■§8□□□□□□\n§l§7[=======================================]"
+        enchantments:
+          - name: "Unbreaking"
+            level: 13
+          - name: "Power"
+            level: 13
+          - name: "Flame"
+            level: 8
+          - name: "Blaze"
+            level: 3
+          - name: "Paralyze"
+            level: 3
+          - name: "Auto Aim"
+            level: 2
+          - name: "Grappling"
+            level: 2
+        commands:
+          - "tell {PLAYER} §6Bạn đã nhận được [ §l§6Ｃung §cHỏa §4Xà 【㊒】§r§6 ] §c(x1) §6từ rương weapon!"
+      - id: 261
+        meta: 0
+        amount: 1
+        chance: 3
+        name: "§e---§6=== §c§lＣung §5Ma §dVương 【ボ】 §6===§e---"
+        lore: "§l§7[=======================================]\n§b§l-=☯=- §eBombardment (LvIV): §r§ebắn lại kẻ thù bằng tnt khi bị bắn\n§b§l-=☯=- §eShuffle (LvIV): §r§enếu có trên 2 kẻ địch, mũi tên sẽ xuyên qua 2 người\n§b§l-=☯=- §eVolley (LvIV): §r§ebắn ra một vòng mũi tên hình tròn\n§b§l-=☯=- §eParalyze (LvIII): §r§egây nôn mửa, làm chậm và yếu đi kẻ thù\n§b§l-=☯=- §eBounty Hunter (LvIII): §r§ecơ hội nhận thêm phần quà khi bắn trúng kẻ địch\n§l§7[=======================================]\n§l§cĐộ bền §r§d■■■■■■■■■§8□\n§l§cSát thương §r§d■■■■■■■■■§8□\n§l§cGây cháy §r§d■■■■■■§8□□□□\n§l§7[=======================================]"
+        enchantments:
+          - name: "Unbreaking"
+            level: 18
+          - name: "Power"
+            level: 18
+          - name: "Flame"
+            level: 12
+          - name: "Bombardment"
+            level: 4
+          - name: "Shuffle"
+            level: 4
+          - name: "Volley"
+            level: 4
+          - name: "Paralyze"
+            level: 3
+          - name: "Bounty Hunter"
+            level: 3
+        commands:
+          - "tell {PLAYER} §6Bạn đã nhận được [ §e---§6=== §c§lＣung §5Ma §dVương 【ボ】 §6===§e---§r§6 ] §c(x1) §6từ rương weapon!"
+      - id: 276
+        meta: 0
+        amount: 1
+        chance: 1
+        name: "§l§eＭ§gI§6N§4E §cＡ§2N§aD §bＦ§3I§9G§dH§5T §r§7【 KIẾM ⚒ 】"
+        lore: "§l§7[=======================================]\n§b§l-=☯=- §r§e10 Custom enchantment (kiếm) chọn lọc vào thanh kiếm này\n§l§7[=======================================]\n§l§cĐộ bền §r§d■■■■■■■■■■■■■■■§8\n§l§cSát thương §r§d■■■■■■■■■■■■■■■§8\n§l§cGây cháy §r§d■■■§8□□□□□□□\n§l§7[=======================================]"
+        enchantments:
+          - name: "Unbreaking"
+            level: 30
+          - name: "Sharpness"
+            level: 30
+          - name: "Fire Aspect"
+            level: 6
+          - name: "Aerial"
+            level: 1
+          - name: "Backstab"
+            level: 1
+          - name: "Blessed"
+            level: 1
+          - name: "Blind"
+            level: 1
+          - name: "Charge"
+            level: 1
+          - name: "Cripple"
+            level: 1
+          - name: "Deathbringer"
+            level: 1
+          - name: "Gooey"
+            level: 1
+          - name: "Poison"
+            level: 1
+          - name: "Vampire"
+            level: 1
+        commands:
+          - "tell {PLAYER} §6Bạn đã nhận được [ §l§eＭ§gI§6N§4E §cＡ§2N§aD §bＦ§3I§9G§dH§5T §r§7【 KIẾM ⚒ 】§r§6 ] §c(x1) §6từ rương weapon!"
+    amount: 1
+    commands: ["nothing"]
+    floating-text: "§r§r§l§a〚 RƯƠNG §fVŨ KHÍ §aSEASON2 〛\n§cCần dùng [1] key để mở"
+  Armor:
+    drops:
+      - id: 41
+        meta: 0
+        amount: 64
+        chance: 80
+      - id: 41
+        meta: 0
+        amount: 64
+        chance: 80
+      - id: 57
+        meta: 0
+        amount: 64
+        chance: 80
+      - id: 133
+        meta: 0
+        amount: 64
+        chance: 80
+      - id: 306
+        meta: 0
+        amount: 1
+        chance: 13
+        name: "§lＭũ §aPhán §2Quyết"
+        lore: "§l§7[=======================================]\n§b§l-=☯=- §eFocused (LvI): §r§ecó khả năng miễn dịch với hiệu ứng nôn mửa\n§l§7[=======================================]\n§l§cĐộ bền §r§d■■§8□□□□□□□□\n§l§cBảo vệ §r§d■■§8□□□□□□□□\n§l§7[=======================================]"
+        enchantments:
+          - name: "Unbreaking"
+            level: 3
+          - name: "Protection"
+            level: 3
+          - name: "Focused"
+            level: 1
+        commands:
+          - "tell {PLAYER} §6Bạn đã nhận được [ §lＭũ §aPhán §2Quyết§r§6 ] §c(x1) §6từ rương armor!"
+      - id: 307
+        meta: 0
+        amount: 1
+        chance: 13
+        name: "§lＡó §aPhán §2Quyết"
+        lore: "§l§7[=======================================]\n§b§l-=☯=- §eFrozen (LvI): §r§ekhiến kẻ địch chạy chậm khi đánh họ\n§l§7[=======================================]\n§l§cĐộ bền §r§d■■§8□□□□□□□□\n§l§cBảo vệ §r§d■■§8□□□□□□□□\n§l§7[=======================================]"
+        enchantments:
+          - name: "Unbreaking"
+            level: 3
+          - name: "Protection"
+            level: 3
+          - name: "Frozen"
+            level: 1
+        commands:
+          - "tell {PLAYER} §6Bạn đã nhận được [ §lＡó §aPhán §2Quyết§r§6 ] §c(x1) §6từ rương armor!"
+      - id: 308
+        meta: 0
+        amount: 1
+        chance: 13
+        name: "§lＱuần §aPhán §2Quyết"
+        lore: "§l§7[=======================================]\n§b§l-=☯=- §eTank (LvI): §r§egiảm sát thương từ cung tên\n§l§7[=======================================]\n§l§cĐộ bền §r§d■■§8□□□□□□□□\n§l§cBảo vệ §r§d■■§8□□□□□□□□\n§l§7[=======================================]"
+        enchantments:
+          - name: "Unbreaking"
+            level: 3
+          - name: "Protection"
+            level: 3
+          - name: "Tank"
+            level: 1
+        commands:
+          - "tell {PLAYER} §6Bạn đã nhận được [ §lＱuần §aPhán §2Quyết§r§6 ] §c(x1) §6từ rương armor!"
+      - id: 309
+        meta: 0
+        amount: 1
+        chance: 13
+        name: "§lＧiày §aPhán §2Quyết"
+        lore: "§l§7[=======================================]\n§b§l-=☯=- §eArmored (LvI): §r§egiảm sát thương của kiếm\n§l§7[=======================================]\n§l§cĐộ bền §r§d■■§8□□□□□□□□\n§l§cBảo vệ §r§d■■§8□□□□□□□□\n§l§7[=======================================]"
+        enchantments:
+          - name: "Unbreaking"
+            level: 3
+          - name: "Protection"
+            level: 3
+          - name: "Armored"
+            level: 1
+        commands:
+          - "tell {PLAYER} §6Bạn đã nhận được [ §lＧiày §aPhán §2Quyết§r§6 ] §c(x1) §6từ rương armor!"
+      - id: 306
+        meta: 0
+        amount: 1
+        chance: 10
+        name: "§lＭũ §bHàn §3Băng"
+        lore: "§l§7[=======================================]\n§b§l-=☯=- §eFrozen (LvI): §r§elàm chậm cho đối thủ khi đánh họ\n§b§l-=☯=- §eArmored (LvI): §r§egiảm sát thương của kiếm\n§l§7[=======================================]\n§l§cĐộ bền §r§d■■■§8□□□□□□□\n§l§cBảo vệ §r§d■■§8□□□□□□□\n§l§cPhản sát thương §r§d■§8□□□□□□□□\n§l§7[=======================================]"
+        enchantments:
+          - name: "Unbreaking"
+            level: 5
+          - name: "Protection"
+            level: 4
+          - name: "Thorns"
+            level: 2
+          - name: "Frozen"
+            level: 1
+          - name: "Armored"
+            level: 1
+        commands:
+          - "tell {PLAYER} §6Bạn đã nhận được [ §lＭũ §bHàn §3Băng§r§6 ] §c(x1) §6từ rương armor!"
+      - id: 307
+        meta: 0
+        amount: 1
+        chance: 10
+        name: "§lＡó §bHàn §3Băng"
+        lore: "§l§7[=======================================]\n§b§l-=☯=- §eFrozen (LvI): §r§elàm chậm cho đối thủ khi đánh họ\n§b§l-=☯=- §eHardened (LvI): §r§egây hiệu ứng yếu đuối khi đánh kẻ thù\n§l§7[=======================================]\n§l§cĐộ bền §r§d■■■§8□□□□□□□\n§l§cBảo vệ §r§d■■§8□□□□□□□\n§l§cPhản sát thương §r§d■§8□□□□□□□□\n§l§7[=======================================]"
+        enchantments:
+          - name: "Unbreaking"
+            level: 5
+          - name: "Protection"
+            level: 5
+          - name: "Thorns"
+            level: 2
+          - name: "Frozen"
+            level: 1
+          - name: "Hardened"
+            level: 1
+        commands:
+          - "tell {PLAYER} §6Bạn đã nhận được [ §lＡó §bHàn §3Băng§r§6 ] §c(x1) §6từ rương armor!"
+      - id: 308
+        meta: 0
+        amount: 1
+        chance: 10
+        name: "§lＱuần §bHàn §3Băng"
+        lore: "§l§7[=======================================]\n§b§l-=☯=- §eFrozen (LvI): §r§elàm chậm cho đối thủ khi đánh họ\n§b§l-=☯=- §eOverload (LvI): §r§etăng thêm máu cho bạn, có thể cộng dồn\n§l§7[=======================================]\n§l§cĐộ bền §r§d■■■§8□□□□□□□\n§l§cBảo vệ §r§d■■§8□□□□□□□\n§l§cPhản sát thương §r§d■§8□□□□□□□□\n§l§7[=======================================]"
+        enchantments:
+          - name: "Unbreaking"
+            level: 5
+          - name: "Protection"
+            level: 4
+          - name: "Thorns"
+            level: 2
+          - name: "Frozen"
+            level: 1
+          - name: "Overload"
+            level: 1
+        commands:
+          - "tell {PLAYER} §6Bạn đã nhận được [ §lＱuần §bHàn §3Băng§r§6 ] §c(x1) §6từ rương armor!"
+      - id: 309
+        meta: 0
+        amount: 1
+        chance: 10
+        name: "§lＧiày §bHàn §3Băng"
+        lore: "§l§7[=======================================]\n§b§l-=☯=- §eFrozen (LvI): §r§elàm chậm cho đối thủ khi đánh họ\n§b§l-=☯=- §eShielded (LvI): §r§enhận hiệu ứng bảo vệ khi mặc\n§l§7[=======================================]\n§l§cĐộ bền §r§d■■■§8□□□□□□□\n§l§cBảo vệ §r§d■■§8□□□□□□□\n§l§cPhản sát thương §r§d■§8□□□□□□□□\n§l§7[=======================================]"
+        enchantments:
+          - name: "Unbreaking"
+            level: 5
+          - name: "Protection"
+            level: 4
+          - name: "Thorns"
+            level: 2
+          - name: "Frozen"
+            level: 1
+          - name: "Shielded"
+            level: 1
+        commands:
+          - "tell {PLAYER} §6Bạn đã nhận được [ §lＧiày §bHàn §3Băng§r§6 ] §c(x1) §6từ rương armor!"
+      - id: 310
+        meta: 0
+        amount: 1
+        chance: 6
+        name: "§l§gＭũ §6Công §eTước 【༻】"
+        lore: "§l§7[=======================================]\n§b§l-=☯=- §eEnlighted (LvII): §r§enhận hiệu ứng hồi máu khi bị đánh\n§b§l-=☯=- §eGlowing (LvII): §r§enhận hiệu ứng nhìn trong bóng tối khi mặc vào\n§b§l-=☯=- §eShielded (LvI): §r§enhận hiệu ứng bảo vệ khi mặc vào\n§l§7[=======================================]\n§l§cĐộ bền §r§d■■■■§8□□□□□□\n§l§cBảo vệ §r§d■■■■§8□□□□□□\n§l§cĐánh trả §r§d■■§8□□□□□□□□\n§l§7[=======================================]"
+        enchantments:
+          - name: "Unbreaking"
+            level: 8
+          - name: "Protection"
+            level: 8
+          - name: "Thorns"
+            level: 4
+          - name: "Enlighted"
+            level: 2
+          - name: "Glowing"
+            level: 2
+          - name: "Shielded"
+            level: 1
+        commands:
+          - "tell {PLAYER} §6Bạn đã nhận được [ §l§gＭũ §6Công §eTước 【༻】§r§6 ] §c(x1) §6từ rương armor!"
+      - id: 311
+        meta: 0
+        amount: 1
+        chance: 6
+        name: "§l§gＡó §6Công §eTước 【༻】"
+        lore: "§l§7[=======================================]\n§b§l-=☯=- §eObsidian Shield (LvII): §r§enhận hiệu ứng chống lửa khi mặc vào\n§b§l-=☯=- §eHardened (LvII): §r§egây hiệu ứng yếu đuối khi đánh kẻ thù\n§b§l-=☯=- §eEnraged (LvI): §r§enhận hiệu ứng sức mạnh khi mặc vào\n§l§7[=======================================]\n§l§cĐộ bền §r§d■■■■§8□□□□□□\n§l§cBảo vệ §r§d■■■■§8□□□□□□\n§l§cĐánh trả §r§d■■§8□□□□□□□□\n§l§7[=======================================]"
+        enchantments:
+          - name: "Unbreaking"
+            level: 8
+          - name: "Protection"
+            level: 9
+          - name: "Thorns"
+            level: 4
+          - name: "Obsidian Shield"
+            level: 2
+          - name: "Hardened"
+            level: 2
+          - name: "Enraged"
+            level: 1
+        commands:
+          - "tell {PLAYER} §6Bạn đã nhận được [ §l§gＡó §6Công §eTước 【༻】§r§6 ] §c(x1) §6từ rương armor!"
+      - id: 312
+        meta: 0
+        amount: 1
+        chance: 6
+        name: "§l§gＱuần §6Công §eTước 【༻】"
+        lore: "§l§7[=======================================]\n§b§l-=☯=- §eEnlighted (LvII): §r§enhận hiệu ứng hồi máu khi bị đánh\n§b§l-=☯=- §ePoisoned (LvII): §r§egây hiệu ứng độc cho kẻ thù đánh bạn\n§b§l-=☯=- §eTank (LvI): §r§egiảm sát thương của cung tên gây ra\n§l§7[=======================================]\n§l§cĐộ bền §r§d■■■■§8□□□□□□\n§l§cBảo vệ §r§d■■■■§8□□□□□□\n§l§cĐánh trả §r§d■■§8□□□□□□□□\n§l§7[=======================================]"
+        enchantments:
+          - name: "Unbreaking"
+            level: 8
+          - name: "Protection"
+            level: 8
+          - name: "Thorns"
+            level: 4
+          - name: "Enlighted"
+            level: 2
+          - name: "Poisoned"
+            level: 2
+          - name: "Tank"
+            level: 1
+        commands:
+          - "tell {PLAYER} §6Bạn đã nhận được [ §l§gＱuần §6Công §eTước 【༻】§r§6 ] §c(x1) §6từ rương armor!"
+      - id: 313
+        meta: 0
+        amount: 1
+        chance: 6
+        name: "§l§gＧiày §6Công §eTước 【༻】"
+        lore: "§l§7[=======================================]\n§b§l-=☯=- §eRevulsion (LvII): §r§egây nôn mửa cho kẻ địch khi họ đánh bạn\n§b§l-=☯=- §eGlowing (LvII): §r§enhận hiệu ứng chống lửa khi mặc vào\n§b§l-=☯=- §eEndershift (LvI): §r§enhận hiệu ứng chạy nhanh và hấp thụ khi yếu máu\n§l§7[=======================================]\n§l§cĐộ bền §r§d■■■■§8□□□□□□\n§l§cBảo vệ §r§d■■■■§8□□□□□□\n§l§cĐánh trả §r§d■■§8□□□□□□□□\n§l§7[=======================================]"
+        enchantments:
+          - name: "Unbreaking"
+            level: 8
+          - name: "Protection"
+            level: 8
+          - name: "Thorns"
+            level: 4
+          - name: "Revulsion"
+            level: 2
+          - name: "Obsidian Shield"
+            level: 2
+          - name: "Endershift"
+            level: 1
+        commands:
+          - "tell {PLAYER} §6Bạn đã nhận được [ §l§gＧiày §6Công §eTước 【༻】§r§6 ] §c(x1) §6từ rương armor!"
+      - id: 310
+        meta: 0
+        amount: 1
+        chance: 4
+        name: "§l§6Ｍũ §cPhượng §4Hoàng 【㊒】"
+        lore: "§l§7[=======================================]\n§b§l-=☯=- §eAntitoxin (LvIII): §r§ecó khả năng miễn nhiễm hiệu ứng độc\n§b§l-=☯=- §eShrink (LvIII): §r§engồi xuống sẽ thu nhỏ cơ thể (mặc full set phượng hoàng)\n§b§l-=☯=- §eOverload (LvII): §r§etăng thêm máu khi mặc, có thể cộng dồn\n§b§l-=☯=- §eArmored (LvII): §r§egiảm sát thương của kiếm gây ra\n§l§7[=======================================]\n§l§cĐộ bền §r§d■■■■■■■§8□□□\n§l§cSát thương §r§d■■■■■■■§8□□□\n§l§cPhản sát thương §r§d■■■■§8□□□□□□\n§l§7[=======================================]"
+        enchantments:
+          - name: "Unbreaking"
+            level: 13
+          - name: "Protection"
+            level: 13
+          - name: "Thorns"
+            level: 8
+          - name: "Antitoxin"
+            level: 3
+          - name: "Shrink"
+            level: 3
+          - name: "Overload"
+            level: 2
+          - name: "Armored"
+            level: 2
+        commands:
+          - "tell {PLAYER} §6Bạn đã nhận được [ §l§6Ｍũ §cPhượng §4Hoàng 【㊒】§r§6 ] §c(x1) §6từ rương armor!"
+      - id: 311
+        meta: 0
+        amount: 1
+        chance: 4
+        name: "§l§6Ａó §cPhượng §4Hoàng 【㊒】"
+        lore: "§l§7[=======================================]\n§b§l-=☯=- §eMolten (LvIII): §r§elàm cho kẻ thù bị cháy khi đánh họ\n§b§l-=☯=- §eShrink (LvIII): §r§engồi xuống sẽ thu nhỏ cơ thể (mặc full set phượng hoàng)\n§b§l-=☯=- §eDrunk(LvII): §r§elàm cho kẻ thù bị chóng mặt, đào chậm và chạy chậm khi đánh trúng họ\n§b§l-=☯=- §eCactus (LvII): §r§egây sát thương cho những người gần nhất\n§l§7[=======================================]\n§l§cĐộ bền §r§d■■■■■■■§8□□□\n§l§cSát thương §r§d■■■■■■■§8□□□\n§l§cPhản sát thương §r§d■■■■§8□□□□□□\n§l§7[=======================================]"
+        enchantments:
+          - name: "Unbreaking"
+            level: 14
+          - name: "Protection"
+            level: 14
+          - name: "Thorns"
+            level: 8
+          - name: "Molten"
+            level: 3
+          - name: "Shrink"
+            level: 3
+          - name: "Drunk"
+            level: 2
+          - name: "Cactus"
+            level: 2
+        commands:
+          - "tell {PLAYER} §6Bạn đã nhận được [ §l§6Ａó §cPhượng §4Hoàng 【㊒】§r§6 ] §c(x1) §6từ rương armor!"
+      - id: 312
+        meta: 0
+        amount: 1
+        chance: 4
+        name: "§l§6Ｑuần §cPhượng §4Hoàng 【㊒】"
+        lore: "§l§7[=======================================]\n§b§l-=☯=- §eAnti Knockback (LvIII): §r§ecó khả năng chống bật lùi\n§b§l-=☯=- §eShrink (LvIII): §r§engồi xuống sẽ thu nhỏ cơ thể (mặc full set phượng hoàng)\n§b§l-=☯=- §eEndershift (LvII): §r§enhận hiệu ứng chạy nhanh và hấp thụ khi yếu máu\n§b§l-=☯=- §eOverload (LvII): §r§etăng thêm máu khi mặc, có thể cộng dồn\n§l§7[=======================================]\n§l§cĐộ bền §r§d■■■■■■■§8□□□\n§l§cSát thương §r§d■■■■■■■§8□□□\n§l§cPhản sát thương §r§d■■■■§8□□□□□□\n§l§7[=======================================]"
+        enchantments:
+          - name: "Unbreaking"
+            level: 13
+          - name: "Protection"
+            level: 13
+          - name: "Thorns"
+            level: 8
+          - name: "Anti Knockback"
+            level: 3
+          - name: "Shrink"
+            level: 3
+          - name: "Endershift"
+            level: 2
+          - name: "Overload"
+            level: 2
+        commands:
+          - "tell {PLAYER} §6Bạn đã nhận được [ §l§6Ｑuần §cPhượng §4Hoàng 【㊒】§r§6 ] §c(x1) §6từ rương armor!"
+      - id: 313
+        meta: 0
+        amount: 1
+        chance: 4
+        name: "§l§6Ｇiày §cPhượng §4Hoàng 【㊒】"
+        lore: "§l§7[=======================================]\n§b§l-=☯=- §eSprings (LvIII): §r§enhận hiệu ứng nhảy cao khi mặc\n§b§l-=☯=- §eShrink (LvIII): §r§engồi xuống sẽ thu nhỏ cơ thể (mặc full set phượng hoàng)\n§b§l-=☯=- §eAutorepair (LvII): §r§etự sửa vật phẩm khi di chuyển\n§b§l-=☯=- §eArmored (LvII): §r§egiảm sát thương của kiếm gây ra\n§l§7[=======================================]\n§l§cĐộ bền §r§d■■■■■■■§8□□□\n§l§cSát thương §r§d■■■■■■■§8□□□\n§l§cPhản sát thương §r§d■■■■§8□□□□□□\n§l§7[=======================================]"
+        enchantments:
+          - name: "Unbreaking"
+            level: 13
+          - name: "Protection"
+            level: 13
+          - name: "Thorns"
+            level: 8
+          - name: "Springs"
+            level: 3
+          - name: "Shrink"
+            level: 3
+          - name: "Autorepair"
+            level: 2
+          - name: "Armored"
+            level: 2
+        commands:
+          - "tell {PLAYER} §6Bạn đã nhận được [ §l§6Ｇiày §cPhượng §4Hoàng 【㊒】§r§6 ] §c(x1) §6từ rương armor!"
+      - id: 310
+        meta: 0
+        amount: 1
+        chance: 2
+        name: "§e---§6=== §c§lＭũ §5Ma §dVương 【ボ】 §6===§e---"
+        lore: "§l§7[=======================================]\n§b§l-=☯=- §eMeditation (LvIV): §r§etự động hồi phục máu và thức ăn sau 30s\n§b§l-=☯=- §eEndershift (LvIV): §r§enhận hiệu ứng chạy nhanh và hấp thụ khi yếu máu\n§b§l-=☯=- §eHardened (LvIV): §r§egây cho địch hiệu ứng yếu đuối khi đánh kẻ địch\n§b§l-=☯=- §ePoisoned (LvIII): §r§egây độc khi đánh trúng kẻ thù\n§b§l-=☯=- §eAnti Knockback (LvIII): §r§ecó khả năng chống bật lùi khi mặc\n§l§7[=======================================]\n§l§cĐộ bền §r§d■■■■■■■■■§8□\n§l§cSát thương §r§d■■■■■■■■■§8□\n§l§cPhản sát thương §r§d■■■■■■■§8□□□\n§l§7[=======================================]"
+        enchantments:
+          - name: "Unbreaking"
+            level: 18
+          - name: "Power"
+            level: 18
+          - name: "Thorns"
+            level: 14
+          - name: "Meditation"
+            level: 4
+          - name: "Endershift"
+            level: 4
+          - name: "Hardened"
+            level: 4
+          - name: "Poisoned"
+            level: 3
+          - name: "Anti Knockback"
+            level: 3
+        commands:
+          - "tell {PLAYER} §6Bạn đã nhận được [ §e---§6=== §c§lＭũ §5Ma §dVương 【ボ】 §6===§e---§r§6 ] §c(x1) §6từ rương armor!"
+      - id: 311
+        meta: 0
+        amount: 1
+        chance: 2
+        name: "§e---§6=== §c§lＡó §5Ma §dVương 【ボ】 §6===§e---"
+        lore: "§l§7[=======================================]\n§b§l-=☯=- §eSelf Destruct (LvIV): §r§etự tạo ra vụ nổ sau khi chết\n§b§l-=☯=- §eEndershift (LvIV): §r§enhận hiệu ứng chạy nhanh và hấp thụ khi yếu máu\n§b§l-=☯=- §eRevulsion (LvIV): §r§egây cho địch hiệu ứng nôn mửa khi bị kẻ địch đánh\n§b§l-=☯=- §eObsidian Shield (LvIII): §r§enhận hiệu ứng chống lửa khi mặc vào\n§b§l-=☯=- §eAnti Knockback (LvIII): §r§ecó khả năng chống bật lùi khi mặc\n§l§7[=======================================]\n§l§cĐộ bền §r§d■■■■■■■■■§8□\n§l§cSát thương §r§d■■■■■■■■■§8□\n§l§cPhản sát thương §r§d■■■■■■■§8□□□\n§l§7[=======================================]"
+        enchantments:
+          - name: "Unbreaking"
+            level: 18
+          - name: "Power"
+            level: 18
+          - name: "Thorns"
+            level: 14
+          - name: "Self Destruct"
+            level: 4
+          - name: "Endershift"
+            level: 4
+          - name: "Revulsion"
+            level: 4
+          - name: "Obsidian Shield"
+            level: 3
+          - name: "Anti Knockback"
+            level: 3
+        commands:
+          - "tell {PLAYER} §6Bạn đã nhận được [ §e---§6=== §c§lＡó §5Ma §dVương 【ボ】 §6===§e---§r§6 ] §c(x1) §6từ rương armor!"
+      - id: 312
+        meta: 0
+        amount: 1
+        chance: 2
+        name: "§e---§6=== §c§lＱuần §5Ma §dVương 【ボ】 §6===§e---"
+        lore: "§l§7[=======================================]\n§b§l-=☯=- §eOverload (LvIV): §r§etăng thêm máu khi mặc, có thể cộng dồn\n§b§l-=☯=- §eCactus (LvIV): §r§egây sát thương cho những người gần nhất\n§b§l-=☯=- §eRevulsion (LvIV): §r§egây cho địch hiệu ứng nôn mửa khi bị kẻ địch đánh\n§b§l-=☯=- §eAnti Knockback (LvIII): §r§ecó khả năng chống bật lùi khi mặc\n§b§l-=☯=- §eEnlighted (LvIII): §r§enhận hiệu ứng hồi phục khi bị đánh\n§l§7[=======================================]\n§l§cĐộ bền §r§d■■■■■■■■■§8□\n§l§cSát thương §r§d■■■■■■■■■§8□\n§l§cPhản sát thương §r§d■■■■■■■§8□□□\n§l§7[=======================================]"
+        enchantments:
+          - name: "Unbreaking"
+            level: 18
+          - name: "Power"
+            level: 18
+          - name: "Thorns"
+            level: 14
+          - name: "Overload"
+            level: 4
+          - name: "Cactus"
+            level: 4
+          - name: "Revulsion"
+            level: 4
+          - name: "Anti Knockback"
+            level: 3
+          - name: "Enlighted"
+            level: 3
+        commands:
+          - "tell {PLAYER} §6Bạn đã nhận được [ §e---§6=== §c§lＱuần §5Ma §dVương 【ボ】 §6===§e---§r§6 ] §c(x1) §6từ rương armor!"
+      - id: 313
+        meta: 0
+        amount: 1
+        chance: 2
+        name: "§e---§6=== §c§lＧiày §5Ma §dVương 【ボ】 §6===§e---"
+        lore: "§l§7[=======================================]\n§b§l-=☯=- §eGears (LvIV): §r§enhận hiệu ứng chạy nhanh khi mặc\n§b§l-=☯=- §eStomp (LvIV): §r§egây sát thương lên kẻ địch khi nhận sát thương lúc rơi.\n§b§l-=☯=- §eCloaking (LvIV): §r§enhận khả năng tàng hình khi bị đánh\n§b§l-=☯=- §eEndershift (LvIII): §r§enhận hiệu ứng chạy nhanh và hấp thụ khi yếu máu\n§b§l-=☯=- §eArmored (LvIII): §r§egiảm sát thương do kiếm gây ra\n§l§7[=======================================]\n§l§cĐộ bền §r§d■■■■■■■■■§8□\n§l§cSát thương §r§d■■■■■■■■■§8□\n§l§cPhản sát thương §r§d■■■■■■■§8□□□\n§l§7[=======================================]"
+        enchantments:
+          - name: "Unbreaking"
+            level: 18
+          - name: "Power"
+            level: 18
+          - name: "Thorns"
+            level: 14
+          - name: "Gears"
+            level: 4
+          - name: "Stomp"
+            level: 4
+          - name: "Cloaking"
+            level: 4
+          - name: "Endershift"
+            level: 3
+          - name: "Armored"
+            level: 3
+        commands:
+          - "tell {PLAYER} §6Bạn đã nhận được [ §e---§6=== §c§lＧiày §5Ma §dVương 【ボ】 §6===§e---§r§6 ] §c(x1) §6từ rương armor!"
+      - id: 311
+        meta: 0
+        amount: 1
+        chance: 1
+        name: "§l§eＭ§gI§6N§4E §cＡ§2N§aD §bＦ§3I§9G§dH§5T §r§7【 GIÁP ⚒ 】"
+        lore: "§l§7[=======================================]\n§b§l-=☯=- §r§e10 Custom enchantment (giáp) chọn lọc vào cánh này\n§l§7[=======================================]\n§l§cĐộ bền §r§d■■■■■■■■■■§8\n§l§cSát thương §r§d■■■■■■■■■■§8\n§l§7[=======================================]"
+        enchantments:
+          - name: "Unbreaking"
+            level: 20
+          - name: "Protection"
+            level: 20
+          - name: "Anti Knockback"
+            level: 1
+          - name: "Armored"
+            level: 1
+          - name: "Endershift"
+            level: 1
+          - name: "Enlighted"
+            level: 1
+          - name: "Overload"
+            level: 1
+          - name: "Shielded"
+            level: 1
+          - name: "Tank"
+            level: 1
+          - name: "Meditation"
+            level: 1
+          - name: "Parachute"
+            level: 1
+          - name: "Obsidian Shield"
+            level: 1
+        commands:
+          - "tell {PLAYER} §6Bạn đã nhận được [ §l§eＭ§gI§6N§4E §cＡ§2N§aD §bＦ§3I§9G§dH§5T §r§7【 GIÁP ⚒ 】§r§6 ] §c(x1) §6từ rương weapon!"
+    amount: 1
+    commands: ["nothing"]
+    floating-text: "§r§r§l§a〚 RƯƠNG §fÁO GIÁP §aSEASON2 〛\n§cCần dùng [1] key để mở"
+  Daily:
+    drops:
+      - id: 264
+        meta: 0
+        amount: 1
+        chance: 2
+        name: "§l§fNgân phiếu 10 §6Ｐoints"
+        type: command
+        commands:
+          - "givepoint {PLAYER} 10"
+      - id: 264
+        meta: 0
+        amount: 1
+        chance: 1
+        name: "§l§fNgân phiếu 15 §6Ｐoints"
+        type: command
+        commands:
+          - "givepoint {PLAYER} 15"
+      - id: 266
+        meta: 0
+        amount: 1
+        chance: 8
+        name: "§l§fNgân phiếu 20000 §eＭoney"
+        type: command
+        commands:
+          - "givemoney {PLAYER} 50000 §eＭoney"
+      - id: 266
+        meta: 0
+        amount: 1
+        chance: 6
+        name: "§l§fNgân phiếu 50000 §eＭoney"
+        type: command
+        commands:
+          - "givemoney {PLAYER} 50000 §eＭoney"
+      - id: 266
+        meta: 0
+        amount: 1
+        chance: 4
+        name: "§l§fNgân phiếu 100000 §eＭoney"
+        type: command
+        commands:
+          - "givemoney {PLAYER} 100000"
+      - id: 266
+        meta: 0
+        amount: 1
+        chance: 3
+        name: "§l§fNgân phiếu 150000 §eＭoney"
+        type: command
+        commands:
+          - "givemoney {PLAYER} 150000"
+      - id: 41
+        meta: 0
+        amount: 64
+        chance: 80
+      - id: 42
+        meta: 0
+        amount: 64
+        chance: 80
+      - id: 57
+        meta: 0
+        amount: 64
+        chance: 80
+      - id: 310
+        meta: 0
+        amount: 1
+        chance: 1
+        name: "§l§eＭ§gI§6N§4E §cＡ§2N§aD §bＦ§3I§9G§dH§5T §r§7【 MŨ ⚒ 】"
+        lore: "§l§7[=======================================]\n§b§l-=☯=- §r§e10 Custom enchantment (giáp) chọn lọc vào cánh này\n§l§7[=======================================]\n§l§cĐộ bền §r§d■■■■■■■■■■§8\n§l§cSát thương §r§d■■■■■■■■■■§8\n§l§7[=======================================]"
+        enchantments:
+          - name: "Unbreaking"
+            level: 20
+          - name: "Protection"
+            level: 20
+          - name: "Autorepair"
+            level: 1
+          - name: "Armored"
+            level: 1
+          - name: "Endershift"
+            level: 1
+          - name: "Enlighted"
+            level: 1
+          - name: "Antitoxin"
+            level: 1
+          - name: "Shielded"
+            level: 1
+          - name: "Tank"
+            level: 1
+          - name: "Meditation"
+            level: 1
+          - name: "Parachute"
+            level: 1
+          - name: "Obsidian Shield"
+            level: 1
+        commands:
+          - "tell {PLAYER} §6Bạn đã nhận được [ §l§eＭ§gI§6N§4E §cＡ§2N§aD §bＦ§3I§9G§dH§5T §r§7【 MŨ ⚒ 】§r§6 ] §c(x1) §6từ rương weapon!"
+    amount: 1
+    commands: ["nothing"]
+    floating-text: "§r§r§l§a〚 RƯƠNG §fHẰNG NGÀY §aSEASON2 〛\n§cCần dùng [1] key để mở"
+  Legendary:
+    drops:
+      - id: 310
+        meta: 0
+        amount: 1
+        chance: 70
+        name: "§e---§6=== §c§lＭũ §5Ma §dVương 【ボ】 §6===§e---"
+        lore: "§l§7[=======================================]\n§b§l-=☯=- §eMeditation (LvIV): §r§etự động hồi phục máu và thức ăn sau 30s\n§b§l-=☯=- §eEndershift (LvIV): §r§enhận hiệu ứng chạy nhanh và hấp thụ khi yếu máu\n§b§l-=☯=- §eHardened (LvIV): §r§egây cho địch hiệu ứng yếu đuối khi đánh kẻ địch\n§b§l-=☯=- §ePoisoned (LvIII): §r§egây độc khi đánh trúng kẻ thù\n§b§l-=☯=- §eAnti Knockback (LvIII): §r§ecó khả năng chống bật lùi khi mặc\n§l§7[=======================================]\n§l§cĐộ bền §r§d■■■■■■■■■§8□\n§l§cSát thương §r§d■■■■■■■■■§8□\n§l§cPhản sát thương §r§d■■■■■■■§8□□□\n§l§7[=======================================]"
+        enchantments:
+          - name: "Unbreaking"
+            level: 18
+          - name: "Power"
+            level: 18
+          - name: "Thorns"
+            level: 14
+          - name: "Meditation"
+            level: 4
+          - name: "Endershift"
+            level: 4
+          - name: "Hardened"
+            level: 4
+          - name: "Poisoned"
+            level: 3
+          - name: "Anti Knockback"
+            level: 3
+        commands:
+          - "tell {PLAYER} §6Bạn đã nhận được [ §e---§6=== §c§lＭũ §5Ma §dVương 【ボ】 §6===§e---§r§6 ] §c(x1) §6từ rương armor!"
+      - id: 311
+        meta: 0
+        amount: 1
+        chance: 70
+        name: "§e---§6=== §c§lＡó §5Ma §dVương 【ボ】 §6===§e---"
+        lore: "§l§7[=======================================]\n§b§l-=☯=- §eSelf Destruct (LvIV): §r§etự tạo ra vụ nổ sau khi chết\n§b§l-=☯=- §eEndershift (LvIV): §r§enhận hiệu ứng chạy nhanh và hấp thụ khi yếu máu\n§b§l-=☯=- §eRevulsion (LvIV): §r§egây cho địch hiệu ứng nôn mửa khi bị kẻ địch đánh\n§b§l-=☯=- §eObsidian Shield (LvIII): §r§enhận hiệu ứng chống lửa khi mặc vào\n§b§l-=☯=- §eAnti Knockback (LvIII): §r§ecó khả năng chống bật lùi khi mặc\n§l§7[=======================================]\n§l§cĐộ bền §r§d■■■■■■■■■§8□\n§l§cSát thương §r§d■■■■■■■■■§8□\n§l§cPhản sát thương §r§d■■■■■■■§8□□□\n§l§7[=======================================]"
+        enchantments:
+          - name: "Unbreaking"
+            level: 18
+          - name: "Power"
+            level: 18
+          - name: "Thorns"
+            level: 14
+          - name: "Self Destruct"
+            level: 4
+          - name: "Endershift"
+            level: 4
+          - name: "Revulsion"
+            level: 4
+          - name: "Obsidian Shield"
+            level: 3
+          - name: "Anti Knockback"
+            level: 3
+        commands:
+          - "tell {PLAYER} §6Bạn đã nhận được [ §e---§6=== §c§lＡó §5Ma §dVương 【ボ】 §6===§e---§r§6 ] §c(x1) §6từ rương armor!"
+      - id: 312
+        meta: 0
+        amount: 1
+        chance: 70
+        name: "§e---§6=== §c§lＱuần §5Ma §dVương 【ボ】 §6===§e---"
+        lore: "§l§7[=======================================]\n§b§l-=☯=- §eOverload (LvIV): §r§etăng thêm máu khi mặc, có thể cộng dồn\n§b§l-=☯=- §eCactus (LvIV): §r§egây sát thương cho những người gần nhất\n§b§l-=☯=- §eRevulsion (LvIV): §r§egây cho địch hiệu ứng nôn mửa khi bị kẻ địch đánh\n§b§l-=☯=- §eAnti Knockback (LvIII): §r§ecó khả năng chống bật lùi khi mặc\n§b§l-=☯=- §eEnlighted (LvIII): §r§enhận hiệu ứng hồi phục khi bị đánh\n§l§7[=======================================]\n§l§cĐộ bền §r§d■■■■■■■■■§8□\n§l§cSát thương §r§d■■■■■■■■■§8□\n§l§cPhản sát thương §r§d■■■■■■■§8□□□\n§l§7[=======================================]"
+        enchantments:
+          - name: "Unbreaking"
+            level: 18
+          - name: "Power"
+            level: 18
+          - name: "Thorns"
+            level: 14
+          - name: "Overload"
+            level: 4
+          - name: "Cactus"
+            level: 4
+          - name: "Revulsion"
+            level: 4
+          - name: "Anti Knockback"
+            level: 3
+          - name: "Enlighted"
+            level: 3
+        commands:
+          - "tell {PLAYER} §6Bạn đã nhận được [ §e---§6=== §c§lＱuần §5Ma §dVương 【ボ】 §6===§e---§r§6 ] §c(x1) §6từ rương armor!"
+      - id: 313
+        meta: 0
+        amount: 1
+        chance: 70
+        name: "§e---§6=== §c§lＧiày §5Ma §dVương 【ボ】 §6===§e---"
+        lore: "§l§7[=======================================]\n§b§l-=☯=- §eGears (LvIV): §r§enhận hiệu ứng chạy nhanh khi mặc\n§b§l-=☯=- §eStomp (LvIV): §r§egây sát thương lên kẻ địch khi nhận sát thương lúc rơi.\n§b§l-=☯=- §eCloaking (LvIV): §r§enhận khả năng tàng hình khi bị đánh\n§b§l-=☯=- §eEndershift (LvIII): §r§enhận hiệu ứng chạy nhanh và hấp thụ khi yếu máu\n§b§l-=☯=- §eArmored (LvIII): §r§egiảm sát thương do kiếm gây ra\n§l§7[=======================================]\n§l§cĐộ bền §r§d■■■■■■■■■§8□\n§l§cSát thương §r§d■■■■■■■■■§8□\n§l§cPhản sát thương §r§d■■■■■■■§8□□□\n§l§7[=======================================]"
+        enchantments:
+          - name: "Unbreaking"
+            level: 18
+          - name: "Power"
+            level: 18
+          - name: "Thorns"
+            level: 14
+          - name: "Gears"
+            level: 4
+          - name: "Stomp"
+            level: 4
+          - name: "Cloaking"
+            level: 4
+          - name: "Endershift"
+            level: 3
+          - name: "Armored"
+            level: 3
+        commands:
+          - "tell {PLAYER} §6Bạn đã nhận được [ §e---§6=== §c§lＧiày §5Ma §dVương 【ボ】 §6===§e---§r§6 ] §c(x1) §6từ rương armor!"
+    amount: 1
+    commands: ["say {PLAYER} has opened an Legendary Crate"]
+    floating-text: "Legendary Crate"

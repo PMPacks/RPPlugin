@@ -1,0 +1,26 @@
+#  /$$$$$$  /$$           /$$                 /$$       /$$      /$$             /$$              
+# /$$__  $$| $$          | $$                | $$      | $$$    /$$$            | $$              
+#| $$  \__/| $$  /$$$$$$ | $$$$$$$   /$$$$$$ | $$      | $$$$  /$$$$ /$$   /$$ /$$$$$$    /$$$$$$ 
+#| $$ /$$$$| $$ /$$__  $$| $$__  $$ |____  $$| $$      | $$ $$/$$ $$| $$  | $$|_  $$_/   /$$__  $$
+#| $$|_  $$| $$| $$  \ $$| $$  \ $$  /$$$$$$$| $$      | $$  $$$| $$| $$  | $$  | $$    | $$$$$$$$
+#| $$  \ $$| $$| $$  | $$| $$  | $$ /$$__  $$| $$      | $$\  $ | $$| $$  | $$  | $$ /$$| $$_____/
+#|  $$$$$$/| $$|  $$$$$$/| $$$$$$$/|  $$$$$$$| $$      | $$ \/  | $$|  $$$$$$/  |  $$$$/|  $$$$$$$
+# \______/ |__/ \______/ |_______/  \_______/|__/      |__/     |__/ \______/    \___/   \_______/
+                                                                                                 
+# Hello everyone! Here's another useful plugin.
+# Use "§" for colors.
+
+# It's highly suggested to not change the below "global-mute" unl;ess you know what you are doing.
+global-mute: false
+
+# This will clear the chat when the global mute has been enabled. Set to false to disable
+clear-chat: true
+
+# The following are the broadcast messages which will appear when you turn on/off the global mute.
+turned-on: "Global mute has been toggled on."
+turned-off: "Global mute has been toggled off."
+
+# This message will appear to the player who is trying to chat while global mute is toggled on.
+chat-error: "You cannot chat while global mute is toggled on."
+
+# Thank you for downloading my plugin, if you have suggestions or bugs, please report them at the plugin's repo.

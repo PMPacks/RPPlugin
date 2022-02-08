@@ -1,0 +1,82 @@
+---
+########################
+#Settings RankInfoUI
+########################
+
+#Gunakan "§" Untuk Perwarnaan
+#Gunakan "\n" Untuk Lanjut Line
+
+#Form Title RankInfoUI
+Title: "§lMENU BẢNG QUYỀN LỢI [ RANK ]"
+
+#Form RankInfoUI Content
+Content: "\n§7§oNhấn vào đây để xem quyền lợi các rank...\n"
+
+#Form RankInfoUI Keluar
+Keluar: "§l【 §c✘ Thoát Ra §r§l】\n§8Nhấn để thoát"
+
+#Form RankInfoUI Kembali
+Kembali: "§l【 §c✘ Quay Lại §r§l】\n§8Nhấn để quay lại"
+
+########################
+#Settings RankInfoUI Rank Category
+########################
+
+#Form RankInfoUI RankSatu Category
+RankSatu-Category: "§lRANK §bMember§eＳ\n§8Nhấn để xem quyền lợi"
+
+#Form RankInfoUI RankDua Category
+RankDua-Category: "§lRANK §eVIP§7 丶 §dI §e༻\n§8Nhấn để xem quyền lợi"
+
+#Form RankInfoUI RankTiga Category
+RankTiga-Category: "§lRANK §eVIP§7 丶 §dII §e༻\n§8Nhấn để xem quyền lợi"
+
+#Form RankInfoUI RankEmpat Category
+RankEmpat-Category: "§lRANK §6King§eＳ §c༉࿑\n§8Nhấn để xem quyền lợi"
+
+RankLegend-Category: "§lRANK §cＬegen§4dary §6࿐\n§8Nhấn để xem quyền lợi"
+
+########################
+#Settings RankInfoUI Rank Title
+########################
+
+#Form RankInfoUI RankSatu Title
+RankSatu-Title: "§l【 RANK §bMember§eＳ §r§l】"
+
+#Form RankInfoUI RankDua Title
+RankDua-Title: "§l【 RANK §eVIP§7 丶 §dI §e༻ §r§l】"
+
+#Form RankInfoUI RankTiga Title
+RankTiga-Title: "§l【 RANK §eVIP§7 丶 §dII §e༻ §r§l】"
+
+#Form RankInfoUI RankEmpat Title
+RankEmpat-Title: "§l【 RANK §6King§eＳ §c༉࿑ §r§l】"
+
+RankLegend-Title: "§l【 RANK §cＬegen§4dary §6࿐ §r§l】"
+
+########################
+#Settings RankInfoUI Info Rank
+########################
+
+#Form RankInfoUI Info RankSatu
+Info-RankSatu: "§lQuyền lợi rank §0[§bMember§eＳ§0] §r§lnhư sau:\n§r§7Đặc quyền dùng §c/nick §7để đổi tên\n§7Sử dụng kit MemberS bằng cách dùng lệnh §c/kit\n§7Nhận ngay 2000⛀ mỗi 36h sau khi dùng lệnh §c/kit\n§7Nhận ngay 2 key uncommon mỗi 36h bằng lệnh §c/kit\n§7Dùng được song song kit [Member] và [MemberS]"
+
+#Form RankInfoUI Info RankDua
+Info-RankDua: "§lQuyền lợi rank §0[§eVIP§7 丶 §dI §e༻§0] §r§lnhư sau:\n§r§7Đặc quyền dùng §c/nick §7để đổi tên\n§7Có thể dùng §c/food §7để hồi thức ăn\n§7Sử dụng kit VipI bằng lệnh §c/kit\n§7Nhận 5000⛀ mỗi 48h sau khi dùng lệnh §c/kit\n§7Nhận ngay 2 key lucky mỗi 48h bằng lệnh §c/kit\n§7Đặc quyền fly trong đảo free bằng lệnh §c/fly\n§7Dùng được song song kit [Member] + [MemberS] + [VipI]"
+
+#Form RankInfoUI Info RankTiga
+Info-RankTiga: "§lQuyền lợi rank §0[§eVIP§7 丶 §dII §e༻§0] §r§lnhư sau:\n§r§7Đặc quyền dùng §c/nick §7để đổi tên\n§7Có thể dùng §c/food §7để hồi thức ăn\n§7Sử dụng kit VipI bằng lệnh §c/kit\n§7Nhận 10000⛀ mỗi 48h sau khi dùng lệnh §c/kit\n§7Nhận ngay 4 key lucky mỗi 48h bằng lệnh §c/kit\n§7Đặc quyền fly trong đảo free bằng lệnh §c/fly\n§7Dùng được song song kit [Member] + [MemberS] + [VipII]"
+
+#Form RankInfoUI Info RankEmpat
+Info-RankEmpat: "§lQuyền lợi rank §0[§6King§eＳ §c༉࿑§0] §r§lnhư sau:\n§r§7Đặc quyền dùng §c/nick §7để đổi tên\n§7Có thể dùng §c/food và §c/heal §7để hồi thức ăn và máu\n§7Sử dụng kit KingS bằng lệnh §c/kit\n§7Nhận 15000⛀ mỗi 60h sau khi dùng lệnh §c/kit\n§7Nhận ngay 3 key mythic mỗi 60h bằng lệnh §c/kit\n§7Đặc quyền fly trong đảo free bằng lệnh §c/fly\n§7Dùng được song song kit [Member] + [MemberS] + [KingS]"
+
+Info-RankLegend: "§lQuyền lợi rank §0[§cＬegen§4dary §6࿐§0] §r§lnhư sau:\n§r§7Đặc quyền dùng §c/nick §7để đổi tên\n§7Có thể dùng §c/food và §c/heal §7để hồi thức ăn và máu§8,\n§7Sử dụng kit Legendary bằng lệnh §c/kit\n§7Nhận 20000⛀ mỗi 48h sau khi dùng lệnh §c/kit\n§7Nhận ngay 2 key legendary mỗi 60h bằng lệnh §c/kit\n§7Đặc quyền fly trong đảo free bằng lệnh §c/fly\n§7Dùng được song song kit [Member] + [MemberS] + [Legendary]"
+
+########################
+#Settings RankInfoUI Permissions
+########################
+
+#Form RankInfoUI Permissions!
+msg-no-perm: "§cKhông có quyền xài lệnh"
+#
+...

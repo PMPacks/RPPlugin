@@ -1,0 +1,57 @@
+---
+language: en
+commands:
+  mymoney:
+    usage: /mymoney
+    description: Shows your money
+  topmoney:
+    usage: /topmoney [page]
+    description: Shows top money of this server
+  setmoney:
+    usage: /setmoney <player> <amount>
+    description: Set money of player
+  seemoney:
+    usage: /seemoney <player>
+    description: Shows money of player
+  givemoney:
+    usage: /givemoney <player> <amount>
+    description: Gives money to player
+  takemoney:
+    usage: /takemoney <player> <amount>
+    description: Takes money from player
+  pay:
+    usage: /pay <player> <amount>
+    description: Pays money to player
+  setlang:
+    usage: /setlang <language>
+    description: Set your language
+  mystatus:
+    usage: /mystatus
+    description: Shows your status of money
+language-set: Language set to %1 by onebone
+request-cancelled: Yêu cầu của bạn đã bị huỷ
+player-not-connected: Người chơi tên %1 hiện không có trực tuyến.
+player-never-connected: Người chơi tên %1 không tìm thấy trong server.
+topmoney-tag: §6『==』【Top §fMoney %1/%2】§6『==』
+topmoney-format: '§f[%1] %2: %3 §emoney'
+pay-failed: Chuyển money thất bại.
+pay-success: Bạn đã chuyển %1 money cho %2
+money-paid: Người chơi %1 đã gửi %2 money cho bạn.
+takemoney-must-be-number: Số money phải là 1 con số
+takemoney-invalid-number: Sai số lượng
+takemoney-player-lack-of-money: '%1 không có đủ %MONETARY_UNIT%%2. %1''s money : %MONETARY_UNIT%%3'
+takemoney-money-taken: 'Money của bạn đã bị lấy: %1 §emoney'
+takemoney-took-money: Đã tịch thu %2 money của người chơi %1
+takemoney-failed: Bạn đã lấy money thất bại
+givemoney-must-be-number: Số money phải là 1 con số
+givemoney-invalid-number: Sai số lượng
+givemoney-money-given: 'Bạn đã nhận được: %1 §emoney'
+givemoney-gave-money: Đã tặng %1 money cho người chơi %2
+seemoney-seemoney: 'Người chơi %1 hiện đang có: %2 §emoney'
+setmoney-setmoney: Người chơi %1's đã được chỉnh money thành %2 §emoney
+setmoney-set: 'Money của bạn đã được đặt lại thành: %1 money'
+setmoney-failed: Không thể chỉnh money vì đã xảy ra 1 lỗi ngẫu nhiên
+setmoney-invalid-number: '%MONETARY_UNIT%%1 phải là một con số'
+mymoney-mymoney: 'Money của bạn: %1 §emoney'
+mystatus-show: 'Trạng thái money của bạn: %1%'
+...

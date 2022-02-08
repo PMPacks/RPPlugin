@@ -1,0 +1,25 @@
+---
+# Don't edit this if you don't know what you're doing
+config-version: 2.0
+
+# Configuration for all commands registered by RenameItems
+command:
+  # The /rename command
+  rename:
+    command: "rename"
+    description: "Rename the item in your hand"
+    usage: "/rename <name: string>"
+    aliases: []
+  # The /block command
+  block:
+    command: "block"
+    description: "Block the item in your hand from being renamed"
+    usage: "/block"
+    aliases: []
+
+# Items with these ids cannot be renamed
+blocked_items:
+  - 1
+  - 2
+  - 3
+...

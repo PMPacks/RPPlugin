@@ -1,0 +1,67 @@
+---
+# Config by tim03we
+# Do not change the config version!
+version: 1.1.0
+
+# Activate or deactivate that when teleporting joint to the spawn of a particular world.
+# Use "Your_World_Name" or leave it empty (like: "") to not set a spawn point.
+Spawn-Point: ""
+
+# Decide if the inventory should be emptied for each join.
+# Use "true" for activate or "false" for deactivate.
+Inventory-Clear: "false"
+
+# With this feature, you can fill your hearts with every join.
+# Use "true" for activate or "false" for deactivate.
+Health: "true"
+
+# With this feature you can fill in your hunger clubs with every join.
+# Use "true" for activate or "false" for deactivate.
+Feed: "true"
+
+# Decide whether commands should be executed when entering the server.
+# Example: (Use {player} to replace the player)
+# commands:
+#  - "give {player} 1 64"
+#  - "say {player} is back!"
+Commands: []
+
+# Here you can have a welcome message displayed to the player who entered the server.
+# Leave it empty (like: "") to not set a welcome message.
+Welcome-Message: ""
+
+
+# Activate or deactivate the join message with "true" or "false".
+Enable-JoinMessage: "true"
+
+# Decide how the join messages should be for normal players.
+# Use {player} to show the joined player.
+JoinMessage: "§7[§a{player}§7] §6Đã tham gia vào server (｡ì _ í｡)!"
+
+# Decide which join messages should be displayed for the team permission (if the player owns them).
+# Use {player} to show the joined player.
+JoinMessage-Staff: "{player} has joined the game as staff!"
+
+# Decide which join messages should be displayed for the OP users.
+# Use {player} to show the joined player.
+JoinMessage-OP: "§7[§a{player}§7] §6Đã tham gia vào server Σ(O_O；)!"
+
+
+#Activate or deactivate the quit message with "true" or "false".
+Enable-QuitMessage: "true"
+
+# Decide how the quit messages should be for normal players.
+# Use {player} to show the quited player.
+QuitMessage: "§7[§a{player}§7] Đã thoát server (╥╯﹏╰╥)ง!"
+
+# Decide which quit messages should be displayed for the team permission (if the player owns them).
+# Use {player} to show the quited player.
+QuitMessage-Staff: "{player} has left the game as staff!"
+
+# Decide which quit messages should be displayed for the OP users.
+# Use {player} to show the quited player.
+QuitMessage-OP: "§7[§a{player}§7] Đã thoát server (｡•́︿•̀｡)!"
+
+# Config by tim03we
+# Thanks for using my Plugin!
+...
